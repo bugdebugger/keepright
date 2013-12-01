@@ -185,8 +185,8 @@ query("
 	INSERT INTO _tmp_errors (error_type, object_type, object_id, lat, lon, msgid, txt1, txt2, last_checked)
 	SELECT $error_type+6, CAST('relation' AS type_object_type),
 	ii.relation_id, 1e7*ii.via_lat, 1e7*ii.via_lon,
-	'restriction type is $1, but angle is $2. Maybe the restriction type is not appropriate?',
-	ii.restriction_type, ii.d,
+	'restriction type is $1, but angle is $2 degrees. Maybe the restriction type is not appropriate?',
+	ii.restriction_type, round(ii.d),
 	NOW()
 	FROM (
 		SELECT i.*,

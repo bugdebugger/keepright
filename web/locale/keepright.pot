@@ -213,7 +213,7 @@ msgstr ""
 msgid "via (node #$1) is not the first or the last member of to (way #$2)"
 msgstr ""
 
-msgid "restriction type is $1, but angle is $2. Maybe the restriction type is not appropriate?"
+msgid "restriction type is $1, but angle is $2 degrees. Maybe the restriction type is not appropriate?"
 msgstr ""
 
 msgid "wrong direction of to way $1"
