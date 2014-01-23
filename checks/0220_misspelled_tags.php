@@ -112,6 +112,7 @@ $false_positives = array(
 	array('Sign at SW', 'Sign at W'),
 	array('stair', 'stairs', 'star', 'stars'),
 	array('start', 'stars'),
+	array('substation', 'sub_station'),
 	array('tell', 'toll'),
 	array('tracks', 'trucks'),
 	array('trail', 'train'),
