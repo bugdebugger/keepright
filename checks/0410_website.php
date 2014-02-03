@@ -82,7 +82,10 @@ $keys_to_search_regex = array(
 // insert URLs pointing to public transport companies or retailers/food companies
 // running multiple stores/restaurants and the URL doesn't point to an individual store
 $whitelist = array(
-	'.pdf$',							// PDF matching not useful... yet
+	'.pdf$',		// PDF matching not useful... yet
+	'^http://File:',	// special case for wikimedia commons images: you will
+	'^File:',		// get a response in any case, even if the (image) doesn't exist.
+				// checking ist therefore not useful
 	'^http://a2wtrail.org/',
 	'^http://ancien-geodesie.ign.fr/',
 	'^http://caravanclub.se/',
