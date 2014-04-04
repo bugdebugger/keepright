@@ -5,7 +5,7 @@ require('helpers.inc.php');
 <html>
   <head>
     <title><?php echo T_gettext('interfacing KeepRight'); ?></title>
-    <script type="text/javascript" src="keepright.js"></script>
+    <script type="text/javascript" src="keepright-min.js"></script>
   </head>
   <body>
 

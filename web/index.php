@@ -7,7 +7,7 @@ require('helpers.inc.php');
 
 
 echo "<head><title>" . T_gettext('data consistency checks for OSM') . "</title>";
-echo '<script type="text/javascript" src="keepright.js"></script></head><body>';
+echo '<script type="text/javascript" src="keepright-min.js"></script></head><body>';
 echo "<img src='keepright.png' alt='" . T_gettext('keep-right logo') . "'>";
 
 printf(T_gettext("data consistency checks for %sOSM%s"),

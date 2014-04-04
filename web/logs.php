@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>data consistency checks for OSM</title>
-    <script type="text/javascript" src="keepright.js"></script>
+    <script type="text/javascript" src="keepright-min.js"></script>
   </head>
   <body>
 <a href="/"><img border=0 src="keepright.png" alt="keep-right logo"></a>
