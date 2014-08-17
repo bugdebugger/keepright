@@ -12,8 +12,8 @@ to avoid false positives on highways crossing squares, areas are excluded here
 */
 
 
-if (!type_exists($db1, 'type_way_type'))
-	query("CREATE TYPE type_way_type AS ENUM('highway','cycleway/footpath','waterway','riverbank')", $db1);
+query("DROP TYPE IF EXISTS type_way_type CASCADE", $db1, false);
+query("CREATE TYPE type_way_type AS ENUM('highway','cycleway/footpath','waterway','riverbank')", $db1);
 
 // tmp_ways will contain all highways with their linestring geometry and layer tag
 query("DROP TABLE IF EXISTS _tmp_ways", $db1);
