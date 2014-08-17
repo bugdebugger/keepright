@@ -41,36 +41,57 @@ $islands = array(
 		'Tallinn, Estonia' => 4554198,
 		'Torshavn, Faröer' => 4967431,
 		'Berlin, Germany' => 156597518,
+		'Bremen, Germany' => 153180756,
 		'Düsseldorf, Germany' => 143229689,
 		'Frankfurt aM, Germany' => 25119827,
 		'Ingolstadt, Germany' => 235715209,
 		'Leipzig, Germany' => 3700745,
 		'Paderborn, Germany' => 30724055,
 		'Stuttgart, Germany' => 25239173,
+		'Memmingen, Germany' => 25480706,
 		'Athens, Greece' => 123272451,
 		'Lahti, Finland' => 24318266,
+		'Kemi, Finland' => 28896179,
 		'Carhaix-Plouguer, France' => 32132329,
 		'Marseille, France' => 6313524,
 		'Paris, France' => 78454008,
 		'Lyon, France' => 4360392,
+		'Rennes, France' => 5097929,
+		'Nantes, France' => 23453045,
+		'Chatelleraut, France' => 51335790,
+		'Limoges, France' => 72585963,
+		'Clermont, France' => 25847180,
+		'Nancy, France' => 4797115,
+		'Besancon, France' => 30854188,
+		'Vierzon, France' => 4322989,
 		'London, Great Britain' => 144718992,
 		'Sheffield, Great Britain' => 93168220,
+		'Inverness, Great Britain' => 26717646,
 		'Budapest, Hungaria' => 34923072,
 		'Reykjavik, Iceland' => 22529614,
 		'Roma, Italy' => 28604181,
 		'Maglie, Italia' => 38705203,
 		'Mestre, Italy' => 34694832,
 		'Milano, Italy' => 36874245,
+		'Caltanissetta, Italy' => 60761631,
+		'Cosenza, Italy' => 44290658,
 		'Pula, Istria' => 173526459,
 		'Riga, Latvia' => 38788862,
 		'Vilnius, Lithuania' => 4914187,
+		'Luxembourg,Luxembourg' => 133396387,
 		'Funchal, Madeira' => 27354062,
 		'Maó, Menorca' => 82720519,
 		'Amsterdam, Netherlands' => 7382660,
 		'Zwolle, Netherlands' => 6504013,
 		'Oslo, Norway' => 4394237,
 		'Warszawa, Poland' => 4990561,
+		'Gorzow Wielkopolski' => 173113530,
+		'Guarda, Portugal' => 121543175,
 		'Bucharest, Romania' => 23485603,
+		'Russia, Ukraine' => 59193645,
+		'Ukraine' => 38723151,
+		'Russia II' => 173561216,
+		'Russia III' => 111539636,
 		'Barcelona, Spain' => 116315120,
 		'Benissa, Spain' => 23670051,
 		'Madrid, Spain' => 4680727,
@@ -124,6 +145,10 @@ $islands = array(
 		'Okinawa, Japan' => 83347903,
 		'Amagi, Japan' => 123677669,
 		'Amami, Japan' => 123663504,
+		'Aomori, Japan' => 100001877,
+		'Toki, Japan' => 186247943,
+		'Japan' => 157629100,
+		'Japan' => 115272480,
 		'Taipeh, Taiwan' => 48776359,
 		'Singapore' => 49961799,
 		'Medan, Sumatra' => 34337328,
@@ -159,7 +184,7 @@ $islands = array(
 		'Pierre, SD' => 9921998,	//44.354112, -100.370616
 		'Santa Clara, CA' => 28433666,	//37.2950053, -121.8729502
 		'Sacramento, CA' => 10527056,	//38.576462, -121.485926
-		'Reno, NV' => 32776300,		//39.5367148, -119.8036587
+		'Reno, NV' => 32776300,	//39.5367148, -119.8036587
 		'Salt Lake City, UT' => 105738911, //40.7658591, -111.9348698
 		'Denver, CO' => 16974487,	//39.7909665, -104.9884513
 		'Lincoln, NE' => 51804962,	//40.8204001, -96.9105351
@@ -195,14 +220,15 @@ $islands = array(
 		'Orlando, FL' => 32075497,	//28.4792, -81.44891
 		'Hartford, CT' => 22772677,	//41.7617184, -72.706668
 		'Nashville, TN' => 49577554,	//36.1490548, -86.7802671
-		'Knoxville, TN' => 49826007, 	//35.959582, -83.960007
+		'Knoxville, TN' => 49826007, //35.959582, -83.960007
 		'Honolulu, HI' => 32005193,	//21.30547, -157.84595
 		'Mauna Loa, HI' => 208345015,
 		'Kauai, HI' => 45812082,
 		'Kahului, HI' => 44711139,
 		'Hilo, HI' => 45622102,
 		'New Orleans, LA' => 12689320,	//29.95869, -90.077
-
+		'Duluth, Canada' => 177041645,
+		'Canada' => 146832708,
 		'Mexico City' => 24723212,
 		'Panama City' => 29425444,
 		'Tuxtla Gutierrez, Mexico' => 38049141,
@@ -212,6 +238,8 @@ $islands = array(
 		'Quebec, Canada' => 16229066,
 		'Quebec, Canada' => 32969523,
 		'Calgary, Canada' => 5386816,
+		'Campbell River, Canada' => 62099057,
+		'Cortes Island, Canada' => 40576643,
 		'Santo Domingo, Dominican Republic' => 154964833,
 		'Ile de la Gonave, Haiti' => 49014482,
 		'San Juan, Puerto Rico' => 22231517,
@@ -248,8 +276,7 @@ $islands = array(
 );
 
 
-
-if ($argc=2 && $argv[1]=='checkways') {
+if (isset($argv) && $argc=2 && $argv[1]=='checkways') {
 
 	exit (checkways());
 
@@ -286,7 +313,7 @@ query("DROP TABLE IF EXISTS _tmp_ways", $db1);
 query("
 	CREATE TABLE _tmp_ways AS
 	SELECT wt.way_id FROM way_tags wt WHERE (
-		(wt.k='highway' AND wt.v NOT IN ('emergency_access_point', 'construction', 'services')) OR
+		(wt.k='highway' AND wt.v NOT IN ('emergency_access_point', 'construction', 'services', 'preproposed', 'proposed', 'rest_area')) OR
 		(wt.k='route' AND wt.v='ferry') OR
 		(wt.k='man_made' AND wt.v='pier') OR
 		(wt.k='aeroway' AND wt.v IN ('taxiway', 'runway', 'apron')) OR
