@@ -39,6 +39,12 @@ query("
 	WHERE o.first_node_id<>o.last_node_id AND
 	NOT EXISTS(
 		SELECT way_id
+		FROM node_tags nt
+		WHERE nt.node_id=o.first_node_id AND
+			nt.k='amenity' AND nt.v='parking_entrance'
+	) AND
+	NOT EXISTS(
+		SELECT way_id
 		FROM way_nodes wn1
 		WHERE o.first_node_id=wn1.node_id AND wn1.way_id<>o.way_id
 	) AND
@@ -57,6 +63,12 @@ query("
 	SELECT $error_type+1, 'way', o.way_id, 'The last node (id $1) of this one-way is not connected to any other way', o.last_node_id, NOW(), 1e7*o.last_node_lat, 1e7*o.last_node_lon
 	FROM _tmp_one_ways o
 	WHERE o.first_node_id<>o.last_node_id AND
+	NOT EXISTS(
+		SELECT way_id
+		FROM node_tags nt
+		WHERE nt.node_id=o.first_node_id AND
+			nt.k='amenity' AND nt.v='parking_entrance'
+	) AND
 	NOT EXISTS(
 		SELECT way_id
 		FROM way_nodes wn2
