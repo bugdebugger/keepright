@@ -47,6 +47,8 @@ function planet_update($schema, $mode='') {
 	global $config;
 
 	$planetDirectory=$config['planet_dir'];
+	$tmpdir = $config['temp_dir'].$schema."/";
+	mkdir($tmpdir, 0777, true);
 	$workingDirectory=$planetDirectory . $schema;
 	$planetfile=$planetDirectory . $schema . '.pbf';
 	$statefile=$workingDirectory . '/state.txt';
@@ -84,7 +86,7 @@ function planet_update($schema, $mode='') {
 				' --b bufferCapacity=10000 ' .
 				' --wb "' . $planetfile . '.new" compress=none ' .
 				' --b bufferCapacity=10000 ' .
-				' --pl directory="' . $config['temp_dir'] . '"';
+				' --pl directory="' . $tmpdir . '"';
 
 
 		copy($statefile, $statefile . '.old');
@@ -111,7 +113,7 @@ function planet_update($schema, $mode='') {
 
 		$cmd='"' . $config['osmosis_bin'] . '"' .
 			' --rb "' . $planetfile . '" ' .
-			' --pl directory="' . $config['temp_dir'] . '"';
+			' --pl directory="' . $tmpdir . '"';
 
 
 		shellcmd($cmd, 'osmosis');
