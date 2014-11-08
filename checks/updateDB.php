@@ -135,7 +135,7 @@ function loadDB($schema) {
 function postprocess_datafiles($schema) {
 	global $config;
 
-	$PATH = $config['temp_dir']."/".$schema."/"; 
+	$PATH = $config['temp_dir'].$schema."/"; 
 	$SORTOPTIONS='--temporary-directory="' . $PATH . '"';
 
 	$SORT=$config['cmd_sort'];
