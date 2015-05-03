@@ -104,7 +104,8 @@ $islands = array(
 	),
 	'australia' => array(
 		'Melbourne' => 157699828,
-		'Sydney' => 5152283
+		'Sydney' => 5152283,
+		'Samoa' => 54773836
 	),
 	'africa' => array(
 		'Algier, Algeria' => 28846439,
