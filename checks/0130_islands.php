@@ -257,7 +257,7 @@ $islands = array(
 		'Quebec, Canada' => 32969523,
 		'Calgary, Canada' => 5386816,
 		'Campbell River, Canada' => 62099057,
-		'Cortes Island, Canada' => 40576643,
+		'Cortes Island, Canada' => 40559534,
 		'Santo Domingo, Dominican Republic' => 154964833,
 		'Ile de la Gonave, Haiti' => 49014482,
 		'San Juan, Puerto Rico' => 22231517,
@@ -295,7 +295,7 @@ $islands = array(
 		'Oranjestad, Aruba' => 41111973,
 		'Willemstad, Curaçao' => 30383830,
 		'Kralendijk, Bonaire' => 25567887,
-		'Nassau, New Providence, Bahamas' => 24601336,
+		'Nassau, New Providence, Bahamas' => 371721521,
 		'Freeport, Grand Bahama, Bahamas' => 178027131
 	)
 );
