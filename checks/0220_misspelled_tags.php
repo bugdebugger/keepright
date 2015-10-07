@@ -29,6 +29,7 @@ $false_positives = array(
 	array('block', 'clock', 'lock'),
 	array('biking', 'hiking'),
 	array('Birke', 'Birne'),
+	array('building:part', 'building:parts'),	// both are valid and different keys
 	array('bump', 'hump'),
 	array('cafe', 'cape', 'cave'),
 	array('charge', 'change'),
