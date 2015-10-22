@@ -737,7 +737,7 @@ function fuzzy_compare($response, $osm_element, $http_eurl) {
 	//
 	$temp = join($squat_strings,'|');
 	if(preg_match("/$temp/", $response, $matches)) {
-		return(array('type'=>2, 'Possible domain squatting: <a target=\"_blank\" href="$1">$1</a>. Suspicious text is: "$2"', $http_eurl, $matches[0]));
+		return(array('type'=>2, 'Possible domain squatting: <a target="_blank" href="$1">$1</a>. Suspicious text is: "$2"', $http_eurl, $matches[0]));
 	}
 
 	//
@@ -771,7 +771,7 @@ function fuzzy_compare($response, $osm_element, $http_eurl) {
 
 
 	// Fall through with failure to match
-	return array('type'=>3, 'Content of the URL (<a target=\"_blank\" href="$1">$1</a>) did not contain these keywords: ($2)', $http_eurl, $searchedfor);
+	return array('type'=>3, 'Content of the URL (<a target="_blank" href="$1">$1</a>) did not contain these keywords: ($2)', $http_eurl, $searchedfor);
 }
 
 // Requeue pages which simply refrence another page:
