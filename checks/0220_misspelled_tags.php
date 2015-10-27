@@ -64,6 +64,7 @@ $false_positives = array(
 	array('gray', 'grey'),
 	array('Grade I', 'Grade II'),
 	array('Grade II*', 'Grade II'),
+	array('h-frame', 'x-frame'),
 	array('hall', 'mall', 'wall'),
 	array('height', 'weight'),
 	array('hires', 'wires'),
