@@ -88,7 +88,7 @@ $islands = array(
 		'Amsterdam, Netherlands' => 7382660,
 		'Zwolle, Netherlands' => 6504013,
 		'Oslo, Norway' => 4394237,
-		'Warszawa, Poland' => 306169500,
+		'Warszawa, Poland' => 272607927,
 		'Gorzow Wielkopolski' => 173113530,
 		'Guarda, Portugal' => 121543175,
 		'Bucharest, Romania' => 23485603,
@@ -295,7 +295,7 @@ $islands = array(
 		'Oranjestad, Aruba' => 41111973,
 		'Willemstad, Curaçao' => 30383830,
 		'Kralendijk, Bonaire' => 25567887,
-		'Nassau, New Providence, Bahamas' => 371721521,
+		'Nassau, New Providence, Bahamas' => 377933292,
 		'Freeport, Grand Bahama, Bahamas' => 178027131
 	)
 );
