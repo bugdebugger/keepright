@@ -25,13 +25,17 @@ $false_positives = array(
 	array('AND_a', 'AND_c', 'AND_f', 'AND_gf', 'AND_i', 'AND_o', 'AND_r', 'AND_w'),
 	array('AND_nosr_p', 'AND_nosr_r'),
 	array('area', 'arena'),
+	array('bank', 'rank'),
 	array('beach', 'bench'),
 	array('block', 'clock', 'lock'),
+	array('billard', 'bollard'),
 	array('biking', 'hiking'),
 	array('Birke', 'Birne'),
+	array('bridge', 'fridge'),
 	array('building:part', 'building:parts'),	// both are valid and different keys
 	array('bump', 'hump'),
 	array('cafe', 'cape', 'cave'),
+	array('camra', 'camera'),			// Campaign for Real Ale
 	array('charge', 'change'),
 	array('color', 'colour'),
 	array('county', 'country'),
@@ -77,8 +81,8 @@ $false_positives = array(
 	array('lane', 'line'),
 	array('lanes', 'lines'),
 	array('lawyer', 'layer'),
-	array('icn_ref', 'lcn_ref', 'lwn_ref', 'loc_ref', 'ncn_ref', 'nwn_ref', 'rcn_ref', 'rwn_ref'),
-	array('icn_name', 'lcn_name', 'lwn_name', 'loc_name', 'lock_name', 'ncn_name', 'nwn_name', 'rcn_name', 'rwn_name'),
+	array('icn_ref', 'lcn_ref', 'lwn_ref', 'loc_ref', 'ncn_ref', 'nwn_ref', 'rcn_ref', 'rhn_ref', 'rwn_ref'),
+	array('icn_name', 'lcn_name', 'lwn_name', 'loc_name', 'lock_name', 'ncn_name', 'nwn_name', 'rcn_name', 'rhn_name', 'rwn_name'),
 	array('j-bar', 't-bar'),
 	array('kebab', 'kebap'),
 	array('lane', 'lanes'),
@@ -107,6 +111,7 @@ $false_positives = array(
 	array('salb', 'sale', 'salt'),
 	array('service', 'services'),
 	array('short', 'sport'),
+	array('short_name', 'sort_name'),
 	array('ship', 'show', 'shop', 'stop'),
 	array('Sign at NE', 'Sign at E'),
 	array('Sign at NW', 'Sign at W'),
@@ -215,6 +220,7 @@ $never_complain_about = "
 	prefix LIKE 'phone:=%' OR
 	prefix LIKE 'nat_ref:=%' OR
 	prefix LIKE 'nhd-shp:fdate:=%' OR
+	prefix LIKE 'network:=%' OR
 	prefix LIKE 'OCUPANTES:=%' OR
 	prefix LIKE 'old_ref_legislative:=%' OR
 	prefix LIKE 'osak:identifier:=%' OR
@@ -230,7 +236,7 @@ $never_complain_about = "
 	prefix LIKE 'reg_ref:=%' OR
 	prefix LIKE 'roof:color:=%' OR
 	prefix LIKE 'roof:colour:=%' OR
-	prefix LIKE 'route_ref:=%' OR
+	prefix LIKE 'route_ref:%' OR
 	prefix LIKE 'seats:=%' OR
 	prefix LIKE 'source:=%' OR
 	(prefix LIKE 'source:name:=%' AND k LIKE 'Orange County plat book%') OR
@@ -278,7 +284,8 @@ $force_irregular = array(
 	'gague:',
 	'usability:skate:=:excelent',
 	'name:botanical:=:Cupressus sempervires',
-	'note_:'
+	'note_:',
+	'vending:=:news_papers'
 );
 
 $force_regular = array(
@@ -302,6 +309,7 @@ $force_regular = array(
 	'man_made:=:cutline',
 	'name:botanical:=:Cupressus sempervirens',
 	'usability:skate:=:excellent',
+	'vending:=:newspapers'
 );
 
 // for known typos with more than one character wrong use this:
