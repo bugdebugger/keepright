@@ -20,6 +20,7 @@ global $false_positives, $never_complain_about, $force_irregular, $force_regular
 
 // list of key or value parts that sound very similar but are something completely different
 // please keep values in ascending order!
+// you must not use colons here as these rules are applied after splitting keys/values by colon
 $false_positives = array(
 	array('AB Kreisstraßen', 'AN Kreisstraßen', 'ANs Kreisstraßen', 'BA Kreisstraßen', 'BAs Kreisstraßen', 'BT Kreisstraßen', 'FÜ Kreisstraßen', 'KC Kreisstraßen', 'KG Kreisstraßen', 'KT Kreisstraßen', 'KU Kreisstraßen', 'N Kreisstraßen', 'SC Kreisstraßen', 'SW Kreisstraßen', 'SWs Kreisstraßen', 'WÜ Kreisstraßen', 'WÜs Kreisstraßen'),
 	array('AND_a', 'AND_c', 'AND_f', 'AND_gf', 'AND_i', 'AND_o', 'AND_r', 'AND_w'),
@@ -32,7 +33,7 @@ $false_positives = array(
 	array('biking', 'hiking'),
 	array('Birke', 'Birne'),
 	array('bridge', 'fridge'),
-	array('building:part', 'building:parts'),	// both are valid and different keys
+	array('part', 'parts'),				// building:part and building:parts both are valid and different keys
 	array('bump', 'hump'),
 	array('cafe', 'cape', 'cave'),
 	array('camra', 'camera'),			// Campaign for Real Ale
@@ -43,8 +44,6 @@ $false_positives = array(
 	array('count', 'mount'),
 	array('customer', 'customers'),		// both are widely used
 	array('date', 'gate'),
-	array('DE:rural', 'DK:rural'),
-	array('DE:urban', 'DK:urban'),
 	array('derail', 'detail', 'retail'),
 	array('detention', 'retention'),	// both are valid values for key=basin
 	array('diet', 'dist'),
@@ -440,7 +439,7 @@ global $error_type, $false_positives, $db1, $db2;
 
 			// skip known false-positives
 			if (found_in($reg_keys[1], $irreg_key, $false_positives)) {
-				//echo "$item -- false positive -- '$irreg_key' looks like '$reg_key'\n";
+				//echo "$item -- false positive -- '$irreg_key' looks like '" . $reg_keys[1] . "'\n";
 				continue;
 			}
 
