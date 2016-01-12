@@ -284,6 +284,7 @@ $force_irregular = array(
 	'usability:skate:=:excelent',
 	'name:botanical:=:Cupressus sempervires',
 	'note_:',
+	'service:=:drive-through',
 	'vending:=:news_papers'
 );
 
@@ -307,6 +308,7 @@ $force_regular = array(
 	'lengths:right:',
 	'man_made:=:cutline',
 	'name:botanical:=:Cupressus sempervirens',
+	'service:=:drive_through',
 	'usability:skate:=:excellent',
 	'vending:=:newspapers'
 );
