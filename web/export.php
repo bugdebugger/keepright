@@ -109,8 +109,9 @@ if ($_GET['format'] == 'rss') {
 } elseif ($_GET['format'] == 'gpx') {
 
 
-	header('Content-type: application/gpx+xml');
+	header('Content-Type: application/gpx+xml; charset=utf-8');
 	header('Content-Disposition: attachment; filename="points.gpx"');
+	header('Access-Control-Allow-Origin: *');
 
 
 	echo "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\" ?>\n";
@@ -140,10 +141,45 @@ if ($_GET['format'] == 'rss') {
 
 	echo "</gpx>";
 
+} elseif ($_GET['format'] == 'geojson') {
 
+
+	header('Content-Type: application/vnd.geo+json; charset=utf-8');
+	header('Content-Disposition: attachment; filename="points.geojson"');
+	header('Access-Control-Allow-Origin: *');
+
+  	echo '{"type": "FeatureCollection", "features": [';
+  	$comma = '';
+	while ($row = mysqli_fetch_assoc($result)) {    
+    		// prepend the main error type on a subtyped error
+		if (in_array(10*floor($row['error_type']/10), $subtyped_array))
+			$title=$subtyped_names_array[10*floor($row['error_type']/10)] . ', ';
+		else
+			$title='';  
+		
+		$desc = str_replace('"','',$row['description']);
+
+		$p = array('error_type'=>$row['error_type'],
+		       'object_type'=>$row['object_type'],
+		       'object_id'=>$row['object_id'],
+		       'comment'=>$row['comment'],
+		       'error_id'=>$row['error_id'],
+		       'schema'=>$row['schema'],
+		       'description'=>$desc,
+		       'title'=>$title . $row['error_name']);
+
+		$props = json_encode($p);
+		echo $comma.'{ "type": "Feature","geometry":{"type": "Point","coordinates": ['.$row['lo'].','.$row['la'].']},'."\n";
+		echo '  "properties":'.$props.'}'."\n";
+			
+		$comma = ',';
+	}
+	echo ']}';
+
+	
 } else {
 
-	echo "invalid format parameter. Allowed values: rss, gpx";
+	echo "invalid format parameter. Allowed values: rss, gpx, geojson";
 
 }
 

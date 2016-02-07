@@ -995,7 +995,7 @@ function setLang(lang) {
 	}
 }
 
-// update edit-in-potlatch-link and links for rss/gpx export
+// update edit-in-potlatch-link and links for rss/gpx/geojson export
 // call this after a pan and after changing checkboxes
 function updateLinks() {
 
@@ -1010,6 +1010,7 @@ function updateLinks() {
 	// update links for rss/gpx export
 	var rsslink=document.getElementById('rsslink');
 	var gpxlink=document.getElementById('gpxlink');
+	var geojsonlink=document.getElementById('geojsonlink');
 	var b=map.getExtent();
 	var bbox = b.transform(map.getProjectionObject(), new OpenLayers.Projection("EPSG:4326"));
 
@@ -1018,6 +1019,7 @@ function updateLinks() {
 
 	rsslink.href = url + 'rss&' + params;
 	gpxlink.href = url + 'gpx&' + params;
+	geojsonlink.href = url + 'geojson&' + params;
 }
 
 
