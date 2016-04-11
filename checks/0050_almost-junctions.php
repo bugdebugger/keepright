@@ -199,6 +199,7 @@ query("
 
 // end-node near way on the same layer
 // but not intersecting any barrier
+// skip end-nodes tagged as barrier or subway_entrance
 $result=query("
 	INSERT INTO _tmp_error_candidates (way_id, node_id, node_x, node_y, nearby_way_id, distance)
 	SELECT en.way_id, en.node_id, en.x AS node_x, en.y AS node_y, w.way_id AS nearby_way_id, ST_distance(w.geom, en.geom) AS distance
@@ -206,7 +207,15 @@ $result=query("
 		en.way_id<>w.way_id AND
 		en.layer=w.layer
 	LEFT JOIN _tmp_barriers b ON b.layer=en.layer AND ST_Intersects(b.geom, ST_ShortestLine(w.geom, en.geom))
-	WHERE b.way_id IS NULL
+	WHERE b.way_id IS NULL AND
+		NOT EXISTS(
+			SELECT 1
+			FROM node_tags nt
+			WHERE nt.node_id=en.node_id AND (
+				nt.k='barrier' OR
+				(nt.k='railway' AND nt.v='subway_entrance')
+			)
+		)
 ", $db1);
 
 
@@ -225,6 +234,14 @@ $result=query("
 		FROM _tmp_barriers b
 		WHERE b.layer IN (en1.layer, en2.layer) AND
 			ST_Intersects(b.geom, ST_ShortestLine(en1.geom, en2.geom))
+	) AND
+	NOT EXISTS(
+		SELECT 1
+		FROM node_tags nt
+		WHERE nt.node_id=en1.node_id AND (
+			nt.k='barrier' OR
+			(nt.k='railway' AND nt.v='subway_entrance')
+		)
 	)
 ", $db1);
 
