@@ -193,6 +193,7 @@ $never_complain_about = "
 	prefix LIKE 'isced:level:=%' OR
 	prefix LIKE 'kern:Comb_Zn:=%' OR
 	prefix LIKE 'line:=%' OR
+	prefix LIKE 'linz:garmin_type:=%' OR
 	prefix LIKE 'lines:=%' OR
 	prefix LIKE 'loc_ref:=%' OR
 	prefix LIKE 'massgis:BASE_MAP:=%' OR
@@ -281,11 +282,17 @@ $force_irregular = array(
 	'building:=:farm_auxillary',
 	'building:=:hanger',
 	'description:=:Private Cemetary',
-	'gague:',
+	':gague',
 	'usability:skate:=:excelent',
+	'leaf_type:=:broad_leaved',
+	'leaf_type:=:broad_leafed',
+	':max_height',
+	':minheight',
 	'name:botanical:=:Cupressus sempervires',
-	'note_:',
+	':note_',
 	'service:=:drive_through',
+	'type:=:broad_leaved',
+	'type:=:broad_leafed',
 	'vending:=:news_papers'
 );
 
@@ -302,15 +309,19 @@ $force_regular = array(
 	'building:=:hangar',
 	'building:=:hotel',
 	'description:=:Private Cemetery',
-	'gauge:',
+	':gauge',
 	'geometry_source_type:=:Walking Papers/Misson GPS',
 	'gnis:county_name:=:Cheyboygan',
-	'lengths:',
+	'leaf_type:=:broadleaved',
+	':lengths',
 	'lengths:left:',
 	'lengths:right:',
 	'man_made:=:cutline',
+	':maxheight',
+	':min_height',
 	'name:botanical:=:Cupressus sempervirens',
 	'service:=:drive-through',
+	'type:=:broadleaved',
 	'usability:skate:=:excellent',
 	'vending:=:newspapers'
 );
