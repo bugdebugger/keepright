@@ -154,14 +154,14 @@ function run_checks($schema, $checks_to_run=array()) {
 
 	// insert any error-type that is defined and enabled in $error_types in config.inc
 	foreach ($error_types as $error_type=>$error) {
-		if ($error['enabled']) {
+		if (isset($error['enabled']) && $error['enabled']) {
 			query("
 				INSERT INTO error_types(error_type, error_name, error_description)
 				VALUES(" . pg_escape_string($db1, $error_type) . ",'" . pg_escape_string($db1, $error['name']) . "','" . pg_escape_string($db1, $error['description']) . "')
 			", $db1, false);
 
 			// insert any subtype if some exist
-			if (is_array($error['subtype'])) foreach ($error['subtype'] as $subtype_id=>$subtype) {
+			if (isset($error['subtype']) && is_array($error['subtype'])) foreach ($error['subtype'] as $subtype_id=>$subtype) {
 				query("
 					INSERT INTO error_types(error_type, error_name, error_description)
 					VALUES(" . pg_escape_string($db1, $subtype_id) . ",'" . pg_escape_string($db1, $subtype) . "','" . pg_escape_string($db1, $error['description']) . "')
@@ -190,7 +190,7 @@ function run_checks($schema, $checks_to_run=array()) {
 
 		// two options here: a) no checks are called on commandline -> execute all enabled checks
 		// b) the check is found in the command line arguments -> execute it, no matter what $enabled says
-		if (($error['enabled'] && count($checks_to_run)==0) || in_array($error_type, $checks_to_run)) {
+		if ((isset($error['enabled']) && $error['enabled'] && count($checks_to_run)==0) || in_array($error_type, $checks_to_run)) {
 			echo "-------------------------------------------------------------------\n";
 			$starttime=microtime(true);
 			echo strftime('%m/%d/%y %H:%M:%S') . ": starting check " . $error['source'] . "...\n";
