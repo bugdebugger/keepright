@@ -46,7 +46,7 @@ query("
 		SELECT way_id
 		FROM way_tags AS t
 		WHERE t.way_id=w.id AND t.k='highway' AND
-			t.v NOT IN ('construction', 'preproposed', 'proposed')
+			t.v NOT IN ('construction', 'platform', 'preproposed', 'proposed')
 	)
 ", $db1);
 
