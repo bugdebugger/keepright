@@ -36,6 +36,12 @@ $error_types[70]['enabled']=true;
 $error_types[70]['source']='0070_missing_tags.php';
 $error_types[70]['description']='Ways, nodes and relations should in most cases have at least one tag (besides created_by)';
 
+$error_types[70]['subtype'][71]='way without tags';
+$error_types[70]['subtype'][72]='node without tags';
+$error_types[70]['subtype'][73]='tag combinations';
+$error_types[70]['subtype'][74]='empty tags';
+$error_types[70]['subtype'][75]='name but no other tag';
+
 $error_types[80]['name']='bridges or tunnels without layer';
 $error_types[80]['enabled']=false;
 $error_types[80]['source']='0080_bridges_or_tunnels_without_layer.php';

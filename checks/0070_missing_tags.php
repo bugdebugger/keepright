@@ -14,7 +14,7 @@ foreach ($tables as $object_type=>$table) {
 
 	query("
 		INSERT INTO _tmp_errors(error_type, object_type, object_id, msgid, txt1, txt2,   last_checked)
-		SELECT $error_type, '$object_type', {$object_type}_id, 'This $1 has an empty tag: $2', '$object_type', htmlspecialchars(array_to_string(array(
+		SELECT $error_type+4, '$object_type', {$object_type}_id, 'This $1 has an empty tag: $2', '$object_type', htmlspecialchars(array_to_string(array(
 			SELECT '\"' || COALESCE(k,'') || '=' || COALESCE(v,'') || '\"'
 			FROM $table AS tmp
 			WHERE tmp.{$object_type}_id=t.{$object_type}_id AND (tmp.k IS NULL or LENGTH(TRIM(tmp.k))=0 OR tmp.v IS NULL or LENGTH(TRIM(tmp.v))=0)
@@ -90,6 +90,56 @@ query("
 		WHERE rm.member_id=n.id AND
 		rm.member_type='N'
 	)
+", $db1);
+
+
+//Some more specialized checks
+//tracktype, but no highway
+query("
+	INSERT INTO _tmp_errors(error_type, object_type, object_id, msgid, txt1, last_checked)
+	SELECT 3+$error_type, 'way', way_id,
+		'This way has a $1 tag but no highway tag', wt.k, NOW()
+	FROM way_tags wt
+	WHERE wt.k IN ('tracktype', 'lanes')
+	AND NOT EXISTS (
+		SELECT 1
+		FROM way_tags w
+		WHERE wt.way_id=w.way_id
+		AND (w.k = 'highway' OR (w.k = 'leisure' and w.v = 'track'))
+	)
+", $db1);
+
+
+//error type 74 already used (see top of file)
+
+
+//name, but no other tag
+query("
+	INSERT INTO _tmp_errors(error_type, object_type, object_id, msgid, txt1, last_checked)
+	SELECT 5+$error_type, 'way', way_id,
+		'This way has a name ($1) but no other tag', wt.v, NOW()
+	FROM way_tags wt
+	WHERE wt.k = 'name'
+	AND NOT EXISTS (
+		SELECT 1
+		FROM way_tags w
+		WHERE wt.way_id=w.way_id
+		AND w.k != 'name'
+	)
+", $db1);
+
+query("
+	INSERT INTO _tmp_errors(error_type, object_type, object_id, msgid, txt1, last_checked)
+	SELECT 5+$error_type, 'node', node_id,
+		'This node has a name ($1) but no other tag', nt.v, NOW()
+	FROM node_tags nt
+	WHERE nt.k = 'name'
+	AND NOT EXISTS (
+		SELECT 1
+		FROM node_tags n
+		WHERE nt.node_id=n.node_id
+		AND n.k != 'name'
+  )
 ", $db1);
 
 
