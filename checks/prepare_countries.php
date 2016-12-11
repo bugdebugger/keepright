@@ -55,7 +55,7 @@ function prepare_countries($schema) {
 	// table for relations that tie ways together to build administrative boundaries
 	query("DROP TABLE IF EXISTS _tmp_border_relations", $db1);
 	query("
-		CREATE TABLE _tmp_border_relations (
+		CREATE UNLOGGED TABLE _tmp_border_relations (
 		relation_id bigint,
 		admin_level text,
 		name text
@@ -105,7 +105,7 @@ function prepare_countries($schema) {
 	// but tagged as boundary will be collected here
 	query("DROP TABLE IF EXISTS _tmp_border_ways_tmp", $db1);
 	query("
-		CREATE TABLE _tmp_border_ways_tmp (
+		CREATE UNLOGGED TABLE _tmp_border_ways_tmp (
 		name text,
 		admin_level text,
 		relation_id bigint,
@@ -213,7 +213,7 @@ function prepare_countries($schema) {
 
 	query("DROP TABLE IF EXISTS _tmp_border_ways", $db1, false);
 
-	query("CREATE TABLE _tmp_border_ways (LIKE _tmp_border_ways_tmp
+	query("CREATE UNLOGGED TABLE _tmp_border_ways (LIKE _tmp_border_ways_tmp
 		INCLUDING DEFAULTS INCLUDING CONSTRAINTS INCLUDING INDEXES)
 	", $db1, false);
 
@@ -265,7 +265,7 @@ function prepare_countries($schema) {
 		// let's take the lowest way id
 		query("DROP TABLE IF EXISTS _tmp_tmp", $db1, false);
 		query("
-			CREATE TABLE _tmp_tmp AS
+			CREATE UNLOGGED TABLE _tmp_tmp AS
 			SELECT name, admin_level, MIN(way_id) AS way_id
 			FROM _tmp_border_ways_tmp
 			WHERE sequence_id IS NULL
@@ -421,7 +421,7 @@ function prepare_countries($schema) {
 
 	query("DROP TABLE IF EXISTS _tmp_boundaries", $db1);
 	$result=query("
-		CREATE TABLE _tmp_boundaries AS
+		CREATE UNLOGGED TABLE _tmp_boundaries AS
 		SELECT name, admin_level, 0 as nodecount
 		FROM _tmp_border_ways
 		GROUP BY name, admin_level
@@ -434,7 +434,7 @@ function prepare_countries($schema) {
 	// eg. "-1 -1,-1 -2,-2 -2,-2 -1,-1 -1"
 	query("DROP TABLE IF EXISTS _tmp_nodelists", $db1);
 	$result=query("
-		CREATE TABLE _tmp_nodelists(
+		CREATE UNLOGGED TABLE _tmp_nodelists(
 			way_id bigint,
 			first_node_id bigint,
 			last_node_id bigint,

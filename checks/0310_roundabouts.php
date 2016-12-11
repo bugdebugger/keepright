@@ -16,7 +16,7 @@ not enough roads connected (normally 3)
 // way segments!
 query("DROP TABLE IF EXISTS _tmp_roundabout_parts", $db1);
 query("
-	CREATE TABLE _tmp_roundabout_parts (
+	CREATE UNLOGGED TABLE _tmp_roundabout_parts (
 		part bigint,
 		sequence_id int,
 		way_id bigint NOT NULL,
@@ -190,7 +190,7 @@ evaluate the sign of the numerator of the right side.
 // one line for each roundabout; plus the center of gravity for each
 query("DROP TABLE IF EXISTS _tmp_roundabouts", $db1, false);
 query("
-	CREATE TABLE _tmp_roundabouts AS
+	CREATE UNLOGGED TABLE _tmp_roundabouts AS
 	SELECT rp.part, SUM(wn.y)/COUNT(wn.node_id) AS Cy,
 		SUM(wn.x)/COUNT(wn.node_id) AS Cx, false AS clockwise,
 	true AS right_hand_country, false as mini_roundabout
@@ -398,7 +398,7 @@ query("
 
 query("DROP TABLE IF EXISTS _tmp_roundabout_nodes", $db1, false);
 query("
-	CREATE TABLE _tmp_roundabout_nodes AS
+	CREATE UNLOGGED TABLE _tmp_roundabout_nodes AS
 	SELECT DISTINCT rp.part, wn.node_id
 	FROM _tmp_roundabout_parts rp INNER JOIN way_nodes wn USING (way_id)
 ", $db1);

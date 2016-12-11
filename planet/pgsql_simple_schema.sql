@@ -3,21 +3,21 @@
 
 
 -- Create a table which will contain a single row defining the current schema version.
-CREATE TABLE schema_info (
+CREATE UNLOGGED TABLE schema_info (
     version integer NOT NULL
 );
 INSERT INTO schema_info VALUES (1);
 
 
 -- Create a table for users.
-CREATE TABLE users (
+CREATE UNLOGGED TABLE users (
     id bigint NOT NULL,
     user_name text
 );
 
 
 -- Create a table for nodes.
-CREATE TABLE nodes (
+CREATE UNLOGGED TABLE nodes (
     id bigint NOT NULL,
     user_id bigint,
     tstamp timestamp without time zone NOT NULL
@@ -34,7 +34,7 @@ ALTER TABLE nodes
 
 
 -- Create a table for node tags.
-CREATE TABLE node_tags (
+CREATE UNLOGGED TABLE node_tags (
     node_id bigint NOT NULL,
     k text NOT NULL,
     v text
@@ -42,7 +42,7 @@ CREATE TABLE node_tags (
 
 
 -- Create a table for ways.
-CREATE TABLE ways (
+CREATE UNLOGGED TABLE ways (
     id bigint NOT NULL,
     user_id bigint,
     tstamp timestamp without time zone NOT NULL,
@@ -61,7 +61,7 @@ CREATE TABLE ways (
 
 
 -- Create a table for representing way to node relationships.
-CREATE TABLE way_nodes (
+CREATE UNLOGGED TABLE way_nodes (
     way_id bigint NOT NULL,
     node_id bigint NOT NULL,
     sequence_id integer NOT NULL,
@@ -73,7 +73,7 @@ CREATE TABLE way_nodes (
 
 
 -- Create a table for way tags.
-CREATE TABLE way_tags (
+CREATE UNLOGGED TABLE way_tags (
     way_id bigint NOT NULL,
     k text NOT NULL,
     v text
@@ -81,7 +81,7 @@ CREATE TABLE way_tags (
 
 
 -- Create a table for relations.
-CREATE TABLE relations (
+CREATE UNLOGGED TABLE relations (
     id bigint NOT NULL,
     user_id bigint,
     tstamp timestamp without time zone NOT NULL
@@ -89,7 +89,7 @@ CREATE TABLE relations (
 
 
 -- Create a table for representing relation member relationships.
-CREATE TABLE relation_members (
+CREATE UNLOGGED TABLE relation_members (
     relation_id bigint NOT NULL,
     member_id bigint NOT NULL,
     member_role text NOT NULL,
@@ -99,7 +99,7 @@ CREATE TABLE relation_members (
 
 
 -- Create a table for relation tags.
-CREATE TABLE relation_tags (
+CREATE UNLOGGED TABLE relation_tags (
     relation_id bigint NOT NULL,
     k text NOT NULL,
     v text

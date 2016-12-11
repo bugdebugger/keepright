@@ -13,7 +13,7 @@ the same is valid for motorway_link, secondary_link and trunk_link roads
 // find *_link highways
 query("DROP TABLE IF EXISTS _tmp_ways", $db1);
 query("
-	CREATE TABLE _tmp_ways AS
+	CREATE UNLOGGED TABLE _tmp_ways AS
 	SELECT DISTINCT way_id, substr(v, 1, strpos(v, '_')-1) AS class
 	FROM way_tags t
 	WHERE t.k='highway' AND
@@ -26,7 +26,7 @@ query("ANALYZE _tmp_ways", $db1);
 // find all nodes these links contain
 query("DROP TABLE IF EXISTS _tmp_wn", $db1);
 query("
-	CREATE TABLE _tmp_wn AS
+	CREATE UNLOGGED TABLE _tmp_wn AS
 	SELECT way_id, class, node_id
 	FROM way_nodes wn INNER JOIN _tmp_ways w USING (way_id)
 ", $db1);
@@ -37,7 +37,7 @@ query("ANALYZE _tmp_wn", $db1);
 // find all other ways these *_link ways are connected to
 query("DROP TABLE IF EXISTS _tmp_wn2", $db1);
 query("
-	CREATE TABLE _tmp_wn2 AS
+	CREATE UNLOGGED TABLE _tmp_wn2 AS
 	SELECT twn.way_id, twn.class, wn.way_id AS way_id2
 	FROM way_nodes wn INNER JOIN _tmp_wn twn USING (node_id)
 	WHERE wn.way_id<>twn.way_id

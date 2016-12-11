@@ -372,7 +372,7 @@ function check_tags($item) {
 global $error_type, $false_positives, $db1, $db2;
 	query("DROP TABLE IF EXISTS _tmp_tags", $db1, false);
 	query("
-		CREATE TABLE _tmp_tags(
+		CREATE UNLOGGED TABLE _tmp_tags(
 			k text NOT NULL,
 			keylist text[],
 			v text,
@@ -409,7 +409,7 @@ global $error_type, $false_positives, $db1, $db2;
 	// collection of bad k,v pairs that will be joined with *_tags to identify object ids
 	query("DROP TABLE IF EXISTS _tmp_bad_tags", $db1, false);
 	query("
-		CREATE TABLE _tmp_bad_tags(
+		CREATE UNLOGGED TABLE _tmp_bad_tags(
 			k text NOT NULL,
 			v text,
 			wrong_tag text,
@@ -424,7 +424,7 @@ global $error_type, $false_positives, $db1, $db2;
 		echo "---------------------------------------------------\n$item -- $keylen\n";
 		query("DROP TABLE IF EXISTS _tmp_keys", $db1, false);
 		query("
-			CREATE TABLE _tmp_keys(
+			CREATE UNLOGGED TABLE _tmp_keys(
 				prefix text NOT NULL,
 				k text NOT NULL,
 				tag_count bigint,

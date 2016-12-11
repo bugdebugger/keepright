@@ -18,7 +18,7 @@ query("CREATE TYPE type_way_type AS ENUM('highway','cycleway/footpath','waterway
 // tmp_ways will contain all highways with their linestring geometry and layer tag
 query("DROP TABLE IF EXISTS _tmp_ways", $db1);
 query("
-	CREATE TABLE _tmp_ways (
+	CREATE UNLOGGED TABLE _tmp_ways (
 	way_id bigint NOT NULL,
 	layer text NOT NULL DEFAULT '0',
 	way_type type_way_type NOT NULL
@@ -123,7 +123,7 @@ query("ANALYZE _tmp_ways", $db1);
 // first include all crossings; remove crossings on ways not interesting
 query("DROP TABLE IF EXISTS _tmp_wn", $db1);
 query("
-	CREATE TABLE _tmp_wn AS
+	CREATE UNLOGGED TABLE _tmp_wn AS
 	SELECT way_nodes.way_id, way_nodes.node_id, way_nodes.x, way_nodes.y
 	FROM way_nodes INNER JOIN _tmp_ways USING (way_id)
 ", $db1);
@@ -132,7 +132,7 @@ query("ANALYZE _tmp_wn", $db1);
 
 query("DROP TABLE IF EXISTS _tmp_xings", $db1);
 query("
-	CREATE TABLE _tmp_xings AS
+	CREATE UNLOGGED TABLE _tmp_xings AS
 	SELECT wn1.way_id as way1, wn2.way_id as way2, wn1.x, wn1.y
 	FROM _tmp_wn wn1 INNER JOIN _tmp_wn wn2 USING (node_id)
 	WHERE wn1.way_id<wn2.way_id
@@ -146,7 +146,7 @@ query("ANALYZE _tmp_xings", $db1);
 // collect colliding ways here and check if they really are errors afterwards
 query("DROP TABLE IF EXISTS _tmp_error_candidates", $db1);
 query("
-	CREATE TABLE _tmp_error_candidates (
+	CREATE UNLOGGED TABLE _tmp_error_candidates (
 	way_id1 bigint NOT NULL,
 	way_id2 bigint NOT NULL,
 	geom text NOT NULL,

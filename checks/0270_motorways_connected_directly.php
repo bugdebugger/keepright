@@ -13,7 +13,7 @@ Any connection of a motorway to any way other than motorway_link is wrong
 */
 query("DROP TABLE IF EXISTS _tmp_ways", $db1);
 query("
-	CREATE TABLE _tmp_ways AS
+	CREATE UNLOGGED TABLE _tmp_ways AS
 	SELECT way_id
 	FROM way_tags t
 	WHERE t.k='highway' and t.v='motorway'
@@ -25,7 +25,7 @@ query("ANALYZE _tmp_ways", $db1);
 // now find all nodes belonging to motorways
 query("DROP TABLE IF EXISTS _tmp_junctions", $db1);
 query("
-	CREATE TABLE _tmp_junctions AS
+	CREATE UNLOGGED TABLE _tmp_junctions AS
 	SELECT way_id, node_id
 	FROM way_nodes wn INNER JOIN _tmp_ways w USING (way_id)
 ", $db1);
@@ -39,7 +39,7 @@ query("ANALYZE _tmp_junctions", $db1);
 // and that are the first or last node of a way
 query("DROP TABLE IF EXISTS _tmp_tmp", $db1);
 query("
-	CREATE TABLE _tmp_tmp AS
+	CREATE UNLOGGED TABLE _tmp_tmp AS
 	SELECT j.node_id, MAX(j.way_id) as way_id
 	FROM _tmp_junctions j
 	GROUP BY j.node_id
@@ -67,7 +67,7 @@ query("DROP TABLE IF EXISTS _tmp_tmp", $db1);
 // that lack an access tag
 query("DROP TABLE IF EXISTS _tmp_service", $db1);
 query("
-	CREATE TABLE _tmp_service AS
+	CREATE UNLOGGED TABLE _tmp_service AS
 	SELECT j.node_id, wn.way_id
 	FROM way_nodes wn INNER JOIN _tmp_junctions j USING (node_id)
 	WHERE wn.way_id<>j.way_id AND EXISTS (

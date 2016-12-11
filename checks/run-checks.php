@@ -92,7 +92,7 @@ function run_checks($schema, $checks_to_run=array()) {
 
 	query("DROP TABLE IF EXISTS _tmp_errors", $db1, false);
 	query("
-		CREATE TABLE _tmp_errors (
+		CREATE UNLOGGED TABLE _tmp_errors (
 		error_type int NOT NULL,
 		object_type public.type_object_type NOT NULL,
 		object_id bigint NOT NULL,
@@ -144,7 +144,7 @@ function run_checks($schema, $checks_to_run=array()) {
 	// (re)create table of error type descriptions out of definition-array in config.inc
 	query("DROP TABLE IF EXISTS error_types", $db1, false);
 	query("
-		CREATE TABLE error_types (
+		CREATE UNLOGGED TABLE error_types (
 		error_type int NOT NULL,
 		error_name varchar(100) NOT NULL,
 		error_description text NOT NULL,
@@ -320,7 +320,7 @@ function run_checks($schema, $checks_to_run=array()) {
 
 	// _tmp_ev is used as helper table to find the locations of relations
 	query("DROP TABLE IF EXISTS _tmp_ev", $db1, false);
-	query("CREATE TABLE _tmp_ev (LIKE public.error_view
+	query("CREATE UNLOGGED TABLE _tmp_ev (LIKE public.error_view
 		INCLUDING DEFAULTS INCLUDING CONSTRAINTS INCLUDING INDEXES)
 	", $db1, false);
 

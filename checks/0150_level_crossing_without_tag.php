@@ -13,7 +13,7 @@ exception: a junction between a highway and a railway is allowed if it is on a r
 
 query("DROP TABLE IF EXISTS _tmp_railways", $db1);
 query("
-        CREATE TABLE _tmp_railways (
+        CREATE UNLOGGED TABLE _tmp_railways (
 		way_id bigint NOT NULL,
 		node_id bigint NOT NULL
         )

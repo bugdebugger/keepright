@@ -24,7 +24,7 @@ $way_types="'highway', 'railway', 'cycleway', 'waterway', 'footway', 'piste', 'p
 // way_ids of bridges
 query("DROP TABLE IF EXISTS _tmp_bridges", $db1);
 query("
-	CREATE TABLE _tmp_bridges (
+	CREATE UNLOGGED TABLE _tmp_bridges (
 	way_id bigint NOT NULL,
 	first_node_id bigint,
 	last_node_id bigint,
@@ -52,7 +52,7 @@ query("CREATE INDEX idx_tmp_bridges_last_node_id ON _tmp_bridges (last_node_id)"
 // find tags on the bridge
 query("DROP TABLE IF EXISTS _tmp_bridge_tags", $db1);
 query("
-	CREATE TABLE _tmp_bridge_tags AS
+	CREATE UNLOGGED TABLE _tmp_bridge_tags AS
 	SELECT wt.way_id, wt.k, wt.v
 	FROM way_tags wt INNER JOIN _tmp_bridges b USING (way_id)
 	WHERE wt.k IN ($way_types)
@@ -63,7 +63,7 @@ query("CREATE INDEX idx_tmp_bridge_tags_way_id ON _tmp_bridge_tags (way_id)", $d
 // find tags on the bridge's neighbours ways
 query("DROP TABLE IF EXISTS _tmp_neighbour_tags", $db1);
 query("
-	CREATE TABLE _tmp_neighbour_tags AS
+	CREATE UNLOGGED TABLE _tmp_neighbour_tags AS
 	SELECT DISTINCT w.way_id, wt.k, wt.v
 	FROM way_tags wt INNER JOIN (
 

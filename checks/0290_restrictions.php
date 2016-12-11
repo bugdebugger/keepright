@@ -24,7 +24,7 @@ $restriction_types = "'restriction', 'restriction:hgv', 'restriction:caravan', '
 // find all restrictions and store members
 query("DROP TABLE IF EXISTS _tmp_restrictions", $db1, false);
 query("
-	CREATE TABLE _tmp_restrictions (
+	CREATE UNLOGGED TABLE _tmp_restrictions (
 		relation_id bigint,
 		from_id bigint,
 		to_id bigint,

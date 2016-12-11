@@ -20,7 +20,7 @@ then no error is raised. This can happen at towers for example
 
 query("DROP TABLE IF EXISTS _tmp_elevations", $db1, false);
 query("
-	CREATE TABLE _tmp_elevations (
+	CREATE UNLOGGED TABLE _tmp_elevations (
 		lon double precision NOT NULL,
 		lat double precision NOT NULL,
 		ele text
@@ -44,7 +44,7 @@ query("ANALYZE _tmp_elevations", $db1, false);
 
 query("DROP TABLE IF EXISTS _tmp_node_dupes", $db1, false);
 query("
-	CREATE TABLE _tmp_node_dupes (
+	CREATE UNLOGGED TABLE _tmp_node_dupes (
 		lon double precision NOT NULL,
 		lat double precision NOT NULL,
 		nodecount int NOT NULL

@@ -93,7 +93,7 @@ query("
 // table for one-way streets connected together
 query("DROP TABLE IF EXISTS _tmp_one_way_junctions", $db1, false);
 query("
-	CREATE TABLE _tmp_one_way_junctions (
+	CREATE UNLOGGED TABLE _tmp_one_way_junctions (
 	node_id bigint NOT NULL,
 	PRIMARY KEY (node_id)
 	)

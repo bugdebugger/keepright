@@ -14,7 +14,7 @@ have to be tagged in a special way:
 // find all railway=level_crossing nodes
 query("DROP TABLE IF EXISTS _tmp_nodes", $db1);
 query("
-	CREATE TABLE _tmp_nodes AS
+	CREATE UNLOGGED TABLE _tmp_nodes AS
 	SELECT DISTINCT node_id
 	FROM node_tags
 	WHERE k='railway' AND v='level_crossing'
@@ -27,7 +27,7 @@ query("ANALYZE _tmp_nodes", $db1);
 // find all ways passing through these nodes
 query("DROP TABLE IF EXISTS _tmp_ways", $db1);
 query("
-	CREATE TABLE _tmp_ways (
+	CREATE UNLOGGED TABLE _tmp_ways (
 		way_id bigint NOT NULL,
 		node_id bigint NOT NULL,
 		layer text DEFAULT '0'
