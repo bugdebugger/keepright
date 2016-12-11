@@ -185,7 +185,8 @@ $islands = array(
 		'Port Moresby, Papua New Guinea'=> 25179464,
 		'Saipan, Northern Mariana Islands' => 237969702,
 		'Tinian, Northern Mariana Islands' => 24201962,
-		'Rota, Northern Mariana Islands' => 165350700
+		'Rota, Northern Mariana Islands' => 165350700,
+		'Viti' => 23812429
 	),
 	'north america' => array(
 		'Seattle, WA' => 4757176,	//47.4648998, -122.2422833
@@ -275,7 +276,11 @@ $islands = array(
 		'Saint Vincent' => 25577931,
 		'St. George\'s' => 25570824,
 		'Tobago' => 15242966,
-		'Trinidad' => 37576224
+		'Trinidad' => 37576224,
+		'Jamaica, Kingston' => 325848380,
+		'Cayman Islands' => 65739646,
+		'Cayman Islands' => 25782267,
+		'Cayman Islands' => 68794348
 	),
 	'south america' => array(
 		'Lima, Peru' => 338546493,
