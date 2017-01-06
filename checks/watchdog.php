@@ -110,7 +110,7 @@ foreach ($schemas as $schema=>$schema_cfg) {
 				$issues[]="error_view table seems to be empty for schema $schema";
 
 
-		} else $issues[]="result file for schema $schema not found on web server";
+		} else $issues[]="result file $resultfile for schema $schema not found on web server";
 
 	}
 
