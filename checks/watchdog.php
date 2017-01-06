@@ -29,8 +29,8 @@ $last_update_per_user=array();
 
 foreach ($schemas as $schema=>$schema_cfg) {
 
-
-	if ($schema=='at' || $schema=='md' || $schema=='50') continue;	// don't check testing schemas and Australia
+	if ($schema_cfg['user'] !== $config['account']['user']) continue;	// only check 'your' schemas
+	if ($schema=='at' || $schema=='md') continue;				// don't check testing schemas
 
 	$planetfile = $config['planet_dir'] . $schema . '.pbf';
 
@@ -91,7 +91,7 @@ foreach ($schemas as $schema=>$schema_cfg) {
 		// compare file size and modification date of result file with file on webserver
 
 		// remote result file found
-		if (array_key_exists($resultfile, $serverstate['files'])) {
+		if (is_array($serverstate['files']) && array_key_exists($resultfile, $serverstate['files'])) {
 
 			// local vs remote result file size
 			if ($size<>$serverstate['files'][$resultfile]['size'])

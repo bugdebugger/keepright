@@ -252,7 +252,6 @@ function readHTTP($URL) {
 		while ((!feof($fp)) && (!$info['timed_out'])) {
 			$data .= fgets($fp, 4096);
 			$info = stream_get_meta_data($fp);
-			ob_flush();
 			flush();
 		}
 
