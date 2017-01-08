@@ -58,7 +58,7 @@ $baseURL == "http://localhost/kr/"
 */
 $path_parts = pathinfo($_SERVER['SCRIPT_NAME']);
 $path = $path_parts['dirname'] . ($path_parts['dirname'] == '/' ? '' : '/');
-$baseURL='http://' . $_SERVER['SERVER_NAME'] . $path;
+$baseURL='http://' . $_SERVER['HTTP_HOST'] . $path;
 
 
 // define constants for l10n
