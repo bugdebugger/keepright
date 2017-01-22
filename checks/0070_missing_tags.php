@@ -105,7 +105,7 @@ query("
 		SELECT 1
 		FROM way_tags w
 		WHERE wt.way_id=w.way_id
-		AND (w.k = 'highway' OR (w.k = 'leisure' and w.v = 'track'))
+		AND (w.k IN ('highway', 'disused:highway', 'razed:highway', 'abandoned:highway') OR (w.k = 'leisure' and w.v = 'track'))
 	)
 ", $db1);
 
