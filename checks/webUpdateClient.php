@@ -130,12 +130,20 @@ function update_schema($schema, $session_ID, $URL, $location) {
 	// update one or more files
 	$oldpath=getcwd();
 	chdir($config['results_dir']);
-	foreach (glob("error_view_$schema.*.txt.bz2") as $fname) {
+	$filelist=glob("error_view_$schema.*.txt.bz2");
 
-		if ($location=='--remote') ftp_upload($fname);
+	if ($location=='--remote') {
+		if (ftp_upload($filelist)) {
+			echo "failed uploading files\n";
+			return;
+		}
+	}
+	
+	foreach ($filelist as $fname) {
 
 		$myURL="$URL?schema=$schema&cmd=load_dump&PHPSESSID=$session_ID" .
 			"&error_view_filename=$fname";
+
 		echo "$myURL\n";
 		$result = readHTTP($myURL);
 		echo implode("\n", $result);
@@ -183,18 +191,16 @@ function logout($URL, $session_ID) {
 }
 
 
-function ftp_upload($filename) {
+function ftp_upload($filelist) {
 	global $config;
 	echo "\n\nuploading dump file-------------------------------------\n\n";
-
-	$local_filename=$config['results_dir'] . $filename;
 
 	// set up basic connection
 	$conn_id = ftp_connect($config['upload']['ftp_host']);
 
 	if (!$conn_id) {
 		echo "couldn't conect to ftp server " . $config['upload']['ftp_host'] . "\n";
-		return;
+		return 1;
 	}
 
 	// login with username and password
@@ -202,7 +208,7 @@ function ftp_upload($filename) {
 		echo "Couldn't login to " . $config['upload']['ftp_host'] . " as " . $config['upload']['ftp_user'] ."\n";
 
 		ftp_close($conn_id);
-		return;
+		return 2;
 	}
 
 	// switch to passive mode (requirement if client sits behind NAT Gateway)
@@ -213,18 +219,25 @@ function ftp_upload($filename) {
 		echo "Couldn't change directory on ftp server\n";
 
 		ftp_close($conn_id);
-		return;
+		return 3;
 	}
 
-	// upload the file
-	if (ftp_put($conn_id, $filename, $local_filename, FTP_BINARY)) {
-		echo "successfully uploaded $local_filename\n";
-	} else {
-		echo "There was a problem while uploading $local_filename\n";
+	// upload the files
+	foreach ($filelist as $filename) {
+	
+		$local_filename=$config['results_dir'] . $filename;
+
+		if (ftp_put($conn_id, $filename, $local_filename, FTP_BINARY)) {
+			echo "successfully uploaded $local_filename\n";
+		} else {
+			echo "There was a problem while uploading $local_filename\n";
+			return 4;
+		}
 	}
 
 	// close the connection
 	ftp_close($conn_id);
+	return 0;
 }
 
 
