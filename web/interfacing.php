@@ -11,7 +11,7 @@ require('helpers.inc.php');
   <body>
 
 <a href="/"><img border="0" src="keepright.png" alt="keep-right logo"></a><?php printf(T_gettext("data consistency checks for %sOSM%s"),
-"<a href='http://www.openstreetmap.org'>", "</a>"); ?><hr>
+"<a href='https://www.openstreetmap.org'>", "</a>"); ?><hr>
 
 <?php 
 echo '<form name="myform" method="get" action="' . $_SERVER['PHP_SELF'] . '">';
@@ -37,7 +37,7 @@ echo "
 " . T_gettext('Exporting a section of the map into a GPX-styled list of waypoints for use with GPS units') . "
 
 <br><br><b>" . T_gettext('URL format') . "</b><br>
-http://keepright.ipax.at/export.php?format=gpx&amp;ch=20,30,311,312&amp;left=-82.39&amp;bottom=30&amp;right=-82.1&amp;top=30.269<br>
+https://keepright.at/export.php?format=gpx&amp;ch=20,30,311,312&amp;left=-82.39&amp;bottom=30&amp;right=-82.1&amp;top=30.269<br>
 " . T_gettext('You can specify a list of error types you want to have in the file as well as a bounding box on the map. This export will return up to 10000 waypoints.') . "
 <br><br>" . T_gettext('There is a link on the lower left corner of the map-page pointing to the GPX service that always includes the current error type selection and view from the map.');
 
@@ -47,7 +47,7 @@ echo "
 " . T_gettext('Watching a section of the map for newly found errors') . "
 
 <br><br><b>" . T_gettext('URL format') . "</b><br>
-http://keepright.ipax.at/export.php?format=rss&amp;ch=20,30,311,312&amp;left=-82.39&amp;bottom=30&amp;right=-82.1&amp;top=30.269
+https://keepright.at/export.php?format=rss&amp;ch=20,30,311,312&amp;left=-82.39&amp;bottom=30&amp;right=-82.1&amp;top=30.269
 
 " . T_gettext('The URL format is the same as for GPX exports, just the format parameter is different. The RSS feed will include error entries that were first found within the last three weeks.') . "
 <br><br>" . T_gettext('There is a link on the lower left corner of the map-page pointing to the RSS service that always includes the current error type selection and view from the map.');
@@ -59,7 +59,7 @@ echo "
 " . T_gettext('Doing something completely different with 25 millions of errors...') . "
 
 <br><br><b>" . T_gettext('URL format') . "</b><br>
-<a href='http://keepright.ipax.at/keepright_errors.txt.bz2'>http://keepright.ipax.at/keepright_errors.txt.bz2</a>
+<a href='https://keepright.at/keepright_errors.txt.bz2'>https://keepright.at/keepright_errors.txt.bz2</a>
 
 " . T_gettext('This tab-separated file contains all errors currently open for the whole planet (currently >500MB). It is being updated daily.');
 
@@ -142,7 +142,7 @@ echo T_gettext('Please note that <em>schema</em> is a reserved word in MySQL, so
 T_gettext('querying node counts') . '</b><br><p>';
 
 echo T_gettext('As a waste-product the scripts create a file that contains the numer of nodes per square degree found in the planet file. Resolution is 0.1 degrees. You may download the file here:');
-echo " <a href='http://keepright.ipax.at/nodecount.txt.bz2'>http://keepright.ipax.at/nodecount.txt.bz2</a><br>";
+echo " <a href='https://keepright.at/nodecount.txt.bz2'>https://keepright.at/nodecount.txt.bz2</a><br>";
 
 echo T_gettext('This dump file can be useful for statistics if you want to calculate an `errors per node` measure') . "</p>
 

@@ -117,7 +117,7 @@ while ($row = mysqli_fetch_assoc($result)) {
 				$partner_objects='node' . implode(',node', $matches[0]);
 
 				$replacements['$1'] = preg_replace('/(\d{3,15})/',
-				"<a target='_blank' href='http://www.openstreetmap.org/browse/node/$1'>$1</a>",
+				"<a target='_blank' href='https://www.openstreetmap.org/browse/node/$1'>$1</a>",
 				$replacements['$1']);
 		break;
 
@@ -127,7 +127,7 @@ while ($row = mysqli_fetch_assoc($result)) {
 				$partner_objects='way' . implode(',way', $matches[0]);
 
 				$replacements['$1'] = preg_replace('/(\d{3,15})/',
-				"<a target='_blank' href='http://www.openstreetmap.org/browse/way/$1'>$1</a>",
+				"<a target='_blank' href='https://www.openstreetmap.org/browse/way/$1'>$1</a>",
 				$replacements['$1']);
 
 		break;
@@ -219,7 +219,7 @@ mysqli_close($db1);
 
 
 function hyperlink($object_type, $id) {
-	return "<a target='_blank' href='http://www.openstreetmap.org/browse/$object_type/$id'>$id</a>";
+	return "<a target='_blank' href='https://www.openstreetmap.org/browse/$object_type/$id'>$id</a>";
 }
 
 function translate($txt) {

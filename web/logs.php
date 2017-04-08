@@ -7,7 +7,7 @@
   </head>
   <body>
 <a href="/"><img border=0 src="keepright.png" alt="keep-right logo"></a>
-data consistency checks for <a href="http://www.openstreetmap.org">OSM</a><hr>
+data consistency checks for <a href="https://www.openstreetmap.org">OSM</a><hr>
 
 <h2>historic logs</h2>
 

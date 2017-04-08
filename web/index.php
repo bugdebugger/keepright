@@ -11,7 +11,7 @@ echo '<script type="text/javascript" src="keepright-min.js"></script></head><bod
 echo "<img src='keepright.png' alt='" . T_gettext('keep-right logo') . "'>";
 
 printf(T_gettext("data consistency checks for %sOSM%s"),
-"<a href='http://www.openstreetmap.org'>", "</a>");
+"<a href='https://www.openstreetmap.org'>", "</a>");
 
 echo '<form name="myform" method="get" action="' . $_SERVER['PHP_SELF'] . '">';
 echo '<div style="position:absolute; top:70px; right:10px;">'; language_selector(); echo '</div>';
@@ -45,7 +45,7 @@ printf(T_gettext('Data Checks for Asia%s (Starting point Tokio, Japan)'), "</a>"
 
 
 echo "<br><br>";
-printf(T_gettext("Developers have a look at the %sSourceForge%s site providing svn access to the sources."), "<a href='http://sourceforge.net/projects/keepright'>", '</a>');
+printf(T_gettext("Developers have a look at the %sSourceForge%s site providing svn access to the sources."), "<a href='https://sourceforge.net/projects/keepright'>", '</a>');
 echo "<br>";
 printf(T_gettext("If you want to export errors from KeepRight you will want to have a look at the %sinterfacing guide%s"), "<a href='interfacing.php'>", '</a>');
 

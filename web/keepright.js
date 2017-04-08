@@ -1,5 +1,5 @@
-// compress using http://marijnhaverbeke.nl//uglifyjs
-
+// compress using uglifyjs keepright.js -o keepright-min.js --comments /opyright\|start/
+// install uglify on ubuntu with sudo apt install node-uglify
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////
@@ -602,16 +602,16 @@ parseData: function(ajaxRequest) {
 			else
 				partner_objects=',' + partner_objects;
 
-			data['popupContentHTML'] ='<h5>'+error_name+', '+object_type+' <a href="http://www.openstreetmap.org/browse/'+object_type_EN+'/'+object_id+'" target="_blank">'+object_id+'</a></h5>'+
+			data['popupContentHTML'] ='<h5>'+error_name+', '+object_type+' <a href="https://www.openstreetmap.org/browse/'+object_type_EN+'/'+object_id+'" target="_blank">'+object_id+'</a></h5>'+
 			'<p class="p1">'+description+'</p>'+
 
 			'<p class="p2">'+txt4+' <a href="http://localhost:8111/load_and_zoom?left=' + (lon-0.001) + '&right=' + (lon-(-0.001)) + '&top=' + (lat-(-0.001)) + '&bottom=' + (lat-0.001) + '&select=' + object_type_EN + object_id + partner_objects +'&zoom_mode=download" target="hiddenIframe" title="'+txt6+'">'+txt5+'</a> ' +	
 
-			'<a href="http://www.openstreetmap.org/edit?lat=' + lat + '&lon=' + lon + '&zoom=18" target="_blank">'+txt7+'</a> ' +
+			'<a href="https://www.openstreetmap.org/edit?lat=' + lat + '&lon=' + lon + '&zoom=18" target="_blank">'+txt7+'</a> ' +
 
-			'<a href="http://www.openstreetmap.org/edit?editor=id&lat=' + lat + '&lon=' + lon + '&zoom=18&' +object_type_EN + '=' + object_id + '" target="_blank">'+txt16+'</a> ' +
+			'<a href="https://www.openstreetmap.org/edit?editor=id&lat=' + lat + '&lon=' + lon + '&zoom=18&' +object_type_EN + '=' + object_id + '" target="_blank">'+txt16+'</a> ' +
 
-			'<a href="http://level0.osmz.ru/?url=' + object_type_EN + '/' + object_id + '" target="_blank">Level0</a></p>' +
+			'<a href="https://level0.osmz.ru/?url=' + object_type_EN + '/' + object_id + '" target="_blank">Level0</a></p>' +
 
 			''+
 			'<form class="p3" name="errfrm_'+schema+'_'+error_id+'" target="hiddenIframe" method="get" action="comment.php">' +
@@ -627,7 +627,7 @@ parseData: function(ajaxRequest) {
 			'<input type="button" value="'+txt11+'" onClick="javascript:saveComment('+schema+', '+error_id+', '+error_type+');">' +
 			'<input type="button" value="'+txt12+'" onClick="javascript:closeBubble('+schema+', '+error_id+');">' +
 			'</form><small><br>'+txt13+'</span>' +
-			txt14 + '<a href="report_map.php?schema='+schema+'&error='+error_id+'">'+error_id+'</a><br>' + txt15 + ' ' + object_type + ': <a href="http://www.openstreetmap.org/user/' + user_name + '" target="_blank">' + user_name + '</a> ' + object_timestamp + '</small>';
+			txt14 + '<a href="report_map.php?schema='+schema+'&error='+error_id+'">'+error_id+'</a><br>' + txt15 + ' ' + object_type + ': <a href="https://www.openstreetmap.org/user/' + user_name + '" target="_blank">' + user_name + '</a> ' + object_timestamp + '</small>';
 		}
 
 
@@ -832,11 +832,11 @@ function init() {
 	} );
 
 	// add the mapnik layer
-	var layerMapnik = new OpenLayers.Layer.OSM.Mapnik("Mapnik", {'attribution': '&copy; <a href="http://www.openstreetmap.org">OpenStreetMap</a> contributors'});
+	var layerMapnik = new OpenLayers.Layer.OSM.Mapnik("Mapnik", {'attribution': '&copy; <a href="https://www.openstreetmap.org">OpenStreetMap</a> contributors'});
 	map.addLayer(layerMapnik);
 
 	// add the open cycle map layer
-	var layerCycle = new OpenLayers.Layer.OSM.CycleMap("OSM Cycle Map", {'attribution': '&copy; <a href="http://www.openstreetmap.org">OpenStreetMap</a> contributors'});
+	var layerCycle = new OpenLayers.Layer.OSM.CycleMap("OSM Cycle Map", {'attribution': '&copy; <a href="https://www.openstreetmap.org">OpenStreetMap</a> contributors'});
 	map.addLayer(layerCycle);
 
 	// add point markers layer. This is not the standard text layer but a derived version!
@@ -1006,7 +1006,7 @@ function updateLinks() {
 
 	// update edit-in-potlatch-link
 	var editierlink = document.getElementById('editierlink');
-	editierlink.href="http://www.openstreetmap.org/edit?lat=" + lonlat.lat + "&lon=" + lonlat.lon + "&zoom=" + map.getZoom();
+	editierlink.href="https://www.openstreetmap.org/edit?lat=" + lonlat.lat + "&lon=" + lonlat.lon + "&zoom=" + map.getZoom();
 
 
 	// update links for rss/gpx export
@@ -1302,12 +1302,12 @@ function outlineGetTopLevelLists()
 // tristate checkboxes
 ///////////////////////////////////////////////////////////////////////////////////////////
 
-/* 
+/* Copyright
  --- Tristate Checkbox ---
 v 0.9.2 19th Dec 2008
 By Shams Mahmood
 http://shamsmi.blogspot.com 
-
+*//*
 * Changed image URLS
 * added click_event parameter. This is a user defined
   function that is called as on-click handler on the tri state
@@ -1327,12 +1327,12 @@ var CHECKED_NORM = 'CHECKED_NORM';
 var CHECKED_HILI = 'CHECKED_HILI';
 
 var DEFAULT_CONFIG = {
-	UNCHECKED_NORM : 'http://keepright.ipax.at/img/unchecked.gif',
-	UNCHECKED_HILI : 'http://keepright.ipax.at/img/unchecked_highlighted.gif',
-	INTERMEDIATE_NORM : 'http://keepright.ipax.at/img/intermediate.gif',
-	INTERMEDIATE_HILI : 'http://keepright.ipax.at/img/intermediate_highlighted.gif',
-	CHECKED_NORM : 'http://keepright.ipax.at/img/checked.gif',
-	CHECKED_HILI : 'http://keepright.ipax.at/img/checked_highlighted.gif'
+	UNCHECKED_NORM : 'https://keepright.at/img/unchecked.gif',
+	UNCHECKED_HILI : 'https://keepright.at/img/unchecked_highlighted.gif',
+	INTERMEDIATE_NORM : 'https://keepright.at/img/intermediate.gif',
+	INTERMEDIATE_HILI : 'https://keepright.at/img/intermediate_highlighted.gif',
+	CHECKED_NORM : 'https://keepright.at/img/checked.gif',
+	CHECKED_HILI : 'https://keepright.at/img/checked_highlighted.gif'
 };
 
 function getNextStateFromValue(theValue) {

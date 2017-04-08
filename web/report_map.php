@@ -72,9 +72,10 @@ if ($cookie) $checks_to_hide = split(',', $cookie[3]); else $checks_to_hide=arra
 <!-- <link rel="alternate" type="application/rss+xml"
    title="RSS" href="export.php" /> -->
 
-<script type="text/javascript" src="http://www.openlayers.org/api/OpenLayers.js"></script>
+
+<script type="text/javascript" src="OpenLayers.js"></script>
 <script type="text/javascript" src="keepright-min.js"></script>
-<script type="text/javascript" src="http://www.openstreetmap.org/openlayers/OpenStreetMap.js"></script>
+<script type="text/javascript" src="OpenStreetMap.js"></script>
 <link rel="stylesheet" type="text/css" href="style.css">
 
 <script type="text/javascript">
@@ -197,7 +198,7 @@ echo "
 
 <input type='checkbox' id='show_tmpign' name='show_tmpign' value='1' onclick='javascript:checkbox_click();' " . ($show_tmpign ? 'checked="checked"' : '') . "><label for='show_tmpign'>" . T_gettext('show temp. ignored errors') . "</label><br>
 
-<a name='editierlink' id='editierlink' target='_blank' href='http://www.openstreetmap.org/edit?lat=" . $lat/1e7. "&lon=" . $lon/1e7 . "&zoom=$zoom'>" . T_gettext('Edit in Potlatch') . "</a>
+<a name='editierlink' id='editierlink' target='_blank' href='https://www.openstreetmap.org/edit?lat=" . $lat/1e7. "&lon=" . $lon/1e7 . "&zoom=$zoom'>" . T_gettext('Edit in Potlatch') . "</a>
 <a id='rsslink' href='export.php'>RSS</a> <a id='gpxlink' href='export.php'>GPX</a> <a id='geojsonlink' href='export.php'>GeoJson</a>
 
 
