@@ -251,7 +251,7 @@ function readHTTP($URL) {
 	$data='';
 	$URLparts = parse_url($URL);
 
-	$fp = fsockopen($URLparts['host'], 80, $errno, $errstr, $timeout);
+	$fp = fsockopen('tls://' . $URLparts['host'], 443, $errno, $errstr, $timeout);
 
 	if ($fp) {
 		fwrite($fp, "GET " . $URLparts['path'].'?'.$URLparts['query']. " HTTP/1.0\r\n");
