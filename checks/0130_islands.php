@@ -128,7 +128,7 @@ $islands = array(
 		'Addis Abeba, Ethiopia' => 8104263,
 		'Abijan, Ivory Coast' => 30605308,
 		'Mogadishu, Somalia' => 5069961,
-		'Doha, Qatar' => 26007437
+		'Doha, Qatar' => 87819718
 	),
 	'asia' => array(
 		'Kuala Lumpur, Malaysia' => 24405048,
@@ -270,7 +270,7 @@ $islands = array(
 		'Basseterre' => 24762738,
 		'All Saints' => 13511960,
 		'Baie Mahault' => 27266571,
-		'Roseau' => 23042676,
+		'Roseau' => 26296017,
 		'Dillon, Matinique' => 52035824,
 		'St. Lucia' => 25578440,
 		'Saint Vincent' => 25577931,
