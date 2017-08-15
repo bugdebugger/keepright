@@ -312,13 +312,16 @@ if (isset($argv) && $argc=2 && $argv[1]=='checkways') {
 
 }
 
-// helper function for checking if all starting ways still exist
+// helper function for checking if all starting ways still exist and all schemas have starting points
 function checkways() {
 	global $islands;
+	require_once('../config/schemas.php');
+	$points=array();
 
 	echo "checking starting ways for existence\n";
 	foreach ($islands as $island=>$ways) foreach ($ways as $dontcare=>$way) {
 
+		// query way data via API
 		$response = file_get_contents("http://www.openstreetmap.org/api/0.6/way/$way");
 
 		// you get http error "410: Gone" if the way doesn't exist any more
@@ -327,6 +330,28 @@ function checkways() {
 
 		// wait for 0.5 seconds
 		usleep(500000);
+
+		$xml = new SimpleXMLElement($response);
+
+		// query first-node data via API
+		$response = file_get_contents("http://www.openstreetmap.org/api/0.6/node/" . $xml->way[0]->nd[0]['ref']);
+		$xml = new SimpleXMLElement($response);
+		
+		$points[]=array('lat' => $xml->node[0]['lat'], 'lon' => $xml->node[0]['lon']);
+
+		// wait for 0.5 seconds
+		usleep(500000);
+	}
+
+	echo "checking if all schemas have at least one starting point\n";
+	foreach($schemas as $schema=>$s) {
+		foreach ($points as $dontcare=>$point) {
+
+			if ($point['lat']>=$s['bottom'] && $point['lat']<=$s['top'] && $point['lon']>=$s['left'] && $point['lon']>=$s['right'])
+				continue(2);
+
+		}
+		echo "schema without starting point: $schema\n";
 	}
 }
 
