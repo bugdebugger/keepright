@@ -538,12 +538,12 @@ $schemas['119']['bottom']=50;
 $schemas['119']['user']='B';
 
 $schemas['120']['left']=-120;
-$schemas['120']['right']=-80;
+$schemas['120']['right']=-90;
 $schemas['120']['top']=90;
 $schemas['120']['bottom']=50;
 $schemas['120']['user']='B';
 
-$schemas['121']['left']=-80;
+$schemas['121']['left']=-90;
 $schemas['121']['right']=-30;
 $schemas['121']['top']=90;
 $schemas['121']['bottom']=50;
@@ -603,19 +603,19 @@ $schemas['133']['top']=20;
 $schemas['133']['bottom']=-10;
 $schemas['133']['user']='B';
 
-$schemas['136']['left']=21;
-$schemas['136']['right']=29;
+$schemas['136']['left']=19.5;
+$schemas['136']['right']=22.5;
 $schemas['136']['top']=55;
 $schemas['136']['bottom']=49.3;
 $schemas['136']['user']='A';
 
-$schemas['137']['left']=29;
-$schemas['137']['right']=38;
+$schemas['137']['left']=22.5;
+$schemas['137']['right']=30;
 $schemas['137']['top']=55;
 $schemas['137']['bottom']=49.3;
 $schemas['137']['user']='A';
 
-$schemas['138']['left']=38;
+$schemas['138']['left']=30;
 $schemas['138']['right']=51.4;
 $schemas['138']['top']=55;
 $schemas['138']['bottom']=49.3;
@@ -624,22 +624,22 @@ $schemas['138']['user']='A';
 $schemas['139']['left']=14;
 $schemas['139']['right']=19;
 $schemas['139']['top']=49.3;
-$schemas['139']['bottom']=47.2;
+$schemas['139']['bottom']=48;
 $schemas['139']['user']='A';
 
 $schemas['140']['left']=14;
 $schemas['140']['right']=19;
-$schemas['140']['top']=47.2;
+$schemas['140']['top']=48;
 $schemas['140']['bottom']=45;
 $schemas['140']['user']='A';
 
 $schemas['141']['left']=-30;
-$schemas['141']['right']=-4.5;
+$schemas['141']['right']=-3;
 $schemas['141']['top']=45;
 $schemas['141']['bottom']=35;
 $schemas['141']['user']='A';
 
-$schemas['142']['left']=-4.5;
+$schemas['142']['left']=-3;
 $schemas['142']['right']=0;
 $schemas['142']['top']=45;
 $schemas['142']['bottom']=35;
@@ -694,7 +694,7 @@ $schemas['154']['bottom']=49.3;
 $schemas['154']['user']='A';
 
 $schemas['161']['left']=18;
-$schemas['161']['right']=21;
+$schemas['161']['right']=19.5;
 $schemas['161']['top']=55;
 $schemas['161']['bottom']=49.3;
 $schemas['161']['user']='A';
