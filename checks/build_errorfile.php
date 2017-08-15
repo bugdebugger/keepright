@@ -66,7 +66,7 @@ foreach ($ev_filenames as $ev_filename) {
 	echo "$ev_filename\n";
 	while(!feof($ev)) {
 		$ev_line=trim(fgets($ev));
-		list($ev_schema, $ev_error_id, $error_type, $error_name, $object_type, $object_id, $ev_state, $fo, $lc, $ot, $user_name, $lat, $lon, $msgid, $txt1, $txt2, $txt3, $txt4, $txt5) = split("\t", $ev_line);
+		@list($ev_schema, $ev_error_id, $error_type, $error_name, $object_type, $object_id, $ev_state, $fo, $lc, $ot, $user_name, $lat, $lon, $msgid, $txt1, $txt2, $txt3, $txt4, $txt5) = explode("\t", $ev_line);
 
 
 		while (!feof($co) && (
@@ -75,7 +75,7 @@ foreach ($ev_filenames as $ev_filename) {
 		)) {
 
 			$co_line = trim(fgets($co));
-			list($co_schema, $co_error_id, $co_state, $co_comment, $co_tstamp) = split("\t",  $co_line);
+			@list($co_schema, $co_error_id, $co_state, $co_comment, $co_tstamp) = explode("\t",  $co_line);
 		}
 
 		if (feof($co)) {
