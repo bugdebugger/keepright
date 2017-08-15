@@ -347,7 +347,7 @@ function checkways() {
 	foreach($schemas as $schema=>$s) {
 		foreach ($points as $dontcare=>$point) {
 
-			if ($point['lat']>=$s['bottom'] && $point['lat']<=$s['top'] && $point['lon']>=$s['left'] && $point['lon']>=$s['right'])
+			if ($point['lat']>=$s['bottom'] && $point['lat']<=$s['top'] && $point['lon']>=$s['left'] && $point['lon']<=$s['right'])
 				continue(2);
 
 		}
