@@ -229,15 +229,13 @@ function run_checks($schema, $checks_to_run=array()) {
 
 	// update last-checked timestamp for all errors that (still) exist
 	// set reopened-state for cleared errors that are now found in _tmp_errors again
-	// include schema in update in case of splitting a schema in smaller parts
-	// the schema column needs to be updated
 	query("
 		UPDATE public.errors AS e
-		SET schema='$schema', last_checked=te.last_checked,
+		SET last_checked=te.last_checked,
 		msgid=te.msgid, txt1=te.txt1, txt2=te.txt2, txt3=te.txt3, txt4=te.txt4, txt5=te.txt5,
 		state = CAST(CASE e.state WHEN 'cleared' THEN 'reopened' ELSE 'new' END AS type_error_state)
 		FROM _tmp_errors te
-		WHERE e.error_type=te.error_type AND e.object_type=te.object_type AND e.object_id=te.object_id AND e.lat IS NOT DISTINCT FROM te.lat AND e.lon IS NOT DISTINCT FROM te.lon
+		WHERE e.schema='$schema' AND e.error_type=te.error_type AND e.object_type=te.object_type AND e.object_id=te.object_id AND e.lat IS NOT DISTINCT FROM te.lat AND e.lon IS NOT DISTINCT FROM te.lon
 	", $db1);
 
 
@@ -260,7 +258,7 @@ function run_checks($schema, $checks_to_run=array()) {
 		SELECT '$schema', e.error_type, e.object_type, e.object_id,
 		CAST(CASE WHEN e.error_type BETWEEN 410 AND 419 THEN 'preliminary' ELSE 'new' END AS type_error_state),
 		e.last_checked, e.last_checked, e.lat, e.lon, e.msgid, e.txt1, e.txt2, e.txt3, e.txt4, e.txt5
-		FROM _tmp_errors AS e LEFT JOIN public.errors ON (e.error_type=errors.error_type AND e.object_type=errors.object_type AND e.object_id=errors.object_id AND e.lat IS NOT DISTINCT FROM errors.lat AND e.lon IS NOT DISTINCT FROM errors.lon)
+		FROM _tmp_errors AS e LEFT JOIN public.errors ON (errors.schema='$schema' AND e.error_type=errors.error_type AND e.object_type=errors.object_type AND e.object_id=errors.object_id AND e.lat IS NOT DISTINCT FROM errors.lat AND e.lon IS NOT DISTINCT FROM errors.lon)
 		WHERE public.errors.object_id IS NULL AND ($checks_executed)
 	", $db1);
 
