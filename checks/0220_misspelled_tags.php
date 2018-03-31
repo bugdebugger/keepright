@@ -80,7 +80,7 @@ $false_positives = array(
 	array('lane', 'line'),
 	array('lanes', 'lines'),
 	array('lawyer', 'layer'),
-	array('icn_ref', 'lcn_ref', 'lwn_ref', 'loc_ref', 'ncn_ref', 'nwn_ref', 'rcn_ref', 'rhn_ref', 'rwn_ref'),
+	array('icn_ref', 'lcn_ref', 'lwn_ref', 'loc_ref', 'ncn_ref', 'nwn_ref', 'rcn_ref', 'rhn_ref', 'rin_ref', 'rwn_ref'),
 	array('icn_name', 'lcn_name', 'lwn_name', 'loc_name', 'lock_name', 'ncn_name', 'nwn_name', 'rcn_name', 'rhn_name', 'rwn_name'),
 	array('j-bar', 't-bar'),
 	array('kebab', 'kebap'),
