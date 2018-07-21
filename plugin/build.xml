@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+KeepRight! Plugin for osmosis
+
+-->
+<project name="KeepRightPlugin" default="package">
+    <description>
+            Builds the Osmosis KeepRight plugin.
+    </description>
+
+	<path id="libs">
+		<fileset dir="libs" includes="**/*.jar"/>
+		<fileset dir="/home/haraldk/OSM/osmosis-0.46/lib/default" includes="**/*.jar"/>
+	</path>
+
+    <!-- ================================= 
+          target: build   
+         ================================= -->
+    <target name="build">
+		<!-- Create the build directories -->
+		<mkdir dir="build"/>
+		<mkdir dir="build/classes"/>
+    	
+		<!-- Compile stuff -->
+		<javac  destdir="build/classes" debuglevel="lines,vars,source" classpathref="libs">
+		    <src path="src"/>
+<!--
+		    <src path="../../trunk/core/src"/>
+		    <src path="../../trunk/areafilter/src"/>
+-->
+        </javac>
+    	
+		<!-- Copy all resource files (even if there aren't any... I'll get caught out later otherwise) -->
+		<copy todir="build/classes">
+			<fileset dir="src">
+				<exclude name="**/*.java"/>
+			</fileset>
+		</copy>
+    </target>
+
+	<target name="package" depends="build">
+		<mkdir dir="build/dist"/>
+		<jar
+			destfile="build/dist/pl.jar"
+			basedir="build/classes" />
+	</target>
+</project>
+
