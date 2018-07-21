@@ -71,6 +71,7 @@ function planet_update($schema, $mode='') {
 		chdir($planetDirectory);
 
 		$cmd='"' . $config['osmosis_bin'] . '"' .
+			' -p pl ' .
 			' --rri workingDirectory="' . $workingDirectory . '" ' .
 			' --simc ' .
 			' --rb "' . $planetfile . '" ' .
@@ -112,6 +113,7 @@ function planet_update($schema, $mode='') {
 		chdir($planetDirectory);
 
 		$cmd='"' . $config['osmosis_bin'] . '"' .
+			' -p pl ' .
 			' --rb "' . $planetfile . '" ' .
 			' --pl directory="' . $tmpdir . '"';
 
