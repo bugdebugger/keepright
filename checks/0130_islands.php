@@ -71,6 +71,7 @@ $islands = array(
 		'London, Great Britain' => 144718992,
 		'Sheffield, Great Britain' => 93168220,
 		'Inverness, Great Britain' => 26717646,
+		'Narsaq, Greenland' => 534873941,
 		'Budapest, Hungaria' => 34923072,
 		'Reykjavik, Iceland' => 22529614,
 		'Roma, Italy' => 28604181,
