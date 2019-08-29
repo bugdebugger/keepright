@@ -8,23 +8,24 @@ msgstr ""
 "Project-Id-Version: keepright\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2010-05-08 18:12+0200\n"
-"PO-Revision-Date: 2013-09-19 10:58+0000\n"
-"Last-Translator: Tomasz Świątkowski <tomasz.kutno@gmail.com>\n"
+"PO-Revision-Date: 2019-02-16 13:56+0000\n"
+"Last-Translator: srflp <Unknown>\n"
 "Language-Team: Polish <pl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-04-04 19:48+0000\n"
-"X-Generator: Launchpad (build 16976)\n"
+"X-Launchpad-Export-Date: 2019-02-17 04:37+0000\n"
+"X-Generator: Launchpad (build 18878)\n"
 
 msgid "There is more than one node in this spot. Offending node IDs: $1"
-msgstr "Występuje więcej niż jeden węzeł w tym miejscu. Id węzłów: $1"
+msgstr "W tym miejscu występuje więcej niż jeden węzeł. Id węzłów: $1"
 
 msgid "This coastline-way is not part of a closed-loop"
-msgstr ""
+msgstr "Ta linia brzegowa (coastline) nie jest linią zamkniętą"
 
 msgid "This way is tagged with '$1=$2' and should be closed-loop."
 msgstr ""
+"Ta linia jest otagowana jako '$1=$2', więc powinna być zamkniętą linią."
 
 msgid ""
 "The first node (id $1) of this one-way is not connected to any other way"
@@ -41,9 +42,13 @@ msgstr ""
 msgid ""
 "This node cannot be reached, because one-ways only lead away from here"
 msgstr ""
+"Nie można dotrzeć do tego węzła, ponieważ wychodzą z niego same drogi "
+"jednokierunkowe"
 
 msgid "You cannot escape from this node, because one-ways only lead to here"
 msgstr ""
+"Nie można wyjść z tego węzła, ponieważ prowadzą do niego same drogi "
+"jednokierunkowe"
 
 msgid "This node is very close but not connected to way #$1"
 msgstr "Ten węzeł jest bardzo blisko  ale nie jest połączony z drogą #$1"
@@ -65,18 +70,19 @@ msgstr "Ta droga nie ma tagów"
 
 msgid "This node is not member of any way and does not have any tags"
 msgstr ""
-"Ten węzeł nie jest powiązany z czymkolwiek i nie posiada żadnych tagów"
+"Ten węzeł nie jest członkiem żadnej linii i nie posiada żadnych tagów"
 
 msgid ""
 "This way is tagged as motorway and therefore needs a ref, nat_ref or int_ref "
 "tag"
 msgstr ""
-"Ta droga jest otagowana jako motorway i dlatego wymaga tagu ref, nat_ref lub "
-"int_ref"
+"Ta linia jest otagowana jako autostrada, więc potrzebuje tagu ref, nat_ref "
+"lub int_ref"
 
 msgid ""
 "This $1 is tagged as place of worship and therefore needs a religion tag"
 msgstr ""
+"Ten/ta $1 jest otagowana jako miejsce kultu, więc potrzebuje tagu 'religion'"
 
 msgid "This node is tagged as $1 and therefore needs a name tag"
 msgstr ""
@@ -95,21 +101,24 @@ msgid "This way has just one single node"
 msgstr "Ta droga posiada pojedyńczy węzeł"
 
 msgid "This way is not connected to the rest of the map"
-msgstr "Ta droga nie jest połączna z resztą mapy"
+msgstr "Ta linia nie jest połączona z resztą mapy"
 
 msgid ""
 "This crossing of a highway and a railway needs to be tagged as "
 "railway=crossing or railway=level_crossing"
 msgstr ""
+"To skrzyżowanie drogi z torowiskiem powinno być otagowane jako "
+"railway=crossing lub railway=level_crossing"
 
 msgid ""
 "There are ways in different layers coming together in this railway crossing"
-msgstr ""
+msgstr "Na tym skrzyżowaniu kolejowym łączą się drogi z różnych warstw"
 
 msgid ""
 "There are ways tagged as tunnel or bridge coming together in this railway "
 "crossing"
 msgstr ""
+"Na tym skrzyżowaniu kolejowym łączą się drogi otagowane jako tunel lub most"
 
 #. full mesage: "This way is fixme-tagged: fixme=yes"
 msgid "This $1 is fixme-tagged: $2"
@@ -120,169 +129,212 @@ msgstr "Ta relacja nie posiada tagu type, który jest obowiązkowy dla relacji"
 
 #. full message: "This highway intersects the waterway #17..."
 msgid "This $1 intersects the $2 #$3 but there is no junction node"
-msgstr ""
+msgstr "Ten $1 przecina $2 #$3 lecz nie posiadają węzła na przecięciu"
 
 #. full message: "This highway intersects the waterway #17"
 msgid "This $1 intersects the $2 #$3"
-msgstr ""
+msgstr "Ten $1 przecina $2 #$3"
 
 #. full message: "This highway overlaps the waterway #17..."
 msgid "This $1 overlaps the $2 #$3"
-msgstr ""
+msgstr "Ta $1 pokrywa się z $2 #$3"
 
 msgid "This way contains node #$1 $2 times. This may or may not be an error"
 msgstr ""
+"Ta linia zawiera w sobie węzeł #$1 $2 razy. To może, ale nie musi być błędem"
 
 msgid ""
 "This way contains more than one node at least twice. Nodes are $1. This may "
 "or may not be an error"
 msgstr ""
+"Ta linia zawiera w sobie więcej niż jeden węzeł conajmniej dwukrotnie. To "
+"może, ale nie musi być błędem"
 
 msgid ""
 "This way has only two different nodes and contains one of them more than once"
 msgstr ""
+"Ta linia składa się tylko z dwóch różnych węzłów i jeden z nich zawiera w "
+"sobie więcej niż jeden raz"
 
 msgid "The key of this node's tag is 'key': $2"
-msgstr ""
+msgstr "Kluczem tagu tego węzła jest 'klucz':  $2"
 
 msgid "The key of this way's tag is 'key': $2"
-msgstr ""
+msgstr "Kluczem tagu tej linii jest 'klucz':  $2"
 
 msgid "The key of this relation's tag is 'key': $2"
-msgstr ""
+msgstr "Kluczem tagu tej relacji jest 'klucz':  $2"
 
 #. full mesage: "This way is tagged 'name=Autria' where Autria looks like Austria"
 msgid "This $1 is tagged '$2=$3' where $4 looks like $5"
-msgstr ""
+msgstr "Ten/ta $1 jest otagowany/a jako '$2=$3' gdzie $4 wygląda jak $5"
 
 #. full message: "This node is a junction of ways on different layers: 30387892(0),#30388524(-1)"
 msgid "This node is a junction of ways on different layers: $1"
-msgstr ""
+msgstr "Ten węzeł jest skrzyżowaniem dróg na różnych warstwach:"
 
 msgid ""
 "If this mini roundabout is in a country with left-hand traffic then it "
 "should have a tag 'direction=clockwise'"
 msgstr ""
+"Jeśli to mini-rondo znajduje się w kraju z ruchem lewostronnym to powinno "
+"mieć ono tag 'direction=clockwise'"
 
 msgid ""
 "If this mini roundabout is in a country with right-hand traffic then it "
 "should not have a tag 'direction=clockwise'"
 msgstr ""
+"Jeśli to mini-rondo znajduje się w kraju z ruchem prawostronnym to nie "
+"powinno mieć ono tagu 'direction=clockwise'"
 
 msgid ""
 "This $1 is tagged with layer $2. This need not be an error, but it looks "
 "strange"
 msgstr ""
+"Ten/ta $1 jest otagowany/a warstwą $2. To niekoniecznie musi być błąd, ale "
+"wygląda dziwnie"
 
 msgid ""
 "This node is a junction of a motorway and a highway other than motorway, "
 "motorway_link, trunk, rest_area or construction. Service or unclassified is "
 "only valid if it has access=no/private or if it is a service=parking_aisle."
 msgstr ""
+"Ten węzeł jest skrzyżowaniem drogi motorway i drogi innej niż motorway, "
+"motorway_link, trunk, rest_area lub construction. Drogi service lub "
+"unclassified są poprawne w tym przypadku jedynie kiedy posiadają tag "
+"access=no/private lub service=parking_aisle."
 
 msgid "This boundary has no name"
-msgstr ""
+msgstr "Ta granica nie ma nazwy"
 
 msgid "The boundary of $1 has no admin_level"
 msgstr ""
+"Granica $1 nie ma przypisanego poziomu administracyjnego (admin_level'u)"
 
 msgid ""
 "The boundary of $1 has no valid numeric admin_level. Please do not use admin "
 "levels like for example 6;7. Always tag the lowest admin_level of all "
 "boundaries."
 msgstr ""
+"Granica $1 nie posiada przypisanego poprawnego liczbowego poziomu "
+"administracyjnego (admin_level'u). Nie używaj dla poziomów administracyjnych "
+"takich wartości jak 6;7. Zawsze taguj najniższą wartością poziomu "
+"administracyjnego wszystkich granic."
 
 msgid "The boundary of $1 is not closed-loop"
-msgstr ""
+msgstr "Granica $1 nie jest linią zamkniętą"
 
 msgid "The boundary of $1 splits here"
-msgstr ""
+msgstr "Granica $1 jest w tym miejscu przerwana"
 
 msgid ""
 "This boundary-way has admin_level $1 but belongs to a relation with lower "
 "admin_level (higher priority); it should have the lowest admin_level of all "
 "relations"
 msgstr ""
+"Ta linia granicy ma poziom administracyjny (admin_level) $1, lecz należy do "
+"relacji z niższym poziomem administracyjnym (wyższym priorytetem). Linia "
+"powinna mieć najniższy poziom administracyjny ze wszystkich relacji."
 
 msgid "This turn-restriction has no restriction type"
-msgstr ""
+msgstr "To ograniczenie skrętu nie ma tagu z typem ograniczenia"
 
 msgid "This turn-restriction has no known restriction type"
-msgstr ""
+msgstr "To ograniczenie skrętu posiada nieznany typ ograniczenia"
 
 msgid "A turn-restriction needs exactly one $1 member. This one has $2"
-msgstr ""
+msgstr "Ograniczenie skrętu musi mieć dokładnie $1 członków. To ma $2"
 
 msgid "From- and To-members of turn restrictions need to be ways. $1"
-msgstr ""
+msgstr "Członkowie 'od' i 'do' ograniczenia skrętu muszą być liniami. $1"
 
 msgid ""
 "from- via- and to- members of a turn resctriction need to be connected"
 msgstr ""
+"Członkowie 'od', 'przez' i 'do' ograniczenia skrętu muszą być połączone"
 
 msgid "via (node #$1) is not the first or the last member of from (way #$2)"
 msgstr ""
+"'przez' (węzeł #$1) nie jest pierwszym lub ostatnim członkiem od 'od' (linia "
+"#$2)"
 
 msgid "via (node #$1) is not the first or the last member of to (way #$2)"
 msgstr ""
+"'przez' (węzeł #$1) nie jest pierwszym lub ostatnim członkiem od 'do' (linia "
+"#$2)"
 
 msgid ""
 "restriction type is $1, but angle is $2 degrees. Maybe the restriction type "
 "is not appropriate?"
 msgstr ""
+"typem ograniczenia jest $1, lecz kąt wynosi $2 stopni. Może typ ograniczenia "
+"jest nieodpowiedni?"
 
 msgid "wrong direction of to way $1"
-msgstr ""
+msgstr "zły kierunek linii 'do' $1"
 
 msgid "entry already prohibited by oneway tag on $1"
-msgstr ""
+msgstr "wjazd jest już zabroniony przez tag 'oneway' na $1"
 
 msgid "missing maxspeed tag"
-msgstr ""
+msgstr "brakujący tag 'maxspeed'"
 
 msgid ""
 "This way is part of a roundabout but is not closed-loop. (split carriageways "
 "approaching a roundabout should not be tagged as roundabout)"
 msgstr ""
+"Ta linia jest częścią ronda ale nie jest linią zamkniętą. (podzielone linie "
+"dojazdowe prowadzące do ronda nie powinny być otagowane jako ronda)"
 
 msgid ""
 "If this roundabout is in a country with right-hand traffic then its "
 "orientation goes the wrong way around"
 msgstr ""
+"Jeśli to rondo znajduje się w kraju z ruchem prawostronnym, to orientacja "
+"tego ronda jest zwrócona w złą stronę"
 
 msgid ""
 "If this roundabout is in a country with left-hand traffic then its "
 "orientation goes the wrong way around"
 msgstr ""
+"Jeśli to rondo znajduje się w kraju z ruchem lewostronnym, to orientacja "
+"tego ronda jest zwrócona w złą stronę"
 
 msgid ""
 "This way is tagged as highway=$1_link but doesn't have a connection to any "
 "other $1 or $1_link"
 msgstr ""
+"Ta linia jest otagowana jako highway=$1_link ale nie łączy się z żadnymi "
+"innymi $1 lub $1_link"
 
 msgid ""
 "This bridge does not have a tag in common with its surrounding ways that "
 "shows the purpose of this bridge. There should be one of these tags: $1"
 msgstr ""
+"Ten most nie posiada żadnego tagu wspólnego z otaczającymi liniami, które "
+"pokazywałoby przeznaczenie tego mostu. To powinien być jeden z tych tagów: $1"
 
 msgid "The URL ($1) cannot be opened (HTTP status code $2)"
-msgstr ""
+msgstr "Adres ($1) nie może zostać otwarty (kod statusu HTTP: $2)"
 
 msgid "Possible domain squatting: $1. Suspicious text is: \"$2\""
 msgstr ""
+"Możliwe, że domena została przejęta: $1. Podejrzanym tekstem jest: \"$2\""
 
 msgid "Content of the URL ($1) did not contain these keywords: ($2)"
-msgstr ""
+msgstr "Zawartość adresu ($1) nie zawierała tych słów kluczowych: ($2)"
 
 #. translations for error type names
 #. please keep this as short as possible
 msgid "multiple nodes on the same spot"
-msgstr ""
+msgstr "wiele węzłów w tym samym miejscu"
 
 msgid ""
 "Try to find nodes that are (almost) on the same spot. Distances less than +/-"
 "0.5 meters are considered zero"
 msgstr ""
+"Spróbuj znaleźć węzły które są (lub prawie są) w tym samym miejscu. Dystansy "
+"mniejsze niż ok. pół metra są traktowane jak zero"
 
 #. please keep this as short as possible
 msgid "non-closed areas"
@@ -295,6 +347,11 @@ msgid ""
 "map! The standard.xml file is used to determine which key-value-combinations "
 "are drawn as areas; any instance of these has to be closed-loop."
 msgstr ""
+"Umownie linie tagowane specjalnymi kombinacjami par klucz-wartość są "
+"uznawane za obszary i są renderowane jako obszary na mapie. Jednak muszą to "
+"być linie zamknięte. Linie niezamknięte nie są widzialne na mapie! Aby "
+"określić które pary klucz-wartość są renderowane jako obszary, używany jest "
+"plik standard.xml. (i żeby były renderowane, muszą być linią zamkniętą!)"
 
 #. please keep this as short as possible
 msgid "dead-ended one-ways"
@@ -306,6 +363,11 @@ msgid ""
 "end) cannot be reached (escaped from). Please note that motorways and "
 "motorway_links are considered one-way implicitly, so this check applies."
 msgstr ""
+"Ulice otagowane jako jednokierunkowe nie mogą się nagle kończyć (gdzie mają "
+"się wszystkie auta zbierać na końcu ulicy?). Węzły gdzie ulica "
+"jednokierunkowa się zaczyna (lub kończy) są nie do osiągnięcia (lub nie do "
+"opuszczenia). Miej przy uwadze, że autostrady i łączniki autostrad są "
+"domyślnie traktowane jako jednokierunkowe, więc to się do nich też zalicza."
 
 #. please keep this as short as possible
 msgid "almost-junctions"
@@ -316,6 +378,10 @@ msgid ""
 "an end-node is very close to any other way an error is reported. Unconnected "
 "end-nodes should probably be connected to adjacent ways."
 msgstr ""
+"Tutaj są rozważane ulice które mają (przynajmniej) jeden niepodłączony "
+"koniec. Jeśli taki końcowy węzeł jest bardzo blisko innej drogi, zgłaszany "
+"jest błąd. Niepodłączone końcowe węzły powinny być raczej w większości "
+"przypadków podłączone do sąsiednich dróg."
 
 #. please keep this as short as possible
 msgid "deprecated tags"
@@ -328,15 +394,23 @@ msgid ""
 "free to tag anything the way you like. This is just a hint for new tagging "
 "conventions that have evolved in the meantime."
 msgstr ""
+"Jak pokazano na https://wiki.openstreetmap.org/wiki/Pl:Deprecated_features "
+"niektóre tagi są zastępowane przez inne wraz z rozwojem nowych konwencji. "
+"Potraktuj to jako uwagę, nie jako błąd. Termin 'deprecated'(przestarzały) "
+"sam w sobie jest przestarzały; masz dowolność tagować wszystko tak, jak "
+"chcesz. To tylko podpowiedź do korzystania z nowych konwencji tagowania "
+"które wyewoluowały w międzyczasie."
 
 #. please keep this as short as possible
 msgid "missing tags"
-msgstr "brak znaczników"
+msgstr "brakujące znaczniki"
 
 msgid ""
 "Ways, nodes and relations should in most cases have at least one tag "
 "(besides created_by)"
 msgstr ""
+"Linie, węzły i relacje powinny w większości przypadków posiadać przynajmniej "
+"jeden tag (nie wliczając tagu created_by)"
 
 #. please keep this as short as possible
 msgid "motorways without ref"
@@ -346,6 +420,8 @@ msgid ""
 "The ref-tag documents the reference (e.g. 'A 10') for motorways. These are "
 "mandatory as they are very important information"
 msgstr ""
+"Tag 'ref' dokumentuje numer/kod referencyjny (np. 'A2') dla autostrad . Są "
+"one obowiązkowe jako że są bardzo ważną informacją"
 
 #. please keep this as short as possible
 msgid "places of worship without religion"
@@ -355,6 +431,8 @@ msgid ""
 "Churches, mosques and synagogues etc. need an extra religion tag giving info "
 "about the religion"
 msgstr ""
+"Kościoły, meczety, synagogi itd. potrzebują dodatkowy tag 'religion' "
+"informujący o religii"
 
 #. please keep this as short as possible
 msgid "point of interest without name"
@@ -364,6 +442,8 @@ msgid ""
 "The name tag should be specified for every point of interest as its content "
 "gets rendered in the map next to the POI symbol"
 msgstr ""
+"Tag 'name' powinien być określony dla każdego punktu zainteresowania (point "
+"of interest) jako że jego zawartość renderuje się na mapie obok symbolu POI."
 
 #. please keep this as short as possible
 msgid "ways without nodes"
@@ -373,6 +453,8 @@ msgid ""
 "Ways that don't consist of at least two nodes don't make much sense as they "
 "won't get rendered."
 msgstr ""
+"Linie, które nie składają się z conajmniej dwóch węzłów, nie mają zbytnio "
+"sensu, ponieważ nie zostaną wyrenderowane."
 
 #. please keep this as short as possible
 msgid "floating islands"
@@ -384,6 +466,10 @@ msgid ""
 "this check, so almost any island in the sea should be reachable starting "
 "from the mainland."
 msgstr ""
+"Jakiekolwiek drogi narysowane na mapie powinny być dostępne samochodem, "
+"startując z dowolnego miejsca na ziemi. Promy i drogi (a nawet perony "
+"kolejowe) włączają się do tego testu, więc prawie każda wyspa na morzu "
+"powinna być osiągalna wyruszając z lądu"
 
 #. please keep this as short as possible
 msgid "railway crossings without tag"
@@ -395,6 +481,10 @@ msgid ""
 "where larger vehicles can cross or with 'railway=crossing' if it is a "
 "crossing just for pedestrians"
 msgstr ""
+"Przejazdy kolejowe/skrzyżowania torów i dróg powinny mieć wspólny węzeł jako "
+"skrzyżowanie, które jest otagowane tagiem 'railway=level_crossing' jeśli "
+"jest to skrzyżowanie, które może być pokonywane przez większe pojazdy lub "
+"'railway=crossing' jeśli jest to jedynie skrzyżowanie dla pieszych."
 
 #. please keep this as short as possible
 msgid "wrongly used railway crossing tag"
@@ -405,6 +495,9 @@ msgid ""
 "on the same layer and should in the normal case be not tagged as bridge or "
 "tunnel"
 msgstr ""
+"Linie które biorą udział w przejazdach kolejowych (tory i drogi) muszą być "
+"na tej samej warstwie i nie powinny być w normalnym przypadku otagowane jako "
+"most lub tunel."
 
 #. please keep this as short as possible
 msgid "fixme-tagged items"
@@ -413,6 +506,8 @@ msgstr "oznakowane jako fixme"
 msgid ""
 "Nodes, ways or relations that are tagged with FIXME should be reviewed..."
 msgstr ""
+"Węzły, linie lub relacje które są otagowane tagiem FIXME powinny zostać "
+"przejrzane…"
 
 #. please keep this as short as possible
 msgid "relations without type"
@@ -421,6 +516,8 @@ msgstr "relacja bez rodzaju"
 msgid ""
 "Find any relation that has no type tag, wich is mandatory for relations."
 msgstr ""
+"Znajdź relacje które nie mają tagu 'type', który jest obowiązkowy dla "
+"relacji."
 
 #. please keep this as short as possible
 msgid "intersections without junctions"
@@ -432,6 +529,10 @@ msgid ""
 "bridges or tunnels). Intersections of streets with other objects like "
 "waterways or riverbanks should be avoided"
 msgstr ""
+"Ulice które graficznie przecinają się potrzebują wspólnego węzła który "
+"reprezentuje skrzyżowanie. Jedynym wyjątkiem są przecięcia na różnych "
+"warstwach (np. mosty lub tunele). Przecięcia ulic z innymi obiektami, jak "
+"np. drogi wodne czy brzegi rzek, powinny być unikane."
 
 #. please keep this as short as possible
 msgid "highway-highway"
@@ -474,6 +575,10 @@ msgid ""
 "different ways in the same order) are a problem for routing software. They "
 "happen accidently and are hard to find."
 msgstr ""
+"Fragmenty linii które leżą na sobie (te same węzły połączone przez różne "
+"linie w tej samej kolejności) są problemem dla oprogramowania wyznaczającego "
+"trasy. Takie linie tworzy się niekiedy przez przypadek i są trudne do "
+"znalezienia."
 
 #. please keep this as short as possible
 msgid "loopings"
@@ -484,6 +589,10 @@ msgid ""
 "error. Any way may contain just one node twice. If more than one node is "
 "found twice it is considered an error."
 msgstr ""
+"Dowolna linia zawierająca jakikolwiek węzeł więcej niż dwa razy jest "
+"traktowana jako błąd. Dowolna linia może zawierać tylko jeden węzeł dwa "
+"razy. Jeśli więcej niż jeden węzeł jest znaleziony podwójnie, jest to "
+"traktowane jako błąd."
 
 #. please keep this as short as possible
 msgid "misspelled tags"
@@ -493,6 +602,8 @@ msgid ""
 "Tags that are used very seldom and almost look like very common tags (only "
 "one character difference) are reported as a warning."
 msgstr ""
+"Tagi które są używane bardzo rzadko i wyglądają prawie jak bardzo popularne "
+"tagi (jeden lub dwa znaki różnicy) są zgłaszane jako ostrzeżenie."
 
 #. please keep this as short as possible
 msgid "layer conflicts"
@@ -506,6 +617,13 @@ msgid ""
 "note that bridges are set to layer +1, and tunnels to -1, anything else to "
 "layer 0 implicitly if no layer tag is present."
 msgstr ""
+"Połączone linie powinny znajdować się na tej samej warstwie. Skrzyżowania na "
+"węzłach łączących linie na dwóch różnych poziomach są oczywiście "
+"niepoprawne. Skrzyżowania na węzłach końcowych linii na różnych warstwach są "
+"więc przestarzałe, jednak jest to powszechna praktyka. Więc możesz "
+"zignorować tę część sprawdzania i wyłączyć ją osobno. Miej na uwadze, że "
+"jeśli tag 'layer' nie jest obecny, to mosty dostają domyślnie poziom +1, "
+"tunele -1, a cała reszta 0."
 
 #. please keep this as short as possible
 msgid "mixed layers intersections"
@@ -526,6 +644,12 @@ msgid ""
 "positives on motorways ending in cities but it can be a valuable tool for "
 "looking up unwanted connections of motorways and other roads."
 msgstr ""
+"Autostrady powinny być łączone jedynie z innymi autostradami lub "
+"wjazdami/zjazdami z autostrady (motorway_link). Nie powinny zwłaszcza łączyć "
+"się bezpośrednio z drogami highway=primary lub highway=residential. Należy "
+"pamiętać, że to sprawdzenie może produkować dużo fałszywych alarmów na "
+"autostradach kończących się w miastach ale może być wartościowym narzędziem "
+"do znajdowania niechcianych połączeń autostrad z innymi drogami."
 
 #. please keep this as short as possible
 msgid "boundaries"
@@ -537,14 +661,18 @@ msgid ""
 "they must not self-intersect or split and they must have a name and an "
 "admin_level."
 msgstr ""
+"Granice administracyjne mogą być wyrażane albo poprzez tagowanie linii albo "
+"dodawanie ich do relacji. Powinny być one zamkniętymi sekwencjami linii, nie "
+"mogą się przecinać ani przerywać i muszą posiadać nazwę i poziom "
+"administracyjny (admin_level)"
 
 #. please keep this as short as possible
 msgid "missing name"
-msgstr "brak nazwy"
+msgstr "brakująca nazwa"
 
 #. please keep this as short as possible
 msgid "missing admin_level"
-msgstr "brak poziomu adm."
+msgstr "brakujący admin_level (poziom adm.)"
 
 #. please keep this as short as possible
 msgid "not closed loop"
@@ -568,22 +696,26 @@ msgid ""
 "another way as 'to' member and optionally one or more ways or nodes as via "
 "members that need to be connected to 'from' and 'to'"
 msgstr ""
+"To sprawdzenie dotyczy ograniczeń skrętu zdefiniowanych relacjami. Relacja "
+"ograniczenia skrętu wymaga poprawnego atrybutu typu, drogi jako członka "
+"'od', drogi jako członka 'do' i opcjonalnie jedną lub więcej linii lub "
+"węzłów jako członkowie 'przez' którzy muszą być połączeni do 'od' i 'do'."
 
 #. please keep this as short as possible
 msgid "missing type"
-msgstr "brak rodzaju"
+msgstr "brakujący typ"
 
 #. please keep this as short as possible
 msgid "missing from way"
-msgstr ""
+msgstr "brakująca droga 'od'"
 
 #. please keep this as short as possible
 msgid "missing to way"
-msgstr ""
+msgstr "brakująca droga 'do'"
 
 #. please keep this as short as possible
 msgid "missing maxspeed"
-msgstr "brak prędkości max."
+msgstr "brak tagu maxspeed"
 
 msgid ""
 "maxspeed tags are not mandatory but they are very helpful for successful "
@@ -591,6 +723,11 @@ msgid ""
 "tag. Please only add maxspeed tags if the allowed maxspeed differs from the "
 "default speed for the given highway!"
 msgstr ""
+"Tagi maxspeed nie są wymagane, ale są bardzo przydatne do udanego "
+"wyznaczania trasy. To sprawdzenie powinno pomóc użytkownikom znajdować "
+"brakujące tagi maxspeed. Jednak tagi maxspeed dodawaj tylko wtedy, jeżeli "
+"maksymalna prędkość różni się od domyślnej dopuszczanej prędkości dla danego "
+"typu drogi."
 
 #. please keep this as short as possible
 msgid "roundabouts"
@@ -600,6 +737,9 @@ msgid ""
 "roundabout are always one-way streets directed counter-clockwise in right-"
 "hand driving countries or clockwise in left-hand driving countries."
 msgstr ""
+"ronda są zawsze jednokierunkowymi ulicami skierowanymi w kierunku przeciwnym "
+"do ruchu wskazówek zegara w krajach o ruchu prawostronnym i w kierunku "
+"zgodnym z ruchem wskazówek zegara w krajach o ruchu lewostronnym."
 
 #. please keep this as short as possible
 msgid "wrong direction"
@@ -618,6 +758,10 @@ msgid ""
 "least one connection to a (motorway|trunk|primary|secondary) highway or a "
 "_link highway of the same type"
 msgstr ""
+"Jakiekolwiek drogi otagowane jako łączniki "
+"([motorway|trunk|primary|secondary]_link) powinny mieć przynajmniej jedno "
+"przyłączenie do drogi (motorway|trunk|primary|secondary) lub łącznika tego "
+"samego typu"
 
 #. please keep this as short as possible
 msgid "bridge-tags"
@@ -629,6 +773,10 @@ msgid ""
 "Currently these are: highway, railway, cycleway, waterway, footway, piste, "
 "aerialway, pipeline, building, via_ferrata"
 msgstr ""
+"Ktoś mapuje most i zapomina otagować go jako drogę... Most powinien zawsze "
+"posiadać jeden z najważniejszych tagów które posiadają jego bezpośredni "
+"sąsiedzi. W chwili obecnej są to: highway, railway, cycleway, waterway, "
+"footway, piste, aerialway, pipeline, building, via_ferrata"
 
 #. please keep this as short as possible
 msgid "language unknown"
@@ -640,140 +788,178 @@ msgid ""
 "name:XX tag with the same content as found in the name tag where XX "
 "specifies the language used for the name tag."
 msgstr ""
+"Aby pomóc aplikacjom wybrać najlepiej pasujący język, powinny one znać język "
+"użyty dla tagu 'name'. Niezbędne jest zatem dostarczenie tagowi 'name:XX' "
+"tej samej zawartości jak dla tagu 'name', jednak w języku oznaczonym znakami "
+"w miejscu 'XX'."
 
 #. full message: "It would be nice if this node had an additional tag 'name:XX=Austria' where XX shows the language of its name 'Austria'."
 msgid ""
 "It would be nice if this $1 had an additional tag ''name:XX=$2'' where XX "
 "shows the language of its name ''$2''."
 msgstr ""
+"Byłoby miło jeśli ten/ta $1 miał/a dodatkowy tag ''name:XX=$2'' gdzie XX "
+"jest językiem tej nazwy ''$2''."
 
 #. this is about points of interest drawn inside a building of the same name
 #. please keep this as short as possible
 msgid "doubled places"
-msgstr ""
+msgstr "powielone miejsca"
 
 msgid ""
 "a node inside of an area that is tagged with same name and representing the "
 "same physical entity leads to wrong statistics and doubled labels on the map"
 msgstr ""
+"węzeł wewnątrz obszaru który jest otagowany tą samą nazwą i reprezentuje ten "
+"sam fizyczny obiekt jest powodem do powstawania błędnych statystyk i "
+"podwojonych podpisów na mapach"
 
 msgid ""
 "This node has tags in common with the surrounding way #$1 and seems to be "
 "redundand"
 msgstr ""
+"Ten węzeł ma podobne tagi do otaczającej go linii #$1 i wydaje się być "
+"niepotrzebny"
 
 msgid ""
 "This node has tags in common with the surrounding way #$1 (including the "
 "name '$2') and seems to be redundand"
 msgstr ""
+"Ten węzeł ma podobne tagi do otaczającej go linii #$1 (wliczając w to nazwę "
+"'$2') i wydaje się być niepotrzebny"
 
 #. please keep this as short as possible
 msgid "non-physical use of sport-tag"
-msgstr ""
+msgstr "niefizyczne użycie tagu 'sport'"
 
 msgid ""
 "&apos;sports&apos; is a non-physical tag that needs to be bound to some "
 "physical structure like for example a leisure-item or an amenity. Ways "
 "tagged with &apos;sports&apos; solely will be invisible on the map"
 msgstr ""
+"&apos;sport&apos; jest niefizycznym tagiem który musi być używany w "
+"połączeniu z fizycznymi tagami takimi jak np. leisure lub amenity. Linie "
+"otagowane jedynie tagiem &apos;sport&apos; będą niewidoczne na mapie"
 
 #. full message: "This way is tagged sport=tennis but has no physical tag like e.g. leisure, building, amenity or highway"
 msgid ""
 "This way is tagged $1 but has no physical tag like e.g. leisure, building, "
 "amenity or highway"
 msgstr ""
+"Ta linia posiada tag $1 ale nie ma żadnego fizycznego tagu takiego jak np. "
+"leisure, building, amenity lub highway"
 
 #. please keep this as short as possible
 msgid "missing tracktype"
-msgstr ""
+msgstr "brakujący tracktype"
 
 msgid ""
 "highway=track ways should be added with more detail about the tracktype "
 "(grade1..grade5). The tracktype is included in rendering rules and makes "
 "maps more expressive"
 msgstr ""
+"Linie highway=track powinny być otagowane tagiem tracktype (stopniem "
+"utwardzenia nawierzchni od grade1-grade5). 'tracktype' jest uwzględniany "
+"przy renderingu mapy i czyni ją bogatszą"
 
 msgid "This track doesn't have a tracktype"
-msgstr ""
+msgstr "Ten 'track' nie posiada tagu 'tracktype'"
 
 #. please keep this as short as possible
 msgid "geometry glitches"
-msgstr ""
+msgstr "błędy geometrii"
 
 msgid ""
 "looks for impossible sharp angles on highways and junctions. These may be "
 "caused by missing turn restrictions on junctions or glitches along the "
 "linestring of ways"
 msgstr ""
+"szuka niemożliwie ostrych kątów na drogach i skrzyżowaniach. Mogą być one "
+"spowodowane ograniczeniami skrętu na skrzyżowaniach lub usterkami linii"
 
 #. please keep this as short as possible
 msgid "missing turn restriction"
-msgstr ""
+msgstr "brakujące ograniczenie skrętu"
 
 #. please keep this as short as possible
 msgid "impossible angles"
-msgstr ""
+msgstr "niemożliwe kąty"
 
 msgid "this way bends in a very sharp angle here"
-msgstr ""
+msgstr "ta linia zakręca tu pod bardzo ostrym kątem"
 
 msgid ""
 "ways $1 and $2 join in a very sharp angle here and there is no oneway tag or "
 "turn restriction that prevents turning from way $2 to $1"
 msgstr ""
+"drogi $1 i $2 łączą się tutaj pod bardzo ostrym kątem i nie ma tu tagu "
+"'oneway' ani ograniczenia skrętu które zapobiega skręceniu z $2 do $1"
 
 msgid ""
 "ways $1 and $2 join in a very sharp angle here and there is no oneway tag or "
 "turn restriction that prevents turning from way $1 to $2"
 msgstr ""
+"linie $1 i $2 łączą się pod bardzo ostrym kątem i nie posiadają tagu "
+"'oneway' lub ograniczenia skrętu które by uniemożliwiało skręcenie z drogi "
+"$1 do $2"
 
 msgid ""
 "ways $1 and $2 join in a very sharp angle here and there is no oneway tag or "
 "turn restriction that prevents turning"
 msgstr ""
+"linie $1 i $2 łączą się pod bardzo ostrym kątem i nie posiadają tagu "
+"'oneway' lub ograniczenia skrętu które by uniemożliwiało skręcenie"
 
 #. please keep this as short as possible
 msgid "website"
-msgstr ""
+msgstr "strona internetowa"
 
 #. please keep this as short as possible
 msgid "http error"
-msgstr ""
+msgstr "błąd http"
 
 #. please keep this as short as possible
 msgid "domain hijacking"
-msgstr ""
+msgstr "przejęcie domeny"
 
 #. please keep this as short as possible
 msgid "non-match"
-msgstr ""
+msgstr "niezwiązana z miejscem"
 
 msgid ""
 "calls websites and tries to match website content with key tags from the osm "
 "element"
 msgstr ""
+"odwiedza strony internetowe i próbuje powiązać ich zawartość z kluczowymi "
+"tagami z elementu w osm"
 
 #. full message: "The URL (http://www.belgian-beer-cafe.com.au/heritage) cannot be opened (HTTP status code 404)"
 msgid ""
 "The URL (<a target=\"_blank\" href=\"$1\">$1</a>) cannot be opened (HTTP "
 "status code $2)"
 msgstr ""
+"Adres (<a target=\"_blank\" href=\"$1\">$1</a>) nie może zostać otwarty (kod "
+"statusu HTTP: $2)"
 
 msgid ""
 "Possible domain squatting: <a target=\"_blank\" href=\"$1\">$1</a>. "
 "Suspicious text is: \"$2\""
 msgstr ""
+"Możliwe, że domena została przejęta: <a target=\"_blank\" "
+"href=\"$1\">$1</a>. Podejrzanym tekstem jest: \"$2\""
 
 #. full message: "Content of the URL (http://www.yha.com.au) did not contain these keywords: (*Bondi Beachouse YHA*Bondi)"
 msgid ""
 "Content of the URL (<a target=\"_blank\" href=\"$1\">$1</a>) did not contain "
 "these keywords: ($2)"
 msgstr ""
+"Zawartość adresu (<a target=\"_blank\" href=\"$1\">$1</a>) nie zawierała "
+"tych słów kluczowych: ($2)"
 
 #. translations for the web pages
 #: index.php:9
 msgid "data consistency checks for OSM"
-msgstr "sprawdzanie poprawności danych w OSM"
+msgstr "Sprawdzanie poprawności danych w OSM"
 
 #: index.php:11
 msgid "keep-right logo"
@@ -782,37 +968,39 @@ msgstr "logo keep-right"
 #: index.php:13
 #, php-format
 msgid "data consistency checks for %sOSM%s"
-msgstr ""
+msgstr "Sprawdzanie poprawności danych w %sOSM%s"
 
 #: index.php:20
 msgid ""
 "These pages show checks that are run on a local excerpt database filled with "
 "OSM data."
 msgstr ""
+"Te strony przedstawiają kontrole danych, które są uruchamiane na lokalnych "
+"fragmentach bazy danych wypełnionej danymi z OSM."
 
 #: index.php:23
 #, php-format
 msgid "Data Checks for Europe%s (Starting point Vienna, Austria)"
-msgstr ""
+msgstr "Kontrole danych dla Europy%s (Punkt startowy: Wiedeń, Austria)"
 
 #: index.php:27
 msgid "Data Checks for Australia%s (Starting point Sydney)"
-msgstr ""
+msgstr "Kontrole danych dla Australii%s (Punkt startowy: Sydney)"
 
 #: index.php:30
 #, php-format
 msgid "Data Checks for Africa%s (Starting point Cairo, Egypt)"
-msgstr ""
+msgstr "Kontrole danych dla Afryki%s (Punkt startowy: Kair, Egipt)"
 
 #: index.php:33
 #, php-format
 msgid "Data Checks for Canada%s (Starting point Québec)"
-msgstr ""
+msgstr "Kontrole danych dla Kanady%s (Punkt startowy: Quebec)"
 
 #: index.php:36
 #, php-format
 msgid "Data Checks for USA%s (Starting point Philadelphia, PA)"
-msgstr ""
+msgstr "Kontrole danych dla USA%s (Punkt startowy: Filadelfia, PA)"
 
 #: index.php:39
 #, php-format
@@ -820,20 +1008,24 @@ msgid ""
 "Data Checks for Central America%s (Starting point Santo Domingo, Republica "
 "Dominicana)"
 msgstr ""
+"Kontrole danych dla Ameryki Środkowej%s (Punkt startowy: Santo Domingo, "
+"Dominikana)"
 
 #: index.php:42
 #, php-format
 msgid "Data Checks for South America%s (Starting point São Paulo, Brazil)"
 msgstr ""
+"Kontrole danych dla Ameryki Południowej%s (Punkt startowy: São Paulo, "
+"Brazylia)"
 
 #: index.php:45
 #, php-format
 msgid "Data Checks for Asia%s (Starting point Tokio, Japan)"
-msgstr ""
+msgstr "Kontrole danych dla Azji%s (Punkt startowy: Tokio, Japonia)"
 
 #: index.php:47
 msgid "Europe Data Checks as ugly list"
-msgstr ""
+msgstr "Europejskie kontrole danych jako brzydka lista"
 
 #: index.php:49
 #, php-format
@@ -841,10 +1033,12 @@ msgid ""
 "Developers have a look at the %sSourceForge%s site providing svn access to "
 "the sources."
 msgstr ""
+"Deweloperzy mogą zajrzeć na %sSourceForge%s gdzie znajdują się źródła na "
+"systemie kontroli wersji."
 
 #: index.php:52
 msgid "logfile"
-msgstr ""
+msgstr "dziennik"
 
 #: index.php:56
 #, php-format
@@ -852,6 +1046,8 @@ msgid ""
 "If you want to export errors from KeepRight you will want to have a look at "
 "the %sinterfacing guide%s"
 msgstr ""
+"Jeśli chcesz eksportować błędy z KeepRight'a polecamy zajrzeć do "
+"%sprzewodnika po łączeniu się%s"
 
 #, php-format
 msgid ""
@@ -860,6 +1056,10 @@ msgid ""
 "(try any combination of Ctrl, Shift, Alt plus &apos;R&apos; as well as "
 "&apos;F5&apos;) if the site doesn&apos;t work for you."
 msgstr ""
+"Dziś naprawiłem irytujące problemy z zepsutymi dymkami w OpenLayers. Dymki "
+"wyglądają teraz okej i przerzuciłem wszystko do OL2.12. Opróżnij pamięć "
+"tymczasową przeglądarki (spróbuj dowolne kombinacje klawiszy Ctrl, Shift, "
+"Alt + R jak i F5) jeśli strona tobie nie działa."
 
 #, php-format
 msgid ""
@@ -871,6 +1071,13 @@ msgid ""
 "change will take full effect during this week as all parts of the planet are "
 "going to be reprocessed"
 msgstr ""
+"Do wszystkich korzystających z plików zrzutowych z błędami KeepRight: Format "
+"pliku zmieni się: Nie będzie kolumny &quot;description&quot; (opis). Jest "
+"ona zbędna, można utworzyć ją z &quot;msgid&quot; i &quot;txt1&quot;-"
+"&quot;txt5&quot; <br>Po drugie: jest w pliku nowa kolumna zawierająca nazwę "
+"użytkownika ostatniej osoby która edytowała obiekt zawierający błąd.<br>Ta "
+"zmiana zostanie wprowadzona w pełni w tym tygodniu, po tym jak przetworzą "
+"się wszystkie fragmenty planety."
 
 #, php-format
 msgid ""
@@ -881,6 +1088,13 @@ msgid ""
 "reset and we are starting from scratch.<br>Anyway, thank you, Peter, for "
 "providing that service for more than three years!"
 msgstr ""
+"Australia jest z powrotem online!<br>Strona australijskiego partnera "
+"KeepRight jest w chwili obecnej zamknięta, a kontrole błędów dla Australii "
+"są przeprowadzane na głównej stronie. Przepraszam za to, że nie jest możliwe "
+"odzyskanie wszystkich komentarzy i statusów ignorowania błędów. Nie mamy już "
+"dostępu do zdalnej bazy danych, więc wszystkie komentarze i statusy zostały "
+"zresetowane i zaczynamy od nowa.<br>W każdym razie, dziękujemy tobie Peter "
+"za dostarczanie nam tej usługi przez ponad trzy lata!"
 
 #, php-format
 msgid ""
@@ -890,6 +1104,11 @@ msgid ""
 "href='http://wiki.openstreetmap.org/wiki/Fehlerbereinigung_mit_Hilfe_von_keep"
 "right.at'>wiki</a>."
 msgstr ""
+"Powstał świetny, nowy dokument opisujący sposoby naprawiania błędów "
+"raportowanych przez KeepRight. Został on napisany przez użytkownika Popei82. "
+"Dziękujemy ci bardzo!<br>Dokument znajdziesz na <a target='_blank' "
+"href='http://wiki.openstreetmap.org/wiki/Fehlerbereinigung_mit_Hilfe_von_keep"
+"right.at'>OSM Wiki</a>"
 
 #, php-format
 msgid ""
@@ -899,6 +1118,11 @@ msgid ""
 "restriction (explicit or implicit by means of oneway tags) that prohibits "
 "turing around the sharp angle"
 msgstr ""
+"Pojawiło się nowe kryterium sprawdzania &apos;błędy geometrii&apos;. Szuka "
+"ono ostrych kątów w liniach i domyśla się o brakujących ograniczeniach "
+"skrętu: Drogi łączące się pod bardzo ostrym kątem powinny mieć jakiegoś "
+"sortu ograniczenie skrętu (dosłowne lub domniemane przez tag "
+"&apos;oneway&apos;) które zapobiegnie skręcaniu po tak ostrym kącie."
 
 #, php-format
 msgid ""
@@ -907,12 +1131,20 @@ msgid ""
 "the way have some tags in common. Such situations lead to doubled labels on "
 "the map and wrong statistics (counting amenities doesn't work)"
 msgstr ""
+"Pojawiło się nowe kryterium sprawdzania &apos;powielone miejsca&apos;, które "
+"wyszukuje węzły położone wewnątrz zamkniętych linii (zazwyczaj budynków) "
+"gdzie węzeł i droga mają część tagów wspólnych. Takie sytuacje prowadzą do "
+"powielonych nazw na mapach i błędach w statystykach (np. liczenie obiektów "
+"&apos;amenity&apos; nie działa)"
 
 #, php-format
 msgid ""
 "KeepRight now has its own domain name! You may now access KeepRight using "
 "the short URL <b><a href='http://keepright.at/'>http://keepright.at/</a></b>"
 msgstr ""
+"KeepRight ma już własną domenę! Od teraz możesz wejść na KeepRight używając "
+"krótkiego adresu <b><a "
+"href='http://keepright.at/'>http://keepright.at/</a></b>"
 
 #, php-format
 msgid ""
@@ -932,12 +1164,31 @@ msgid ""
 "different and should not be used on ways. Thank you, Johan, for making me "
 "think about the problem again!"
 msgstr ""
+"Zauważysz pewne usprawnienia w dwóch kryteriach sprawdzania i jedno zupełnie "
+"nowe które pojawi się w nadchodzących dniach:<br><em>słabo połączone "
+"ronda</em> to nowe podkryterium sprawdzania rond, które będzie narzekać na "
+"ronda z mniej niż trzema przyłączonymi drogami. To niekoniecznie jest błąd, "
+"ale zastanawiające jest w takim razie po co budowane są tak słabo połączone "
+"ronda.<br> <em>nieznany język</em> jest nowym kryterium sprawdzania, które "
+"stara się poprawić tłumaczenia, poprzez ostrzeganie przed tagami z nazwą "
+"których język nie jest możliwy do wydedukowania z innych tagów. Dzięki Ed za "
+"ten pomysł!<br>Kryterium sprawdzania <em>zła odnoga autostrady</em> miało "
+"wiele fałszywych alarmów w miejscach do odpoczynku (obecne tam drogi "
+"serwisowe które intencjonalnie nie miały tagu access). Wyeliminowałem ten "
+"błąd metodą heurystyczną: drogi serwisowe odchodzące od autostrady są OK "
+"jeśli prowadzą do parkingu, stacji benzynowej, toalety lub restauracji. "
+"Swoją drogą, highway=services jest czymś kompletnie innym i nie powinno być "
+"wykorzystywane na liniach. Dzięki Ci, Johan, za wkręcenie mnie ponownie w "
+"ten temat!"
 
 #: index.php:56
 msgid ""
 "There are a few more languages in the select box now. You can help "
 "translating KeepRight on the %slaunchpad site%s. Thanks to all who helped!"
 msgstr ""
+"W polu wyboru języka pojawiło się kilka nowych języków. Możesz pomóc w "
+"tłumaczeniu KeepRight&apos;a na %slaunchpad.net%s. Dzięki wszystkim, którzy "
+"pomogli!"
 
 #: index.php:56
 #, php-format
@@ -949,6 +1200,13 @@ msgid ""
 "service=parking_aisle.<br>I hope you agree that this inconvenience is "
 "necessary. Thank you, Nathan, for telling me about this!"
 msgstr ""
+"Aby zapobiec błędów w wyznaczaniu tras jak %sten jeden%s zmieniłem kryterium "
+"sprawdzania 'zła odnoga autostrady'. Teraz będzie ono narzekać na "
+"jakiekolwiek połączenia autostrady z highway=service lub "
+"highway=unclassified, jeśli brakuje tagu access=no lub access=private, lub "
+"jeśli nie jest to service=parking_aisle.<br>Mam nadzieję, że zgodzicie się, "
+"że to uniedogodnienie jest konieczne. Dzięki Ci, Nathan, za powiedzenie mi o "
+"tym!"
 
 #. this will be the news item announcing i18n-capabilities for KeepRight.
 #. this section should appear in all three languages regardless what language
@@ -958,6 +1216,8 @@ msgid ""
 "KeepRight becomes multilingual! - KeepRight wird mehrsprachig! - O KeepRight "
 "se tornou multilíngue!"
 msgstr ""
+"KeepRight staje się wielojęzyczny! - KeepRight becomes multilingual! - "
+"KeepRight wird mehrsprachig! - O KeepRight se tornou multilíngue!"
 
 #. this will be the news item announcing i18n-capabilities for KeepRight.
 #. this section should appear in all three languages regardless what language
@@ -975,10 +1235,23 @@ msgid ""
 "vindas! O arquivo com o modelo para gettext está  $1bem aqui$2. "
 "Agradecimentos especiais para o usuário Rodrigo, por esta grande ideia!"
 msgstr ""
+"Jak na początek KeepRight może być używany po angielsku, niemiecku i "
+"brazylijskiej odmianie portugalskiego. Nowe tłumaczenia są mile widziane! "
+"Plik szablonu gettex jest $1tutaj$2. Specjalne podziękowania dla Rodrigo za "
+"ten świetny pomysł!<br><br>As a start KeepRight may be used in english, "
+"german and brazilian portugese. New translations are welcome! The gettext "
+"template file is $1right here$2. Special thanks go to Rodrigo for this great "
+"idea!<br><br>Zunächst gibt es KeepRight auf deutsch, englisch und "
+"brasilianischem Portugiesisch. Weitere Sprachen sind willkommen! Das gettext-"
+"Template gibt es $1hier$2. Vielen Dank an Rodrigo für diese großartige "
+"Idee!<br><br>Como início, o KeepRight pode ser usado em inglês, alemão e "
+"Portuguẽs Brasileiro. Novas traduções são bem vindas! O arquivo com o modelo "
+"para gettext está $1bem aqui$2. Agradecimentos especiais para o usuário "
+"Rodrigo, por esta grande ideia!"
 
 #: index.php:59
 msgid "Getting rid of the evil db-parameter"
-msgstr ""
+msgstr "Pozbycie się podłego parametru dla bazy danych"
 
 #: index.php:60
 msgid ""
@@ -988,6 +1261,12 @@ msgid ""
 "current position.<br>This is over now! The db-parameter is gone. So have fun "
 "panning around the whole world and fixing errors easier than ever!"
 msgstr ""
+"Mogliście zauważyć, że nie można było przesuwać mapy w KeepRight w wygodny "
+"sposób. Na mapie były niewidoczne granice i zawsze trzeba było troszczyć się "
+"o poprawny parametr w adresie adekwatny do obecnej "
+"lokalizacji.<br>Skończyliśmy z tym! Nie ma już parametru dla bazy danych w "
+"adresie. Więc bawcie się dobrze przesuwając mapę po całym świecie i "
+"naprawiając błędy szybciej niż kiedykolwiek wcześniej!"
 
 #: index.php:63
 msgid ""
@@ -996,6 +1275,10 @@ msgid ""
 "about ways that don&apos;t have a single connection with any other way(!). "
 "Sometimes it takes months until you see the most obvious things..."
 msgstr ""
+"Podczas kolejnych aktualizacji zobaczysz zwiększoną liczbę błędów "
+"pływających wysp. Stanie się tak, ponieważ obecnie to kryterium sprawdzania "
+"nie narzeka na drogi, które nie są połączone z żadną inną drogą(!). Czasami "
+"miesiącami nie zauważa się najbardziej oczywistych rzeczy…"
 
 #: index.php:66
 #, php-format
@@ -1004,15 +1287,19 @@ msgid ""
 "the error types you selected when you left the site last time (how could "
 "you?). Just open %s without any parameters!"
 msgstr ""
+"To jest mój FOSSGISowy prezent dla was: KeepRight będzie pamiętał "
+"lokalizację i typy błędów które zostawiłeś zaznaczone po lewej przy "
+"ostatniej wizycie na stronie (jak mogłeś!). Po prostu otwórz %s bez "
+"jakichkolwiek parametrów."
 
 #: index.php:70
 #, php-format
 msgid "For archeologists: %sOld log entries%s have moved."
-msgstr ""
+msgstr "Dla archeologów: %sDawne wpisy%s zostały przeniesione."
 
 #: index.php:73
 msgid "a few words on the new comment feature"
-msgstr ""
+msgstr "parę słów o nowej funkcji komentowania"
 
 #: index.php:74
 msgid ""
@@ -1020,6 +1307,9 @@ msgid ""
 "false-positive. Don't confuse the comment box with an editing feature. This "
 "is not Potlatch! You cannot add missing tags via KeepRight!"
 msgstr ""
+"Jeśli znajdziesz fałszywy alarm, dodaj proszę komentarz który pomoże mi "
+"ulepszać sprawdzanie danych. Nie myl pola komentarza z funkcją edycji. To "
+"nie jest Potlatch! Nie możesz dodać brakujących tagów przez KeepRight!"
 
 #: index.php:77
 msgid ""
@@ -1027,38 +1317,49 @@ msgid ""
 "running when you hit the JOSM-link. Furthermore you have to enable the "
 "&apos;remote control&apos;-plugin in JOSMs options."
 msgstr ""
+"Należy pamiętać, że aby link do edycji w JOSM działał, JOSM musi być "
+"włączony już w momencie klikania w link. Poza tym, musisz włączyć funkcję "
+"&apos;zdalne sterowanie&apos; w ustawieniach JOSMa."
 
 #: index.php:79
 msgid "Currently the following checking procedures are implemented"
-msgstr ""
+msgstr "Obecnie zaimplementowane są poniższe procedury sprawdzania"
 
 #: index.php:102
 msgid ""
 "If you find an error in my errors lists I would definitely like to hear "
 "about it!"
 msgstr ""
+"Jeśli znajdziesz jakiekolwiek błędy na mojej liście błędów, zdecydowanie "
+"chciałbym żebyś dał mi o nich znać!"
 
 #: index.php:104
 msgid "Impressum"
-msgstr ""
+msgstr "Od autora"
 
 #: index.php:105
 msgid ""
 "This work is done without commercial background, just for my personal "
 "pleasure. I would be very happy if it was helpful for the OSM Project."
 msgstr ""
+"Stworzyłem to narzędzie nie dla celów zarobkowych, lecz dla osobistej "
+"przyjemności. Byłbym bardzo szczęśliwy, jeśli pomogłoby ono projektowi OSM."
 
 #: index.php:106
 msgid ""
 "If you like to contact me, my mailbox at the austrian server of gmx is "
 "labelled KeepRight."
 msgstr ""
+"Jeśli chciałbyś się ze mną skontaktować, moja skrzynka mailowa na "
+"austriackim serwerze gmx nazywa się KeepRight."
 
 #: index.php:106
 msgid ""
 "Please understand that I will not always be able to immediately respond to "
 "your mail on weekdays."
 msgstr ""
+"Proszę zrozum, że nie zawsze będę w stanie natychmiastowo odpowiedzieć na "
+"twojego maila w dni powszednie."
 
 #: report_map.php:155
 msgid "errors"
@@ -1078,7 +1379,7 @@ msgstr "Żaden"
 
 #: report_map.php:185
 msgid "show ignored errors"
-msgstr ""
+msgstr "pokaż ignorowane błędy"
 
 #: report_map.php:187
 msgid "show temp. ignored errors"
@@ -1094,11 +1395,13 @@ msgid ""
 "You will see up to %d error markers starting in the center of the map. "
 "Please allow a few seconds for the error markers to appear after panning."
 msgstr ""
+"Będziesz widział do %d znaczników błędów, liczonych od środka mapy. Po "
+"przemieszczeniu się daj im parę sekund na załadowanie."
 
 #: report_map.php:196
 #, php-format
 msgid "Site updated at %s"
-msgstr ""
+msgstr "Strona zaktualizowana dnia %s"
 
 #: points.php:114
 msgid "node"
@@ -1106,7 +1409,7 @@ msgstr "węzeł"
 
 #: points.php:114
 msgid "way"
-msgstr "droga"
+msgstr "linia"
 
 #: points.php:114
 msgid "relation"
@@ -1126,6 +1429,8 @@ msgid ""
 "JOSM must be running and JOSM's remote control plugin must be enabled for "
 "this to work!"
 msgstr ""
+"Aby to działało, JOSM musi być włączony i w ustawieniach JOSMa musi być "
+"włączona funkcja 'zdalne sterowanie'!"
 
 #: myText.js:239
 msgid "Potlatch"
@@ -1133,7 +1438,7 @@ msgstr "Potlatch"
 
 #: myText.js:239
 msgid "iD"
-msgstr ""
+msgstr "iD"
 
 #: myText.js:244
 msgid "keep this error open"
@@ -1157,11 +1462,11 @@ msgstr "Anuluj"
 
 #: myText.js:254
 msgid "please click on the icon to fixate the bubble"
-msgstr ""
+msgstr "kliknij na ikonę aby zablokować dymek"
 
 #: myText.js:255
 msgid "link to here: error #"
-msgstr ""
+msgstr "link do tego błędu: błąd #"
 
 #. full message: "last edit of this node: 2009-04-01 5:22"
 #: myText.js:255
@@ -1170,59 +1475,63 @@ msgstr "ostatnia edycja"
 
 #: interfacing.php:4
 msgid "interfacing KeepRight"
-msgstr ""
+msgstr "Łączenie się z KeepRight"
 
 #: interfacing.php:11
 msgid "Interfacing with KeepRight"
-msgstr ""
+msgstr "Łączenie się z KeepRight"
 
 #: interfacing.php:13
 msgid "You may use KeepRight&apos;s results in a number of ways:"
-msgstr ""
+msgstr "Możesz używać danych KeepRight na wiele sposobów:"
 
 #: interfacing.php:17
 #, php-format
 msgid "by means of the %smap web page%s"
-msgstr ""
+msgstr "za pomocą %smapy na stronie internetowej%s"
 
 #: interfacing.php:18
 #, php-format
 msgid "exporting %sGPX waypoints%s"
-msgstr ""
+msgstr "eksportowanie %spunktów orientacyjnych do pliku GPX%s"
 
 #: interfacing.php:19
 #, php-format
 msgid "exporting new errors as %sRSS feed%s"
-msgstr ""
+msgstr "eksportowanie nowych błędów przez %skanał RSS%s"
 
 #: interfacing.php:20
 #, php-format
 msgid "getting the whole errors %sdump file%s"
-msgstr ""
+msgstr "pozyskanie wszystkich błędów jako %splik zrzutowy%s"
 
 #: interfacing.php:24
 msgid "exporting GPX waypoints"
-msgstr ""
+msgstr "eksportowanie punktów orientacyjnych do pliku GPX"
 
 #: interfacing.php:25 interfacing.php:35 interfacing.php:47
 msgid "Purpose"
-msgstr ""
+msgstr "Cel"
 
 #: interfacing.php:26
 msgid ""
 "Exporting a section of the map into a GPX-styled list of waypoints for use "
 "with GPS units"
 msgstr ""
+"Eksportowanie fragmentu mapy do listy punktów orientacyjnych w formacie GPX "
+"do użytku z urządzeniami GPS"
 
 #: interfacing.php:28 interfacing.php:38 interfacing.php:50
 msgid "URL format"
-msgstr ""
+msgstr "format adresu URL"
 
 #: interfacing.php:30
 msgid ""
 "You can specify a list of error types you want to have in the file as well "
 "as a bounding box on the map. This export will return up to 10000 waypoints. "
 msgstr ""
+"Możesz sprecyzować listę typów błędów jakie chcesz mieć w swoim pliku, tak "
+"samo jak prostokąt ograniczający. Ten eksport zwróci do 10 000 punktów. "
 
 #: interfacing.php:31
 msgid ""
@@ -1230,14 +1539,17 @@ msgid ""
 "service that always includes the current error type selection and view from "
 "the map."
 msgstr ""
+"W lewym dolnym rogu mapy znajduje się link prowadzący do usługi pobierania "
+"pliku GPX, który zawsze zawiera wybrane z lewej strony błędy widoczne na "
+"oglądanym fragmencie mapy."
 
 #: interfacing.php:34
 msgid "exporting new errors as RSS feed"
-msgstr ""
+msgstr "eksportowanie nowych błędów przez kanał RSS"
 
 #: interfacing.php:36
 msgid "Watching a section of the map for newly found errors"
-msgstr ""
+msgstr "Obserwowanie nowo znalezionych błędów na fragmencie mapy"
 
 #: interfacing.php:41
 msgid ""
@@ -1245,6 +1557,9 @@ msgid ""
 "different. The RSS feed will include error entries that were first found "
 "within the last three weeks."
 msgstr ""
+"Format adresu URL jest taki sam jak dla eksportów plików GPX, tylko parametr "
+"się zmienia. Kanał RSS będzie zawierał błędy znalezione przez ostatnie trzy "
+"tygodnie."
 
 #: interfacing.php:42
 msgid ""
@@ -1252,24 +1567,28 @@ msgid ""
 "service that always includes the current error type selection and view from "
 "the map."
 msgstr ""
+"W lewym dolnym rogu mapy znajduje się link wskazujący na usługę RSS, który "
+"wyświetla błędy z wybranych rodzajów błędów na widzianym obszarze mapy."
 
 #: interfacing.php:46
 msgid "getting the whole dump-file"
-msgstr ""
+msgstr "pozyskanie całego pliku zrzutowego"
 
 #: interfacing.php:48
 msgid "Doing something completely different with 25 millions of errors..."
-msgstr ""
+msgstr "Robienie czegoś zupełnie innego z 25 milionami błędów…"
 
 #: interfacing.php:53
 msgid ""
 "This tab-separated file contains all errors currently open for the whole "
 "planet (currently >500MB). It is being updated daily."
 msgstr ""
+"Ten oddzielany tabulatorami plik zawiera wszystkie obecnie otwarte błędy dla "
+"całej planety (obecnie >500MB). Jest aktualizowany codziennie."
 
 #: interfacing.php:56
 msgid "Table layout"
-msgstr ""
+msgstr "Układ tabeli"
 
 #: interfacing.php:59
 #, php-format
@@ -1279,12 +1598,18 @@ msgid ""
 "roughly equally sized dump files. Consider the schema as a prefix for the "
 "error_id."
 msgstr ""
+"Schema (schemat) jest identyfikatorem nazywającym dany region na planety. "
+"Zgodnie z %smapą podziału planety%s planeta jest podzielona na prostokątne "
+"części, żeby móc uzyskać pliki zrzutowe o w miarę równych rozmiarach. "
+"Traktuj schema jako prefix dla error_id."
 
 #: interfacing.php:60
 msgid ""
 "A number identifying errors, starting from 1 for each schema. An error_id is "
 "worth nothing if you don&apos;t know the schema!"
 msgstr ""
+"Numer identyfikujący błędy, zaczynający się od 1 dla każdego schema. "
+"error_id jest nic nie warty, jeśli nie znasz identyfikatora schema!"
 
 #: interfacing.php:61
 msgid ""
@@ -1292,6 +1617,9 @@ msgid ""
 "blocks of 10s (20, 30, 40...). They correspond with the name of the script "
 "file doing the checking."
 msgstr ""
+"Numeryczna reprezentacja typu błędu. Błędy są przypisane w blokach "
+"dziesiątek (10, 20, 30…). Odpowiadają one nazwie skryptu przeprowadzającego "
+"sprawdzenia."
 
 #: interfacing.php:62
 msgid ""
@@ -1302,6 +1630,11 @@ msgid ""
 "boundaries]&quot;). Subtyped error types are rendered as groups that may be "
 "collapsed on the web site."
 msgstr ""
+"Typy błędów mogą być rozszerzone cyfrą jedności (np. 281, 282 itd.), aby "
+"utworzyć podtyp. Podtypy są związane z jednym tematem (np. 280 oznacza "
+"&quot;granice&quot;, 281 oznacza &quot;brakujące nazwy [dla granic]&quot; a "
+"282 oznacza &quot;brakujący poziom administracyjny [dla granic]&quot;). "
+"Podtypy błędów są wyświetlane na stronie jako grupy, które można zwinąć."
 
 #: interfacing.php:64
 msgid ""
@@ -1309,14 +1642,17 @@ msgid ""
 "types you may want to prepend the error_name that belongs to the main number "
 "to make the name complete."
 msgstr ""
+"Tekstowa reprezentacja (krótka nazwa) typu błędu. W podtypach błędów możliwe "
+"że będziesz chciał dodać przed nią error_name należący do głównej kategorii "
+"błędu, żeby nazwa była kompletna."
 
 #: interfacing.php:65
 msgid "one of node/way/relation"
-msgstr ""
+msgstr "Jedno z &apos;node/way/relation&apos; (węzeł/linia/relacja)"
 
 #: interfacing.php:66
 msgid "an OSM node_id, way_id or relation_id"
-msgstr ""
+msgstr "OSMowe node_id, way_id lub relation_id"
 
 #: interfacing.php:67
 msgid ""
@@ -1329,6 +1665,16 @@ msgid ""
 "never come back just because KeepRight is wrong and this exception cannot be "
 "included in the ruleset."
 msgstr ""
+"jedno z &apos;new, reopened, ignore_temporarily, ignore&apos; (nowy, "
+"ponownie otwarty, tymczasowo ignorowany, ignorowany). Nie będziesz widział "
+"żadnych &apos;wyczyszczonych&apos; błędów, ponieważ zrzut zawiera jedynie "
+"aktywne błędy. Tymczasowo ignorowane błędy są usterkami naprawionymi przez "
+"użytkownika, który naprawdę myśli że je naprawił. Tymczasowo ignorowane "
+"błędy dostają z powrotem status &apos;new&apos; (nowy), w momencie gdy przy "
+"kolejnej aktualizacji błąd nie jest w rzeczywistości naprawiony. Ignorowane "
+"błędy są usterkami które są po prostu fałszywym alarmem i które nie powinny "
+"nigdy pojawiać się z powrotem tylko dlatego, że KeepRight się myli i ten "
+"wyjątek nie może zostać włączony do zestawu reguł."
 
 #: interfacing.php:68
 msgid ""
@@ -1337,12 +1683,19 @@ msgid ""
 "runtime-errors in the scripts. So you may just consider <em>new</em> and "
 "<em>reopened</em> the same."
 msgstr ""
+"Błędy które zostały raz wyczyszczone i wrócą kiedyś ponownie otrzymują "
+"status <em>reopened</em> (otwarty ponownie). Należy pamiętać, że może się to "
+"również wydarzyć przez błąd w skrypcie. Możesz więc traktować błędy ze "
+"statusem <em>new</em> (nowy) tak samo jak te ze statusem <em>reopened</em> "
+"(ponownie otwarty)."
 
 #: interfacing.php:69
 msgid ""
 "The verbose error message that comes out of the checking routine in English "
 "language. For translating the messages use the next columns"
 msgstr ""
+"Rozwlekły komunikat o błędzie który wychodzi z jednego kryterium sprawdzania "
+"po angielsku. Do tłumaczenia komunikatów użyj następnej kolumny"
 
 #: interfacing.php:70
 msgid ""
@@ -1352,31 +1705,41 @@ msgid ""
 "translated. GNU gettext requires  a .po file that holds original and "
 "translated strings. You may use existing .po files from here: "
 msgstr ""
+"To jest rusztowanie dla opisów błędów, gdzie zmienne (\"$i\") stoją w "
+"miejscu rzeczywistych wartości wprowadzanych przez konkretny błąd. Możesz "
+"umieścić to rusztowanie wewnątrz funkcji GNU gettext() aby je przetłumaczyć. "
+"GNU gettext wymaga pliku .po który trzyma oryginalne i przetłumaczone ciągi "
+"znaków. Możesz użyć istniejących plików .po stąd: "
 
 #: interfacing.php:70
 msgid "find the GNU gettext template file here:"
-msgstr ""
+msgstr "Szablon pliku GNU gettext znajdziesz tutaj:"
 
 #: interfacing.php:71
 msgid ""
 "These bits of text are the contents that have to be inserted in the error "
 "message after translation. txt1 will replace $1, etc."
 msgstr ""
+"Te kawałki tekstu są zawartością która musi zostać wprowadzona do wiadomości "
+"z błędem po tłumaczeniu. txt1 zastąpi $1 itd."
 
 #: interfacing.php:72
 msgid "Timestamp (MESZ) of when this error was found the first time"
-msgstr ""
+msgstr "Znacznik czasu (MESZ timestamp) pierwszego wykrycia tego błędu"
 
 #: interfacing.php:73
 msgid ""
 "Timestamp (MESZ) of last time this error was (re-)checked by the scripts"
 msgstr ""
+"Znacznik czasu (MESZ timestamp) ostatniego wykrycia tego błędu przez skrypty"
 
 #: interfacing.php:74
 msgid ""
 "Timestamp of the object that was used when checking, as found in the "
 "official planet file."
 msgstr ""
+"Znacznik czasu obiektu w którym szukano błędów, znaleziony w oficjalnym "
+"pliku planety."
 
 #: interfacing.php:76
 msgid ""
@@ -1384,38 +1747,47 @@ msgid ""
 "found in the official planet file. Please note that numbers are displayed as "
 "int values. To convert back to real lon/lat you have to divide by 10^7"
 msgstr ""
+"Położenie na planecie. Współrzędne są podawane w tej samej projekcji w "
+"której zostały znalezione w oficjalnym pliku planety. Pamiętaj, że numery "
+"wyświetlane są jako liczby całkowite. Aby zamienić je z powrotem na "
+"prawdziwe dł. i szerokości (lon i lat) musisz je podzielić przez 10^7."
 
 #: interfacing.php:77
 msgid "User-comment (if any)"
-msgstr ""
+msgstr "Komentarz użytkownika (jeśli jakikolwiek)"
 
 #: interfacing.php:78
 msgid "Timestamp (MESZ) of when the comment was given (if any)"
 msgstr ""
+"Znacznik czasu (MESZ timestamp) komentarza (jeśli w ogóle został dodany "
+"komentarz)"
 
 #: interfacing.php:89
 msgid "User name of the user that last edited the given object."
-msgstr ""
+msgstr "Nazwa użytkownika osoby która ostatnio edytowała dany obiekt"
 
 #: interfacing.php:82
 msgid "loading the errors table"
-msgstr ""
+msgstr "ładowanie tabeli błędów"
 
 #: interfacing.php:85
 msgid "This is the schema definition for use with MySQL databases:"
-msgstr ""
+msgstr "To jest definicja schematu do użytku z bazami MySQLL"
 
 #: interfacing.php:108
 msgid ""
 "Please note that <em>schema</em> is a reserved word in MySQL, so you always "
 "have to quote it like this: `schema`"
 msgstr ""
+"Pamiętaj, że <em>schema</em> jest słowem zarezerwowanym w MySQLu, więc "
+"będziesz musiał zawsze je cytować w ten sposób: `schema`"
 
 #: interfacing.php:110
 msgid ""
 "There are two primary keys in this table: a natural one and an artificial "
 "one:"
 msgstr ""
+"W tej tablicy są dwa klucze podstawowe: jeden naturalny i jeden sztuczny"
 
 #: interfacing.php:112
 msgid ""
@@ -1423,6 +1795,10 @@ msgid ""
 "lon. That means one type of error may be found on multiple spots belonging "
 "to one single object (eg. self-intersections of ways)."
 msgstr ""
+"Naturalny klucz podstawowy składa się z error_type, object_type, object_id, "
+"lat, lon. To oznacza, że jeden typ błędu może zostać znaleziony w wielu "
+"miejscach przynależących do pojedynczego obiektu (np. w samoprzecinającyrch "
+"się liniach)"
 
 #: interfacing.php:114
 msgid ""
@@ -1430,10 +1806,13 @@ msgid ""
 "for simplicity of referencing individual error instances and it is "
 "completely redundant."
 msgstr ""
+"Sztuczny klucz podstawowy składa się z schema i error_id. Jest używany "
+"jedynie dla prostoty odnoszenia się do pojedynczych błędów i jest całkowicie "
+"zbyteczny."
 
 #: interfacing.php:139
 msgid "querying node counts"
-msgstr ""
+msgstr "zapytania o liczbę węzłów"
 
 #: interfacing.php:141
 msgid ""
@@ -1441,9 +1820,14 @@ msgid ""
 "nodes per square degree found in the planet file. Resolution is 0.1 degrees. "
 "You may download the file here:"
 msgstr ""
+"Jako produkt uboczny, skrypty tworzą plik który zawiera liczbę węzłów na "
+"stopień kwadratowy znalezioną w pliku planety. Dokładnością/rozdzielczością "
+"jest 0,1 stopnia. Plik możesz pobrać tutaj:"
 
 #: interfacing.php:144
 msgid ""
 "This dump file can be useful for statistics if you want to calculate an "
 "`errors per node` measure"
 msgstr ""
+"Ten plik zrzutowy może być użyteczny w celach statystycznych lub jeśli "
+"chcesz obliczyć współczynnik `błędów na węzeł`"

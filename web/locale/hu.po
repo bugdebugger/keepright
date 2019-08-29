@@ -8,325 +8,340 @@ msgstr ""
 "Project-Id-Version: keepright\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2010-05-08 18:12+0200\n"
-"PO-Revision-Date: 2011-12-19 02:32+0000\n"
+"PO-Revision-Date: 2019-08-18 13:00+0000\n"
 "Last-Translator: Báthory Péter <bathory86p@gmail.com>\n"
 "Language-Team: Hungarian <hu@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-04-04 19:48+0000\n"
-"X-Generator: Launchpad (build 16976)\n"
+"X-Launchpad-Export-Date: 2019-08-19 05:49+0000\n"
+"X-Generator: Launchpad (build 19022)\n"
+"Language: hu\n"
 
 msgid "There is more than one node in this spot. Offending node IDs: $1"
 msgstr ""
-"Több, mint egy pont van ezen a helyen. Az érintett pontok azonosítói: $1"
+"Ezen a helyen egynél több pont van. Az érintett pontok azonosítói: $1"
 
 msgid "This coastline-way is not part of a closed-loop"
-msgstr "Ez a partvonal-darab nem egy zárt hurok része."
+msgstr "Ez a partvonalszakasz nem egy zárt hurok része"
 
 msgid "This way is tagged with '$1=$2' and should be closed-loop."
-msgstr "E vonal jelölése '$1=$2' és emiatt zárt huroknak kellene lennie."
+msgstr ""
+"Ennek a vonalnak a címkézése [$1=$2], és ezért zárt huroknak kellene lennie."
 
 msgid ""
 "The first node (id $1) of this one-way is not connected to any other way"
 msgstr ""
 "Ennek az egyirányú vonalnak az első ($1 azonosítójú) pontja nem kapcsolódik "
-"másik vonalhoz."
+"másik vonalhoz"
 
 msgid ""
 "The last node (id $1) of this one-way is not connected to any other way"
 msgstr ""
 "Ennek az egyirányú vonalnak az utolsó ($1 azonosítójú) pontja nem "
-"kapcsolódik másik vonalhoz."
+"kapcsolódik másik vonalhoz"
 
 msgid ""
 "This node cannot be reached, because one-ways only lead away from here"
 msgstr ""
-"Ehhez a ponthoz nem lehet eljutni, mert csak belőle kivezető egyirányú "
-"vonalakhoz tartozik."
+"Ehhez a ponthoz nem lehet eljutni, mert csak tőle elvezető egyirányú "
+"vonalakhoz kapcsolódik"
 
 msgid "You cannot escape from this node, because one-ways only lead to here"
 msgstr ""
-"Ezt a pontot nem lehet elhagyni, mert csak bele vezető egyirányú vonalakhoz "
-"tartozik."
+"Ezt a pontot nem lehet elhagyni, mert csak hozzá vezető egyirányú vonalakhoz "
+"kapcsolódik"
 
 msgid "This node is very close but not connected to way #$1"
-msgstr "Ez a pont nagyon közel van, de nem csatlakozik a $1 sz. vonalhoz."
+msgstr ""
+"Ez a pont nagyon közel van, de nem kapcsolódik a következő vonalhoz: $1"
 
 #. full mesage: "This way uses deprecated tag highway = viaduct."
 msgid "This $1 uses deprecated tag $2 = $3"
-msgstr "Ez a $1 elavult címkét visel: $2 = $3"
+msgstr "Ez a(z) [$1] elavult címkét visel: [$2 = $3]"
 
 #. full mesage: "This way uses deprecated tag highway = viaduct. Please use bridge=* instead!"
 msgid "This $1 uses deprecated tag $2 = $3. Please use $4 instead!"
-msgstr "Ez a $1 elavult címkét visel: $2 = $3. Helyette ez használandó:  $4!"
+msgstr ""
+"Ez a(z) [$1] elavult címkét visel: [$2 = $3]. Inkább a következőt kellene "
+"használni: [$4]"
 
 #. full mesage: "This way has an empty tag: name="
 msgid "This $1 has an empty tag: $2"
-msgstr "Ez a $1 üres címkét tartalmaz: $2"
+msgstr "Ez a(z) [$1] üres címkét visel: [$2]"
 
 msgid "This way has no tags"
 msgstr "Ehhez a vonalhoz nem tartozik címke"
 
 msgid "This node is not member of any way and does not have any tags"
-msgstr ""
+msgstr "Ez a pont egyetlen vonalnak sem tagja, és címke sincs rajta"
 
 msgid ""
 "This way is tagged as motorway and therefore needs a ref, nat_ref or int_ref "
 "tag"
 msgstr ""
-"Ez a vonal autópályának van címkézve, amihez szükséges a ref, nat_ref vagy "
-"int_ref megadása"
+"Ez a vonal autópályának van címkézve, amihez meg kellene adni egy [ref], "
+"[nat_ref] vagy [int_ref] címkét"
 
 msgid ""
 "This $1 is tagged as place of worship and therefore needs a religion tag"
 msgstr ""
-"Ez a $1 istentiszteleti helynek van címkézve, amihez szükséges lenne a "
-"vallás megadása"
+"Ez a(z) [$1] istentiszteleti helynek van címkézve, és ezért egy [religion] "
+"címke is szükséges hozzá"
 
 msgid "This node is tagged as $1 and therefore needs a name tag"
-msgstr "A pont címkéje $1, de nincs megadva a neve"
+msgstr ""
+"Ez a pont [$1]-ként van címkézve, ezért egy [name] címke is szükséges hozzá"
 
 msgid ""
 "This node is tagged as $1 and therefore needs a name tag or an operator tag"
-msgstr "A pont címkéje $1, de nincs megadva a neve vagy az üzemeltetője"
+msgstr ""
+"Ez a pont [$1]-ként van címkézve, ezért egy [name] vagy egy [operator] címke "
+"is szükséges hozzá"
 
 msgid "This way has no nodes"
-msgstr "A vonalnak nincsenek csomópontjai"
+msgstr "Ennek a vonalnak nincsenek pontjai"
 
 msgid "This way has just one single node"
-msgstr "Ez az út már csak egyetlen csomópont"
+msgstr "Ez a vonal egyetlen pontból áll"
 
 msgid "This way is not connected to the rest of the map"
-msgstr "A vonal nem kapcsolódik a többi térképelemhez"
+msgstr "Ez a vonal nem kapcsolódik a térkép többi részéhez"
 
 msgid ""
 "This crossing of a highway and a railway needs to be tagged as "
 "railway=crossing or railway=level_crossing"
 msgstr ""
-"Ez egy közúti-vasúti kereszteződés, de nincs railway=crossing, vagy "
-"railway=level_crossing címkéje."
+"Ez egy út és egy vasút kereszteződése, de nincs rajta [railway=crossing] "
+"vagy [railway=level_crossing] címke"
 
 msgid ""
 "There are ways in different layers coming together in this railway crossing"
 msgstr ""
-"Különböző rétegben lévő vonalak találkoznak ebben a vasúti kereszteződésben"
+"Ebben a vasúti átjáróban különböző rétegeken lévő vonalak találkoznak"
 
 msgid ""
 "There are ways tagged as tunnel or bridge coming together in this railway "
 "crossing"
 msgstr ""
-"Hídnak, vagy alagútnak címkézett vonalak találkoznak ebben a vasúti "
-"kereszteződésben"
+"Ebben a vasúti átjáróban [tunnel] vagy [bridge] címkéjű vonalak találkoznak"
 
 #. full mesage: "This way is fixme-tagged: fixme=yes"
 msgid "This $1 is fixme-tagged: $2"
-msgstr "Ez a $1 fixme címkéje: $2"
+msgstr "Ez a(z) [$1] [fixme] címkét visel: [$2]"
 
 msgid "This relation has no type tag, which is mandatory for relations"
-msgstr "A kapcsolatnak nincsen type címkéje, ami kapcsolatoknál kötelező"
+msgstr ""
+"Ennek a kapcsolatnak nincs [type] címkéje, ami kapcsolatoknál kötelező"
 
 #. full message: "This highway intersects the waterway #17..."
 msgid "This $1 intersects the $2 #$3 but there is no junction node"
-msgstr "Ez a $1 keresztezi ezt: $2 #$3, de nincs közös csomópontjuk"
+msgstr "Ez a(z) [$1] metszi ezt: [$2] (#$3), de nincs közös csomópontjuk"
 
 #. full message: "This highway intersects the waterway #17"
 msgid "This $1 intersects the $2 #$3"
-msgstr "$1 metszi ezt: $2 #$3"
+msgstr "Ez a(z) [$1] metszi ezt: [$2] (#$3)"
 
 #. full message: "This highway overlaps the waterway #17..."
 msgid "This $1 overlaps the $2 #$3"
-msgstr "$1 átfedésben van ezzel: $2 #$3"
+msgstr "Ez a(z) [$1] átfedésben van ezzel: [$2] (#$3)"
 
 msgid "This way contains node #$1 $2 times. This may or may not be an error"
-msgstr ""
-"Ez a vonal a #$1 csomópontot $2× tartalmazza. Ez lehet, hogy hiba, de lehet, "
-"hogy nem."
+msgstr "Ez a vonal $2× tartalmazza a(z) [#$1] pontot. Lehet, hogy ez hiba"
 
 msgid ""
 "This way contains more than one node at least twice. Nodes are $1. This may "
 "or may not be an error"
 msgstr ""
-"Ez a vonal az alábbi csomópontokat többször tartalmazza: $1. Ez lehet, hogy "
-"hiba, de lehet, hogy nem."
+"Ez a vonal több pontot legalább kétszer tartalmaz. Lehet, hogy ez hiba"
 
 msgid ""
 "This way has only two different nodes and contains one of them more than once"
-msgstr "Ez a vonal csak két pontból áll, de az egyiket többször tartalmazza."
+msgstr ""
+"Ez a vonal csak két különböző pontból áll, ás az egyiket többször tartalmazza"
 
 msgid "The key of this node's tag is 'key': $2"
-msgstr "Az alábbi csomópont címkéjének kulcsa \"key\": $2"
+msgstr "E pont címkéjének a kulcsa „key”: $2"
 
 msgid "The key of this way's tag is 'key': $2"
-msgstr "Az alábbi vonal címkéjének kulcsa \"key\": $2"
+msgstr "E vonal címkéjének a kulcsa „key”: $2"
 
 msgid "The key of this relation's tag is 'key': $2"
-msgstr "Az alábbi kapcsolat címkéjének kulcsa \"key\": $2"
+msgstr "E kapcsolat címkéjének a kulcsa „key”: $2"
 
 #. full mesage: "This way is tagged 'name=Autria' where Autria looks like Austria"
 msgid "This $1 is tagged '$2=$3' where $4 looks like $5"
-msgstr "A $1 címkéje \"$2=$3\", ahol $4 talán inkább $5 kéne legyen"
+msgstr ""
+"Ez a(z) [$1] rendelkezik a következő címkével: [$2=$3], ahol [$4] helyett "
+"inkább ezt kellene írni: [$5]"
 
 #. full message: "This node is a junction of ways on different layers: 30387892(0),#30388524(-1)"
 msgid "This node is a junction of ways on different layers: $1"
-msgstr "Ezen a ponton különböző rétegen lévő vonalak keresztezik egymást: $1"
+msgstr "Ezen a ponton különböző rétegeken lévő vonalak találkoznak: $1"
 
 msgid ""
 "If this mini roundabout is in a country with left-hand traffic then it "
 "should have a tag 'direction=clockwise'"
 msgstr ""
-"Ha ez a mini körforgalom bal oldali közlekedésű országban van, akkor kell "
-"neki egy ilyen címke: direction=clockwise"
+"Ha ez a mini körforgalom bal oldali közlekedésű országban van, akkor kell rá "
+"egy [direction=clockwise] címke"
 
 msgid ""
 "If this mini roundabout is in a country with right-hand traffic then it "
 "should not have a tag 'direction=clockwise'"
 msgstr ""
 "Ha ez a mini körforgalom jobb oldali közlekedésű országban van, akkor nem "
-"lehet neki direction=clockwise címkéje"
+"viselhet [direction=clockwise] címkét"
 
 msgid ""
 "This $1 is tagged with layer $2. This need not be an error, but it looks "
 "strange"
-msgstr "Ez a $1 $2. rétegnek van címkézve. Ez nem hiba, de azért fura."
+msgstr ""
+"Ez a(z) [$1] $2 rétegnek van címkézve. Ez nem feltétlenül hiba, de azért "
+"szokatlan"
 
 msgid ""
 "This node is a junction of a motorway and a highway other than motorway, "
 "motorway_link, trunk, rest_area or construction. Service or unclassified is "
 "only valid if it has access=no/private or if it is a service=parking_aisle."
 msgstr ""
-"Ez a csomópont egy autópálya és egy olyan út kereszteződése, ami nem "
-"motorway, motorway_link, trunk, rest_area vagy construction címkéjű. Egyedül "
-"a service vagy unclassified érvényes, ha access=no/private címkéjű vagy ha "
-"ez egy service=parking_aisle."
+"Ez a pont egy autópálya és egy olyan út kereszteződése, ami nem [motorway], "
+"[motorway_link], [trunk], [rest_area] vagy [construction] címkéjű. A "
+"[service] vagy az [unclassified] csak akkor érvényes, ha [access=no/private] "
+"címkéjű vagy ha ez egy [service=parking_aisle]."
 
 msgid "This boundary has no name"
-msgstr "Határnak nincs neve."
+msgstr "Ennek a határnak nincs neve"
 
 msgid "The boundary of $1 has no admin_level"
-msgstr "A $1 határának nincs admin_levelje."
+msgstr "$1 határának nincs [admin_level] (közigazgatási szint) címkéje"
 
 msgid ""
 "The boundary of $1 has no valid numeric admin_level. Please do not use admin "
 "levels like for example 6;7. Always tag the lowest admin_level of all "
 "boundaries."
 msgstr ""
-"A $1 határának nincs érvényes admin_levelje. Kérlek ne használj olyan "
-"adminisztrációs szinteket, mint 6;7. Az érintett határok közül mindig a a "
-"legkisebbet add meg."
+"$1 határának nincs érvényesen számozott [admin_level] (közigazgatási szint) "
+"címkéje. Kerüljük az olyan közigazgatási szinteket, mint pl. 6;7. Minden "
+"határon a legalacsonyabb számú [admin_levelt]-t kell megadni."
 
 msgid "The boundary of $1 is not closed-loop"
-msgstr "$1 határ nem zárt hurok"
+msgstr "$1 határa nem zárt hurok"
 
 msgid "The boundary of $1 splits here"
-msgstr "$1 határ itt megszakad"
+msgstr "$1 határa itt megszakad"
 
 msgid ""
 "This boundary-way has admin_level $1 but belongs to a relation with lower "
 "admin_level (higher priority); it should have the lowest admin_level of all "
 "relations"
 msgstr ""
-"Ez a határvonal admin_level $1 szintű, de egy alacsonyabb (magasabb "
-"prioritású) admin_levelt tartalmazó kapcsolathoz tartozik. Az érintett "
-"határok közül mindig a a legkisebbet add meg."
+"Ez a határvonal [admin_level] $1 szintű, de egy alacsonyabb számú (vagyis "
+"magasabb prioritású) [admin_level] kapcsolathoz tartozik. Minden "
+"kapcsolatban a legkisebb számú [admin_level] értéket kell megadni."
 
 msgid "This turn-restriction has no restriction type"
-msgstr "Ennek kanyarodási korlátozásnak nincs korlátozási típusa"
+msgstr "Ennek bekanyarodási korlátozásnak nincs korlátozástípusa"
 
 msgid "This turn-restriction has no known restriction type"
-msgstr "Ennek kanyarodási korlátozásnak nincs ismert korlátozási típusa"
+msgstr "Ennek bekanyarodási korlátozásnak nincs ismert korlátozástípusa"
 
 msgid "A turn-restriction needs exactly one $1 member. This one has $2"
 msgstr ""
-"Egy kanyarodási korlátozásnak pontosan egy $1 tagja lehet. Ennek $2 van"
+"Egy bekanyarodási korlátozásnak pontosan egy [$1] tagja lehet. Ennek $2 van"
 
 msgid "From- and To-members of turn restrictions need to be ways. $1"
-msgstr "A kanyarodási korlátozás from és to tagjai vonalak kell legyenek. $1"
+msgstr ""
+"A bekanyarodási korlátozások [from] és [to] tagjainak vonalnak kell lenniük. "
+"($1)"
 
 msgid ""
 "from- via- and to- members of a turn resctriction need to be connected"
 msgstr ""
-"A kanyarodási korlátozás from, via és to tagjai öszze kell legyenek kötve."
+"Egy bekanyarodási korlátozás [from], [via] és [to] tagjainak össze kell "
+"lenniük kötve"
 
 msgid "via (node #$1) is not the first or the last member of from (way #$2)"
-msgstr ""
+msgstr "A [via] (#1 pont) nem a [from] (#2 vonal) első vagy utolsó tagja"
 
 msgid "via (node #$1) is not the first or the last member of to (way #$2)"
-msgstr ""
+msgstr "A [via] (#1 pont) nem a [to] (#2 vonal) első vagy utolsó tagja"
 
 msgid ""
 "restriction type is $1, but angle is $2 degrees. Maybe the restriction type "
 "is not appropriate?"
 msgstr ""
+"A korlátozástípus [$1], de a szöge $2° fok. Lehet, hogy a korlátozástípus "
+"nem megfelelő?"
 
 msgid "wrong direction of to way $1"
-msgstr ""
+msgstr "A [to] vonal ($1) iránya hibás"
 
 msgid "entry already prohibited by oneway tag on $1"
-msgstr ""
+msgstr "A vonalon ($1) lévő [oneway] címke már amúgy is tiltja a behajtást"
 
 msgid "missing maxspeed tag"
-msgstr "hiányzó maximális sebesség címke"
+msgstr "Hiányzó [maxspeed] sebességkorlátozás címke"
 
 msgid ""
 "This way is part of a roundabout but is not closed-loop. (split carriageways "
 "approaching a roundabout should not be tagged as roundabout)"
 msgstr ""
-"Ez a vonal egy körforgalom tagja, ami nem zárt hurok. (A körforgalomhoz "
-"csatlakozó osztott úttestet nem kell körforgalomnak jelölni)"
+"Ez a vonal egy körforgalom része, de nem zárt hurok. (A körforgalomhoz "
+"csatlakozó osztott pályás úttestet nem szabad körforgalomként címkézni)"
 
 msgid ""
 "If this roundabout is in a country with right-hand traffic then its "
 "orientation goes the wrong way around"
 msgstr ""
-"Ha ez a körforgalom jobb oldali közlekedésű országban van, akkor a körvonal "
-"rossz irányban áll."
+"Ha ez a körforgalom jobb oldali közlekedésű országban van, akkor hibás az "
+"iránya"
 
 msgid ""
 "If this roundabout is in a country with left-hand traffic then its "
 "orientation goes the wrong way around"
 msgstr ""
-"Ha ez a körforgalom bal oldali közlekedésű országban van, akkor a körvonal "
-"rossz irányban áll."
+"Ha ez a körforgalom bal oldali közlekedésű országban van, akkor hibás az "
+"iránya"
 
 msgid ""
 "This way is tagged as highway=$1_link but doesn't have a connection to any "
 "other $1 or $1_link"
 msgstr ""
-"Ez a vonal highway=$1_link címkéjű, de nem csatlakozik másik $1 vagy $1_link "
-"vonalhoz."
+"Ez a vonal [highway=$1_link] címkéjű, de nem kapcsolódik másik [$1] vagy "
+"[$1_link] címkéjű vonalhoz"
 
 msgid ""
 "This bridge does not have a tag in common with its surrounding ways that "
 "shows the purpose of this bridge. There should be one of these tags: $1"
 msgstr ""
-"Ennek a hídnak nincs a környező vonalakhoz hasonlító címkéje, ami mutatná a "
-"híd szerepét. Ezek közül az egyikre lenne szükség: $1"
+"Ennek a hídnak nincs a környező vonalakkal azonos címkéje, ami a híd célját "
+"mutatja. Az egyikre szükség lenne ezek közül: [$1]"
 
 msgid "The URL ($1) cannot be opened (HTTP status code $2)"
-msgstr ""
+msgstr "A $1 URL nem nyitható meg (HTTP állapotkód: $2)"
 
 msgid "Possible domain squatting: $1. Suspicious text is: \"$2\""
-msgstr ""
+msgstr "Esetlegesen eltérített domain: $1. A gyanús szöveg: „$2”"
 
 msgid "Content of the URL ($1) did not contain these keywords: ($2)"
-msgstr ""
+msgstr "A $1 weboldal nem tartalmazza a következő kulcsszavakat: $2"
 
 #. translations for error type names
 #. please keep this as short as possible
 msgid "multiple nodes on the same spot"
-msgstr "több csomópont egy helyen"
+msgstr "Több pont egy helyen"
 
 msgid ""
 "Try to find nodes that are (almost) on the same spot. Distances less than +/-"
 "0.5 meters are considered zero"
 msgstr ""
-"Megpróbálja megtalálni az olyan csomópontokat, amik (majdnem) ugyanazon a "
+"Megpróbálja megtalálni az olyan pontokat, amelyek (majdnem) ugyanazon a "
 "helyen vannak. Ez +/-0,5 méternél kisebb távolságot jelent."
 
 #. please keep this as short as possible
 msgid "non-closed areas"
-msgstr "lezáratlan területek"
+msgstr "Bezáratlan területek"
 
 msgid ""
 "By convention ways tagged with special combinations of key and value pairs "
@@ -335,10 +350,15 @@ msgid ""
 "map! The standard.xml file is used to determine which key-value-combinations "
 "are drawn as areas; any instance of these has to be closed-loop."
 msgstr ""
+"Megegyezés szerint egyes kulcs-érték párokkal felcímkézett vonalak "
+"területnek minősülnek, és így is vannak megrajzolva a térképen. Ezért zárt "
+"hurkot kell képezniük. A be nem zárt területek nem láthatók a térképen. A "
+"területként megrajzolandó kulcs-érték kombinációk meghatározását a "
+"standard.xml fájl tartalmazza: ezeknek mind zárt huroknak kell lenniük."
 
 #. please keep this as short as possible
 msgid "dead-ended one-ways"
-msgstr "egyirányú zsákutca"
+msgstr "Egyirányú zsákutca"
 
 msgid ""
 "Streets tagged as one-way must not be dead-ended (where should all the cars "
@@ -346,24 +366,30 @@ msgid ""
 "end) cannot be reached (escaped from). Please note that motorways and "
 "motorway_links are considered one-way implicitly, so this check applies."
 msgstr ""
-"Egyirányúnak jelölt utcák nem lehetnek zsákutcák (ahol az út végén az autók "
-"halmozódnak). A csomópontok, ahonnan az egyirányú utcák indulnak (vagy "
-"végződnek), nem elérhetők (vagy elhagyhatók). Vedd figyelembe, hogy a "
-"motorway és motorway_link magától értetődően egyirányú."
+"Egyirányúnak címkézett utca nem lehet zsákutca (hiszen az út végén "
+"felhalmozódnának az autók). Így nem lehetne elérni (vagy elhagyni) azokat a "
+"pontokat, amelyek egy zsákutca elejét (vagy végét jelentik). Vegye "
+"figyelembe, hogy a [motorway] és [motorway_link] címkéjű autópályák (és "
+"felhajtók) automatikusan egyirányúnak minősülnek, így ez az ellenőrzés "
+"ezekre is vonatkozik."
 
 #. please keep this as short as possible
 msgid "almost-junctions"
-msgstr "majdnem-csomópont"
+msgstr "Majdnem kereszteződés"
 
 msgid ""
 "Streets that have (at least) one unconnected end are examined here. If such "
 "an end-node is very close to any other way an error is reported. Unconnected "
 "end-nodes should probably be connected to adjacent ways."
 msgstr ""
+"Itt azok az utcák vizsgáltatnak meg, amelyeknek van (legalább) egy nem "
+"kapcsolódó végük. Ha ez a végpont nagyon közel van egy másik vonalhoz, akkor "
+"megjelenik a hibajelzés. Egy nem kapcsolódó végpontnak valószínűleg "
+"kapcsolódnia kellene egy szomszédos vonalhoz."
 
 #. please keep this as short as possible
 msgid "deprecated tags"
-msgstr "elavult címkék"
+msgstr "Elavult címkék"
 
 msgid ""
 "As shown in http://wiki.openstreetmap.org/index.php/Deprecated_features some "
@@ -372,61 +398,70 @@ msgid ""
 "free to tag anything the way you like. This is just a hint for new tagging "
 "conventions that have evolved in the meantime."
 msgstr ""
+"A https://wiki.openstreetmap.org/wiki/Deprecated_features oldalon látható "
+"módon úgy címkézési megegyezések kialakulásával egyes címkéket felváltanak "
+"mások. Ezt tájékoztatásnak tekintsük, ne hibának. Az „elavult” kifejezés "
+"elavult: mindenki mindent úgy címkéz, ahogy jónak látja. Ez csupán egy "
+"tanács az időközben kialakuló úgy címkézési megegyezések alkalmazására."
 
 #. please keep this as short as possible
 msgid "missing tags"
-msgstr "hiányzó címkék"
+msgstr "Hiányzó címkék"
 
 msgid ""
 "Ways, nodes and relations should in most cases have at least one tag "
 "(besides created_by)"
 msgstr ""
-"A vonalak, csomópontok, kapcsolatok általában legalább egy címkét kell "
-"tartalmazzanak (a created_by-on kívül)"
+"A vonalak, pontok, kapcsolatok általában legalább egy címkét kell "
+"tartalmazzanak (a created_by-on kívül)."
 
 #. please keep this as short as possible
 msgid "motorways without ref"
-msgstr "autópálya számozás nélkül"
+msgstr "Autópálya [ref] számozás nélkül"
 
 msgid ""
 "The ref-tag documents the reference (e.g. 'A 10') for motorways. These are "
 "mandatory as they are very important information"
 msgstr ""
+"A [ref] címke mutatja az autópálya azonosítóját (pl. M7). A [ref] címke "
+"kötelező, hiszen rendkívül fontos információt tartalmaz."
 
 #. please keep this as short as possible
 msgid "places of worship without religion"
-msgstr "templom vallás megadása nlkül"
+msgstr "Templom vallás nélkül"
 
 msgid ""
 "Churches, mosques and synagogues etc. need an extra religion tag giving info "
 "about the religion"
 msgstr ""
-"Templomnak, mecsetnek, zsinagógának stb.  kell legyen egy religion címkéje, "
-"ami a vallást jelzi."
+"A templomnak, mecsetnek, zsinagógának stb. kell egy [religion] címke, amely "
+"a vallást jelzi."
 
 #. please keep this as short as possible
 msgid "point of interest without name"
-msgstr "név nélküli POI"
+msgstr "Érdekes pont (POI) név nélkül"
 
 msgid ""
 "The name tag should be specified for every point of interest as its content "
 "gets rendered in the map next to the POI symbol"
 msgstr ""
+"Minden érdekes ponthoz (POI) meg kell adni egy nevet, mert a pont szimbóluma "
+"mellett az is megjelenik a térképen."
 
 #. please keep this as short as possible
 msgid "ways without nodes"
-msgstr "csomópont nélküli vonal"
+msgstr "Vonal pont nélkül"
 
 msgid ""
 "Ways that don't consist of at least two nodes don't make much sense as they "
 "won't get rendered."
 msgstr ""
-"Az olyan vonalaknak, amik nem állnak legalább két pontból, nincs sok "
-"értelmük, ezért a térképen sem jelennek meg."
+"Nincs sok értelme annak a vonalnak, amely nem áll legalább két pontból, "
+"hiszen nem jelenik meg a térképen."
 
 #. please keep this as short as possible
 msgid "floating islands"
-msgstr "elszigetelt vonalak"
+msgstr "Elszigetelt vonal"
 
 msgid ""
 "Any highways drawn on the map should be accessible by car starting anywhere "
@@ -434,13 +469,14 @@ msgid ""
 "this check, so almost any island in the sea should be reachable starting "
 "from the mainland."
 msgstr ""
-"Bármely térképen megjelenő, autóval járható út elérhető kell legyen a Föld "
-"bármely pontjáról. A kompok, közutak (beleérve a platformok) bele tartoznak "
-"az ellenőrzésbe, tehát a majdnem minden sziget elérhető a szárazföldről."
+"Bármely térképen megjelenő, autóval járható útnak elérhető kell lennie a "
+"Föld bármely pontjáról. Az ellenőrzés a kompokra és a közutakra (köztük a "
+"peronokra) is kiterjed, tehát a szárazföldről majdnem minden tengeri "
+"szigetnek is elérhetőnek kell lennie."
 
 #. please keep this as short as possible
 msgid "railway crossings without tag"
-msgstr "vasúti kereszteződés címke nélkül"
+msgstr "Vasúti kereszteződés címke nélkül"
 
 msgid ""
 "(Level)-Crossings of railways and highways should have a common node as "
@@ -448,38 +484,45 @@ msgid ""
 "where larger vehicles can cross or with 'railway=crossing' if it is a "
 "crossing just for pedestrians"
 msgstr ""
+"Az út és a vasút kereszteződésében kell lenni egy közös pontnak, amelyet "
+"közúti vasúti átjárónál [railway=level_crossing], gyalogos vasúti átjárónál "
+"pedig [railway=crossing] címkével kell ellátni."
 
 #. please keep this as short as possible
 msgid "wrongly used railway crossing tag"
-msgstr "hibásan használt vasúti kereszteződés címke"
+msgstr "Hibásan használt vasúti kereszteződés címke"
 
 msgid ""
 "Ways that take part in level-crossings of railways and highways have to be "
 "on the same layer and should in the normal case be not tagged as bridge or "
 "tunnel"
 msgstr ""
+"A gyalogos vagy közúti vasúti átjáró pontján átmenő vonalaknak azonos "
+"szinten kell lenniük, és alapesetben nem szavad hídként vagy alagútként "
+"címkézni őket."
 
 #. please keep this as short as possible
 msgid "fixme-tagged items"
-msgstr "fixme címkés elemek"
+msgstr "[fixme] címkés elemek"
 
 msgid ""
 "Nodes, ways or relations that are tagged with FIXME should be reviewed..."
 msgstr ""
-"A FIXME címkével ellátott csomópontok, vonalak, kapcsolatok felülvizsgálatot "
+"A [fixme] címkével ellátott pontok, vonalak és kapcsolatok felülvizsgálatot "
 "igényelnek…"
 
 #. please keep this as short as possible
 msgid "relations without type"
-msgstr "Kapcsolatok típus nélkül"
+msgstr "Kapcsolat típus nélkül"
 
 msgid ""
 "Find any relation that has no type tag, wich is mandatory for relations."
 msgstr ""
+"Minden olyan kapcsolatot megtalál, amelyről hiányzik a kötelező [type] címke."
 
 #. please keep this as short as possible
 msgid "intersections without junctions"
-msgstr "csomópont nlküli kereszteződés"
+msgstr "Kereszteződés csomópont nélkül"
 
 msgid ""
 "Streets that graphically intersect need a common node that represents the "
@@ -487,71 +530,84 @@ msgid ""
 "bridges or tunnels). Intersections of streets with other objects like "
 "waterways or riverbanks should be avoided"
 msgstr ""
+"A földrajzilag egymást metsző utcáknál szükség van egy közös pontra, amely "
+"megjeleníti a kereszteződést. Ez alól csak az kivétel, ha különböző "
+"rétegeken (pl. híd van alagút) futó utak metszik egymást. Az utcák és más "
+"objektumok – például vízfolyás vagy folyópart – egymással való metsződését "
+"kerülni kell."
 
 #. please keep this as short as possible
 msgid "highway-highway"
-msgstr "közút-közút"
+msgstr "út-út"
 
 #. please keep this as short as possible
 msgid "highway-waterway"
-msgstr "közút-vízi út"
+msgstr "út-vízfolyás"
 
 #. please keep this as short as possible
 msgid "highway-riverbank"
-msgstr "közút-folyópart"
+msgstr "út-folyópart"
 
 #. please keep this as short as possible
 msgid "waterway-waterway"
-msgstr "vízi út-vízi út"
+msgstr "vízfolyás-vízfolyás"
 
 #. please keep this as short as possible
 msgid "cyclew/footp-cyclew/footp"
-msgstr "bicikli/járda - bicikli/járda"
+msgstr "kerékpár-/gyalogút - kerékpár-/gyalogút"
 
 #. please keep this as short as possible
 msgid "highway-cyclew/footp"
-msgstr "közút-bicikli/járda"
+msgstr "út - kerékpár-/gyalogút"
 
 #. please keep this as short as possible
 msgid "cyclew/footp-waterway"
-msgstr "bicikli/járda-vízi út"
+msgstr "kerékpár-/gyalogút - vízfolyás"
 
 #. please keep this as short as possible
 msgid "cyclew/footp-riverbank"
-msgstr "bicikli/járda-folyópart"
+msgstr "kerékpár-/gyalogút - vízfolyás"
 
 #. please keep this as short as possible
 msgid "overlapping ways"
-msgstr "egymást átfedő utak"
+msgstr "Egymást átfedő utak"
 
 msgid ""
 "Segments of ways that lie on top of each other (the same nodes connected by "
 "different ways in the same order) are a problem for routing software. They "
 "happen accidently and are hard to find."
 msgstr ""
+"Az egymáson vezetett vonalszakaszok (vagyis amikor azonos pontokat azonos "
+"sorrendben más vonalak kötnek össze) nehézséget jelentenek az útvonaltervező "
+"szoftvereknek. Általában véletlenül fordulnak elő, és nehéz megtalálni őket."
 
 #. please keep this as short as possible
 msgid "loopings"
-msgstr "hurkok"
+msgstr "Hurok"
 
 msgid ""
 "Any way that contains any single node more than twice is considered an "
 "error. Any way may contain just one node twice. If more than one node is "
 "found twice it is considered an error."
 msgstr ""
+"Az egy pontot egynél többször tartalmazó vonal hibásnak minősül. Egy vonal "
+"egy pontot csak egyszer tartalmazhat. Ha több pont kétszer fordul elő, az is "
+"hiba."
 
 #. please keep this as short as possible
 msgid "misspelled tags"
-msgstr "elírt címke"
+msgstr "Elírt címke"
 
 msgid ""
 "Tags that are used very seldom and almost look like very common tags (only "
 "one character difference) are reported as a warning."
 msgstr ""
+"A rendkívül ritkán használt és közismert címkékhez nagyon hasonlító (csupán "
+"egy karatkerben különbözó) címkék figyelmeztetésként jelennek meg."
 
 #. please keep this as short as possible
 msgid "layer conflicts"
-msgstr "réteg konfliktusok"
+msgstr "Rétegek közötti ellentmondás"
 
 msgid ""
 "Connected ways should be on the same layer. Crossings on intermediate nodes "
@@ -561,18 +617,25 @@ msgid ""
 "note that bridges are set to layer +1, and tunnels to -1, anything else to "
 "layer 0 implicitly if no layer tag is present."
 msgstr ""
+"Az egymáshoz kapcsolódó vonalaknak azonos rétegen [layer] kell lenniük. A "
+"különböző rétegeken lévő vonalak közös pontjain lévő kereszteződés "
+"természetesen hiba. Szintén elavult – de közismert gyakorlat – a különböző "
+"rétegeken lévő vonalak végpontjain található kereszteződés. Az ellenőrzésnek "
+"ezt a részét tehát nyugodtan figyelmen kívül hagyhatja, és külön "
+"kikapcsolhatja. Vegye figyelembe, hogy a hidak rétege +1, az alagutaké pedig "
+"-1, minden más pedig automatikusan 0, ha nincs rétegcímke [layer]."
 
 #. please keep this as short as possible
 msgid "mixed layers intersections"
-msgstr "összekevert rétegtalálkozások"
+msgstr "Összekevert rétegtalálkozások"
 
 #. please keep this as short as possible
 msgid "strange layers"
-msgstr "furcsa rétegek"
+msgstr "Szokatlan rétegek"
 
 #. please keep this as short as possible
 msgid "motorways connected directly"
-msgstr "közvetlen autópálya-kapcsolat"
+msgstr "Közvetlenül kapcsolódó autópályák"
 
 msgid ""
 "Motorways should only be connected to other motorways or motorway_links. "
@@ -581,10 +644,16 @@ msgid ""
 "positives on motorways ending in cities but it can be a valuable tool for "
 "looking up unwanted connections of motorways and other roads."
 msgstr ""
+"Autópálya csak másik autópályához vagy felhajtóhoz kapcsolódhat. "
+"Kifejezetten nem kapcsolódhat pl. [highway=primary] főúthoz vagy "
+"[highway=residential] lakóúthoz. Vegye figyelembe, hogy ez az ellenőrzés "
+"téves hibajelzéseket eredményezhet a városokban végződő autópályáknál, "
+"mindazonáltal hasznos eszköz ha autópályák és más utak nem kívánt "
+"csatlakozásait akarjuk kijavítani."
 
 #. please keep this as short as possible
 msgid "boundaries"
-msgstr "határok"
+msgstr "Határok"
 
 msgid ""
 "Administrative Boundaries can be expressed either by tagging ways or by "
@@ -592,30 +661,34 @@ msgid ""
 "they must not self-intersect or split and they must have a name and an "
 "admin_level."
 msgstr ""
+"Közigazgatási határ vagy egy vonal felcímkézésével vagy vonalak kapcsolatba "
+"rendezésével ábrázolható. A határnak önmagába záródó vonal(sorozat)nak kell "
+"lennie, nem metszheti önmagát, nem szakadhat meg, továbbá rendelkeznie kell "
+"egy [name] név és egy [admin_level] közigazgatási szint címkével."
 
 #. please keep this as short as possible
 msgid "missing name"
-msgstr "hiányzó név"
+msgstr "Hiányzó név"
 
 #. please keep this as short as possible
 msgid "missing admin_level"
-msgstr "hiányzó admin_level"
+msgstr "Hiányzó közigazgatási szint"
 
 #. please keep this as short as possible
 msgid "not closed loop"
-msgstr "bezáratlan hurok"
+msgstr "Bezáratlan hurok"
 
 #. please keep this as short as possible
 msgid "splitting boundary"
-msgstr "szakaszos határ"
+msgstr "Megszakadó határvonal"
 
 #. please keep this as short as possible
 msgid "admin_level too high"
-msgstr "admin_level túl nagy"
+msgstr "Túl magas közigazgatási szint"
 
 #. please keep this as short as possible
 msgid "restrictions"
-msgstr "korlátozások"
+msgstr "Bekanyarodási korlátozások"
 
 msgid ""
 "This check is about turn restrictions defined by relations. A turn "
@@ -623,22 +696,27 @@ msgid ""
 "another way as 'to' member and optionally one or more ways or nodes as via "
 "members that need to be connected to 'from' and 'to'"
 msgstr ""
+"Ez az ellenőrzés a kapcsolatokkal meghatározott bekanyarodási korlátozásokra "
+"vonatkozik. Egy bekanyarodási korlátozást definiáló kapcsolathoz a "
+"következők kellenek: érvényes [restriction] típus, egy [from] vonal, egy "
+"[to] vonal, és egy vagy több nem kötelező [via] pont vagy vonal, amelyek "
+"kapcsolódnak hozzájuk."
 
 #. please keep this as short as possible
 msgid "missing type"
-msgstr "hiányzó típus"
+msgstr "Hiányzó típus"
 
 #. please keep this as short as possible
 msgid "missing from way"
-msgstr "hiányzó from vonal"
+msgstr "Hiányzó [from] vonal"
 
 #. please keep this as short as possible
 msgid "missing to way"
-msgstr "hiányzó to vonal"
+msgstr "Hiányzó [to] vonal"
 
 #. please keep this as short as possible
 msgid "missing maxspeed"
-msgstr "hiányzó maxspeed"
+msgstr "Hiányzó sebességkorlátozás"
 
 msgid ""
 "maxspeed tags are not mandatory but they are very helpful for successful "
@@ -646,37 +724,49 @@ msgid ""
 "tag. Please only add maxspeed tags if the allowed maxspeed differs from the "
 "default speed for the given highway!"
 msgstr ""
+"A sebességkorlátozást jelentő [maxspeed] címkék nem kötelezőek, de igen "
+"hasznosak a sikeres útvonaltervezéshez. Ezzel az ellenőrzésel a felhasználó "
+"megtalálhatja a [maxspeed] címke nélküli utakat. Sebességkorlátozás csak "
+"akkor adjunk meg, ha az eltér az adott útra érvényes alapértelmezett "
+"sebességkorlátozástól."
 
 #. please keep this as short as possible
 msgid "roundabouts"
-msgstr "körforgalmak"
+msgstr "Körforgalom"
 
 msgid ""
 "roundabout are always one-way streets directed counter-clockwise in right-"
 "hand driving countries or clockwise in left-hand driving countries."
 msgstr ""
+"A körforgalom olyan egyirányú utca, amely a jobb oldali közlekedésű "
+"országokban az óramutató járásával ellentétes irányba, a bal oldali "
+"közlekedésűekben pedig az óramutató járásával megegyező irányba vezet."
 
 #. please keep this as short as possible
 msgid "wrong direction"
-msgstr "rossz irány"
+msgstr "Hibás irány"
 
 #. please keep this as short as possible
 msgid "faintly connected"
-msgstr "fura összeköttetés"
+msgstr "Gyöngén összekapcsolva"
 
 #. please keep this as short as possible
 msgid "*_link-connections"
-msgstr "*_link összeköttetés"
+msgstr "[*_link] kapcsolat"
 
 msgid ""
 "Any highway tagged as (motorway|trunk|primary|secondary)_link should have at "
 "least one connection to a (motorway|trunk|primary|secondary) highway or a "
 "_link highway of the same type"
 msgstr ""
+"Egy [motorway_link], [trunk_link], [primary_link] vagy [secondary_link] "
+"címkéjű útnak (felhajtónak) legalább egy ponton kapcsolódnia kell egy "
+"[motorway], [trunk], [primary] vagy [secondary] címkéjű úthoz vagy azonos "
+"típusú […_link] végződésű úthoz."
 
 #. please keep this as short as possible
 msgid "bridge-tags"
-msgstr "híd címkék"
+msgstr "Híd címkék"
 
 msgid ""
 "Someone draws a bridge and forgets to tag it as highway... A bridge should "
@@ -684,10 +774,15 @@ msgid ""
 "Currently these are: highway, railway, cycleway, waterway, footway, piste, "
 "aerialway, pipeline, building, via_ferrata"
 msgstr ""
+"Előfordul, hogy valaki rajzol egy hidat, és elfelejti útként [highway] "
+"fölcímkézni… A hídnak mindig viselnie kell a közvetlenül szomszédos vonalak "
+"egyik „főcímkéjét”. Jelenleg ezek a következők: [highway], [railway], "
+"[cycleway],[waterway], [footway], [piste], [aerialway], [pipeline], "
+"[building] vagy [via_ferrata]."
 
 #. please keep this as short as possible
 msgid "language unknown"
-msgstr "ismeretlen nyelv"
+msgstr "Ismeretlen nyelv"
 
 msgid ""
 "To help applications choose the best matching language they should know the "
@@ -695,6 +790,10 @@ msgid ""
 "name:XX tag with the same content as found in the name tag where XX "
 "specifies the language used for the name tag."
 msgstr ""
+"Ahhoz, hogy egy alkalmazás kiválaszthatssa a legjobban illeszkedő nyelvet, "
+"ismernie kell a [name] címke nyelvét. Ez szükséges, hogy a [name] címke "
+"tartalmával egy [name:xx] címke is meg legyen adva, ahol az „xx” a címke "
+"nyelvének a kódja."
 
 #. full message: "It would be nice if this node had an additional tag 'name:XX=Austria' where XX shows the language of its name 'Austria'."
 msgid ""
@@ -707,130 +806,166 @@ msgstr ""
 #. this is about points of interest drawn inside a building of the same name
 #. please keep this as short as possible
 msgid "doubled places"
-msgstr ""
+msgstr "Megkettőzött hely"
 
 msgid ""
 "a node inside of an area that is tagged with same name and representing the "
 "same physical entity leads to wrong statistics and doubled labels on the map"
 msgstr ""
+"Ha egy területen belül van egy pont, amely ugyanúgy van címkézve és ugyanazt "
+"a fizikai objektumot jeleníti meg, mint a terület, akkor hibás lesz a "
+"statisztika, a térképen pedig megkettőzött feliratokat fognak megjelenni."
 
 msgid ""
 "This node has tags in common with the surrounding way #$1 and seems to be "
 "redundand"
 msgstr ""
+"Ennek a pontnak az őt körülvevő vonallal (#$1s) azonos címkéi vannak, ezért "
+"fölöslegesnek tűnik."
 
 msgid ""
 "This node has tags in common with the surrounding way #$1 (including the "
 "name '$2') and seems to be redundand"
 msgstr ""
+"Ennek a pontnak az őt körülvevő vonallal (#$1s) több azonos címkéje (többek "
+"között azonos „$2” neve) van, ezért fölöslegesnek tűnik."
 
 #. please keep this as short as possible
 msgid "non-physical use of sport-tag"
-msgstr ""
+msgstr "Fizikai címke nélküli [sport] címke"
 
 msgid ""
 "&apos;sports&apos; is a non-physical tag that needs to be bound to some "
 "physical structure like for example a leisure-item or an amenity. Ways "
 "tagged with &apos;sports&apos; solely will be invisible on the map"
 msgstr ""
+"A [sport] nem fizikai címke, tehát kapcsolódnia kell valamilyen fizikai "
+"objektumhoz (pl. [leisure] vagy [amenity] kulccsal kezdődő címkéhez). A "
+"kizárólag [sport] címkét viselő vonalak nem fognak látszani a térképen."
 
 #. full message: "This way is tagged sport=tennis but has no physical tag like e.g. leisure, building, amenity or highway"
 msgid ""
 "This way is tagged $1 but has no physical tag like e.g. leisure, building, "
 "amenity or highway"
 msgstr ""
+"Ez a vonal [$1]-ként van felcímkézve, de nem tartozik hozzá fizikai (pl. "
+"[leisure], [building], [amenity] vagy [highway] kezdetű) címke."
 
 #. please keep this as short as possible
 msgid "missing tracktype"
-msgstr ""
+msgstr "Hiányzó mezőgazdaságiút-típus"
 
 msgid ""
 "highway=track ways should be added with more detail about the tracktype "
 "(grade1..grade5). The tracktype is included in rendering rules and makes "
 "maps more expressive"
 msgstr ""
+"A [highway=track] címkéjű mezőgazdasági vagy erdészeti utakhoz célszerű "
+"további adatokat megadni az út típusára [tracktype] vonatkozóan [grade1 … "
+"grade5]. A típus megjelölését figyelembe veszik a megjelenítési szabályok, "
+"így sokkal kifejezőbbé válik a térkép."
 
 msgid "This track doesn't have a tracktype"
-msgstr ""
+msgstr "Ennek a mezőgazdasági/erdészeti útnak nincs [tracktype] típusa"
 
 #. please keep this as short as possible
 msgid "geometry glitches"
-msgstr ""
+msgstr "Geometriai zavar"
 
 msgid ""
 "looks for impossible sharp angles on highways and junctions. These may be "
 "caused by missing turn restrictions on junctions or glitches along the "
 "linestring of ways"
 msgstr ""
+"Lehetetlenül éles szögeket keres az utakon és a kereszteződésekben. Ezeket a "
+"kereszteződésekről hiányzó bekanyarodási korlátozás vagy vagy a vonalat "
+"vezetésének hibája okozhatja."
 
 #. please keep this as short as possible
 msgid "missing turn restriction"
-msgstr ""
+msgstr "Hiányzó bekanyarodási korlátozás"
 
 #. please keep this as short as possible
 msgid "impossible angles"
-msgstr ""
+msgstr "Lehetetlen szög"
 
 msgid "this way bends in a very sharp angle here"
-msgstr ""
+msgstr "Ez a vonal nagyon éles szögben kanyarodik."
 
 msgid ""
 "ways $1 and $2 join in a very sharp angle here and there is no oneway tag or "
 "turn restriction that prevents turning from way $2 to $1"
 msgstr ""
+"Ez a két vonal ($1 és $2) nagyon éles szögben találkozik, és nincs olyan "
+"egyirányú [oneway] címke vagy bekanyarodási korlátozás, amely a másodikról "
+"az elsőre történő bekanyarodást megakadályozná."
 
 msgid ""
 "ways $1 and $2 join in a very sharp angle here and there is no oneway tag or "
 "turn restriction that prevents turning from way $1 to $2"
 msgstr ""
+"Ez a két vonal ($1 és $2) nagyon éles szögben találkozik, és nincs olyan "
+"egyirányú [oneway] címke vagy bekanyarodási korlátozás, amely az elsőről a "
+"másodikra történő bekanyarodást megakadályozná."
 
 msgid ""
 "ways $1 and $2 join in a very sharp angle here and there is no oneway tag or "
 "turn restriction that prevents turning"
 msgstr ""
+"Ez a két vonal ($1 és $2) nagyon éles szögben találkozik, és nincs olyan "
+"egyirányú [oneway] címke vagy bekanyarodási korlátozás, amely a "
+"bekanyarodást megakadályozná."
 
 #. please keep this as short as possible
 msgid "website"
-msgstr ""
+msgstr "Weboldal"
 
 #. please keep this as short as possible
 msgid "http error"
-msgstr ""
+msgstr "http hiba"
 
 #. please keep this as short as possible
 msgid "domain hijacking"
-msgstr ""
+msgstr "eltérített domain"
 
 #. please keep this as short as possible
 msgid "non-match"
-msgstr ""
+msgstr "Hiányzó tartalom"
 
 msgid ""
 "calls websites and tries to match website content with key tags from the osm "
 "element"
 msgstr ""
+"Lehívja a weboldalt, és összehasonlítja a tartalmát a térképobjektumon "
+"található címkék tartalmával."
 
 #. full message: "The URL (http://www.belgian-beer-cafe.com.au/heritage) cannot be opened (HTTP status code 404)"
 msgid ""
 "The URL (<a target=\"_blank\" href=\"$1\">$1</a>) cannot be opened (HTTP "
 "status code $2)"
 msgstr ""
+"A <a target=\"_blank\" href=\"$1\">$1</a>) URL nem nyitható meg (HTTP "
+"állapotkód: $2)."
 
 msgid ""
 "Possible domain squatting: <a target=\"_blank\" href=\"$1\">$1</a>. "
 "Suspicious text is: \"$2\""
 msgstr ""
+"Esetlegesen eltérített domain: <a target=\"_blank\" href=\"$1\">$1</a>. A "
+"gyanús szöveg: „$2”."
 
 #. full message: "Content of the URL (http://www.yha.com.au) did not contain these keywords: (*Bondi Beachouse YHA*Bondi)"
 msgid ""
 "Content of the URL (<a target=\"_blank\" href=\"$1\">$1</a>) did not contain "
 "these keywords: ($2)"
 msgstr ""
+"A <a target=\"_blank\" href=\"$1\">$1</a> weboldal nem tartalmazza a "
+"következő kulcsszavakat: $2."
 
 #. translations for the web pages
 #: index.php:9
 msgid "data consistency checks for OSM"
-msgstr "OSM adatok konzisztencia-ellenőrzése"
+msgstr "Adatkonzisztencia-ellenőrző az OpenStreetMaphez"
 
 #: index.php:11
 msgid "keep-right logo"
@@ -839,37 +974,39 @@ msgstr "keep-right logó"
 #: index.php:13
 #, php-format
 msgid "data consistency checks for %sOSM%s"
-msgstr "%sOSM%s adatkonzisztencia ellenőrzés"
+msgstr "Adatkonzisztencia-ellenőrző az %sOpenStreetMap%shez"
 
 #: index.php:20
 msgid ""
 "These pages show checks that are run on a local excerpt database filled with "
 "OSM data."
 msgstr ""
+"Az alábbi oldalak olyan ellenőrzéseket tartalmaznak, amelyek az OSM "
+"adataival feltöltöt helyi adatbázis-kivonatokon lettek lefuttatva."
 
 #: index.php:23
 #, php-format
 msgid "Data Checks for Europe%s (Starting point Vienna, Austria)"
-msgstr "Európai adatellenőrzés%s (kiindulópont Bécs, Ausztria)"
+msgstr "Adatellenőrzés Európára%s (kiindulópont: Bécs, Ausztria)"
 
 #: index.php:27
 msgid "Data Checks for Australia%s (Starting point Sydney)"
-msgstr ""
+msgstr "Adatellenőrzés Ausztráliára%s (kiindulópont: Sydney)"
 
 #: index.php:30
 #, php-format
 msgid "Data Checks for Africa%s (Starting point Cairo, Egypt)"
-msgstr ""
+msgstr "Adatellenőrzés Afrikára%s (kiindulópont: Kairó, Egyiptom)"
 
 #: index.php:33
 #, php-format
 msgid "Data Checks for Canada%s (Starting point Québec)"
-msgstr ""
+msgstr "Adatellenőrzés Kanadára%s (kiindulópont: Québec)"
 
 #: index.php:36
 #, php-format
 msgid "Data Checks for USA%s (Starting point Philadelphia, PA)"
-msgstr ""
+msgstr "Adatellenőrzés az USA-ra%s (kiindulópont: Philadelphia, PA)"
 
 #: index.php:39
 #, php-format
@@ -877,20 +1014,22 @@ msgid ""
 "Data Checks for Central America%s (Starting point Santo Domingo, Republica "
 "Dominicana)"
 msgstr ""
+"Adatellenőrzés Közép-Amerikára%s (kiindulópont: Santo Domingo, Dominikai "
+"Köztársaság)"
 
 #: index.php:42
 #, php-format
 msgid "Data Checks for South America%s (Starting point São Paulo, Brazil)"
-msgstr ""
+msgstr "Adatellenőrzés Dél-Amerikára%s (kiindulópont: São Paulo, Brazília)"
 
 #: index.php:45
 #, php-format
 msgid "Data Checks for Asia%s (Starting point Tokio, Japan)"
-msgstr ""
+msgstr "Adatellenőrzés Ázsiára%s (kiindulópont: Tokió, Japán)"
 
 #: index.php:47
 msgid "Europe Data Checks as ugly list"
-msgstr ""
+msgstr "Európai adatellenőrzések csúnya lista formájában"
 
 #: index.php:49
 #, php-format
@@ -898,6 +1037,8 @@ msgid ""
 "Developers have a look at the %sSourceForge%s site providing svn access to "
 "the sources."
 msgstr ""
+"A fejlesztők vethetnek egy pillantást a %sSourceForge%s-ra, amely SVN "
+"hozzáférést biztosít a forráskódhoz."
 
 #: index.php:52
 msgid "logfile"
@@ -909,8 +1050,8 @@ msgid ""
 "If you want to export errors from KeepRight you will want to have a look at "
 "the %sinterfacing guide%s"
 msgstr ""
-"Ha szeretnéd a hibákat a KeepRightból kiexportálni, vess egy pillantást az "
-"%sinterfész útmutatóra%s"
+"Ha szeretné a hibákat a KeepRightból exportálni, vessen egy pillantást az "
+"%sinterfész útmutatójára%s."
 
 #, php-format
 msgid ""
@@ -919,6 +1060,10 @@ msgid ""
 "(try any combination of Ctrl, Shift, Alt plus &apos;R&apos; as well as "
 "&apos;F5&apos;) if the site doesn&apos;t work for you."
 msgstr ""
+"Ma kijavítottam az OpenLayers sérült buborékok problémáját. A buborékok most "
+"jól néznek ki,és elkészítettem az OL2.12-höz tartozó kapcsolót. Ha az oldal "
+"tövábbra sem működne, ürítse ki a böngésző gyorsítótárát (próbálja ki a "
+"Ctrl, Shift, Alt + R különböző kombinációit, illetve az F5 billentyűt)."
 
 #, php-format
 msgid ""
@@ -1067,11 +1212,11 @@ msgstr ""
 #: index.php:70
 #, php-format
 msgid "For archeologists: %sOld log entries%s have moved."
-msgstr "Régészkedőknek: %sA régi naplóbejegyzések%s átköltöztek"
+msgstr "Régészkedőknek: A %srégi naplóbejegyzések%s elköltöztek"
 
 #: index.php:73
 msgid "a few words on the new comment feature"
-msgstr "egy pár szó az új megjegyzésdobozról"
+msgstr "Néhány szó az új megjegyzésdobozról"
 
 #: index.php:74
 msgid ""
@@ -1079,6 +1224,10 @@ msgid ""
 "false-positive. Don't confuse the comment box with an editing feature. This "
 "is not Potlatch! You cannot add missing tags via KeepRight!"
 msgstr ""
+"Ha téves hibajelzéseket talál, kérem, küldjön egy hozzászólást, hogy "
+"javíthassak az ellenőrzési rutinokon. Ne tévessze össze a hozzászólást "
+"tartalmazó dobozt és a szerkesztő funkciót. Ez nem a Potlatch! A "
+"KeepRighttal nem lehet hiányzó címkéket megadni."
 
 #: index.php:77
 msgid ""
@@ -1086,16 +1235,19 @@ msgid ""
 "running when you hit the JOSM-link. Furthermore you have to enable the "
 "&apos;remote control&apos;-plugin in JOSMs options."
 msgstr ""
+"Vegye figyelembe, hogy amikor a JOSM-linkre kattint, a JOSM-nak már futnia "
+"kell. Ezen kívül a JOSM beállítási között engedélyezni kell a „távirányító” "
+"bővítményt."
 
 #: index.php:79
 msgid "Currently the following checking procedures are implemented"
-msgstr "Jelenleg az alábbi ellenőrző eljárások vannak megvalósítva"
+msgstr "Jelenleg az alábbi ellenőrző eljárások működnek"
 
 #: index.php:102
 msgid ""
 "If you find an error in my errors lists I would definitely like to hear "
 "about it!"
-msgstr ""
+msgstr "Ha az alábbi felsorolásban hibát, mindenképpen mondja el nekem is!"
 
 #: index.php:104
 msgid "Impressum"
@@ -1106,42 +1258,47 @@ msgid ""
 "This work is done without commercial background, just for my personal "
 "pleasure. I would be very happy if it was helpful for the OSM Project."
 msgstr ""
+"A munka üzleti háttér nélkül készült, kizárólag a saját személyes örömömre. "
+"Örülnék, ha hasznos része lenne az OpenStreetMap projektnek."
 
 #: index.php:106
 msgid ""
 "If you like to contact me, my mailbox at the austrian server of gmx is "
 "labelled KeepRight."
 msgstr ""
+"Ha szeretne velem kapcsolatba lépni, e-mail címem az GMX osztrák domainjén "
+"található KeepRight postafiók."
 
 #: index.php:106
 msgid ""
 "Please understand that I will not always be able to immediately respond to "
 "your mail on weekdays."
 msgstr ""
+"Kérem, legyen megértéssel: hétköznap nem tudok mindig azonnal válaszolni."
 
 #: report_map.php:155
 msgid "errors"
-msgstr "hibák"
+msgstr "Hibák"
 
 #: report_map.php:155
 msgid "warnings"
-msgstr "figyelmeztetések"
+msgstr "Figyelmeztetések"
 
 #: report_map.php:182
 msgid "all"
-msgstr "összes"
+msgstr "Összes"
 
 #: report_map.php:183
 msgid "none"
-msgstr "semmi"
+msgstr "Semmi"
 
 #: report_map.php:185
 msgid "show ignored errors"
-msgstr "kihagyott hibák megjelenítése"
+msgstr "Figyelmen kívül hagyott hibák"
 
 #: report_map.php:187
 msgid "show temp. ignored errors"
-msgstr "átmenetileg kihagyott hibák megj."
+msgstr "Átmenetileg figyelmen kívül hagyott hibák"
 
 #: report_map.php:189
 msgid "Edit in Potlatch"
@@ -1153,8 +1310,8 @@ msgid ""
 "You will see up to %d error markers starting in the center of the map. "
 "Please allow a few seconds for the error markers to appear after panning."
 msgstr ""
-"Legfeljebb %d hibajelzőt fogsz látni, a térkép közepétől kiindulva. Gördítés "
-"után hagyj pár másodpercet nekik a megjelenésre."
+"Legfeljebb %d hibajelzőt fog látni, a térkép közepétől kiindulva. A térkép "
+"eltolása után hagyjon pár másodpercet a hibák megjelenésére."
 
 #: report_map.php:196
 #, php-format
@@ -1163,7 +1320,7 @@ msgstr "Oldal frissítve: %s"
 
 #: points.php:114
 msgid "node"
-msgstr "csomópont"
+msgstr "pont"
 
 #: points.php:114
 msgid "way"
@@ -1187,6 +1344,8 @@ msgid ""
 "JOSM must be running and JOSM's remote control plugin must be enabled for "
 "this to work!"
 msgstr ""
+"A JOSM-nak futnia kell, és a JOSM távirányító bővítményének engedélyezve "
+"kell lennie."
 
 #: myText.js:239
 msgid "Potlatch"
@@ -1194,40 +1353,40 @@ msgstr "Potlatch"
 
 #: myText.js:239
 msgid "iD"
-msgstr ""
+msgstr "iD"
 
 #: myText.js:244
 msgid "keep this error open"
-msgstr "hiba nyitvatartása"
+msgstr "Nyitottan tartás"
 
 #: myText.js:246
 msgid "ignore temporarily (error corrected)"
-msgstr "átmenetileg figyelmenkívül hagyás (javítva)"
+msgstr "Figyelmen kívül hagyás átmenetileg (hiba javítva)"
 
 #: myText.js:248
 msgid "ignore (false-positive)"
-msgstr "figyelmenkívül hagyás (nem hibás)"
+msgstr "Figyelmen kívül hagyás (téves hibajelzés, nem hiba)"
 
 #: myText.js:252
 msgid "save"
-msgstr "mentés"
+msgstr "Mentés"
 
 #: myText.js:253
 msgid "cancel"
-msgstr "mégsem"
+msgstr "Mégse"
 
 #: myText.js:254
 msgid "please click on the icon to fixate the bubble"
-msgstr "a buborék rögzítéséhez kattints a hibajelző ikonra"
+msgstr "A buborék rögzítéséhez kattintson a hibajelző ikonra"
 
 #: myText.js:255
 msgid "link to here: error #"
-msgstr "link ide: hiba #"
+msgstr "Link ehhez a hibához: #"
 
 #. full message: "last edit of this node: 2009-04-01 5:22"
 #: myText.js:255
 msgid "last edit of this"
-msgstr "utoljára szerkesztve ez a"
+msgstr "Utoljára szerkesztve ez a"
 
 #: interfacing.php:4
 msgid "interfacing KeepRight"
@@ -1239,7 +1398,7 @@ msgstr "KeepRight interfész"
 
 #: interfacing.php:13
 msgid "You may use KeepRight&apos;s results in a number of ways:"
-msgstr "A KeepRight eredményeit több módon is használhatod:"
+msgstr "A KeepRight eredményei több módon is felhasználhatók:"
 
 #: interfacing.php:17
 #, php-format
@@ -1254,12 +1413,12 @@ msgstr "%sGPX útpontok%s exportálásával"
 #: interfacing.php:19
 #, php-format
 msgid "exporting new errors as %sRSS feed%s"
-msgstr "az új hibák exportálásával %sRSS feedbe%s"
+msgstr "az új hibák %sRSS-hírcsatornába%s történő exportálásával"
 
 #: interfacing.php:20
 #, php-format
 msgid "getting the whole errors %sdump file%s"
-msgstr "a teljes %sdump fájl%s megszerzésével"
+msgstr "a teljes %smemóriaképfájl%s lekérésével"
 
 #: interfacing.php:24
 msgid "exporting GPX waypoints"
@@ -1274,6 +1433,8 @@ msgid ""
 "Exporting a section of the map into a GPX-styled list of waypoints for use "
 "with GPS units"
 msgstr ""
+"Egy térképrészlet exportálása egy GPX stílusú útpontlistába, amely GPS-"
+"készülékkel használható."
 
 #: interfacing.php:28 interfacing.php:38 interfacing.php:50
 msgid "URL format"
@@ -1284,6 +1445,9 @@ msgid ""
 "You can specify a list of error types you want to have in the file as well "
 "as a bounding box on the map. This export will return up to 10000 waypoints. "
 msgstr ""
+"Meghatározhatja a fájlban megtalálható hibatípusok listáját, valamint a "
+"térképen lévő határolókeretet. Ily módon legfeljebb 10.000 útpont "
+"exportálható. "
 
 #: interfacing.php:31
 msgid ""
@@ -1291,14 +1455,17 @@ msgid ""
 "service that always includes the current error type selection and view from "
 "the map."
 msgstr ""
+"A térképoldal bal alsó sarkában van egy link, amelyik a GPX-exportálásra "
+"mutat, és amelyik mindig az éppen aktuális hibatípus-kijelölést és "
+"térképnézetet tartalmazza."
 
 #: interfacing.php:34
 msgid "exporting new errors as RSS feed"
-msgstr "új hibák exportálása RSS feedbe"
+msgstr "Új hibák exportálása RSS-hírcsatornába"
 
 #: interfacing.php:36
 msgid "Watching a section of the map for newly found errors"
-msgstr ""
+msgstr "Újonnan megjelenő hibák figyelése egy adott térképrészleten"
 
 #: interfacing.php:41
 msgid ""
@@ -1306,6 +1473,9 @@ msgid ""
 "different. The RSS feed will include error entries that were first found "
 "within the last three weeks."
 msgstr ""
+"Az URL formátum ugyanaz, mint a GPX exportálásnál, csupán a "
+"formátumparaméter különbözik. Az RSS-hírcsatorna azokat a hibabejegyzéseket "
+"tartalmazza, amelyek az elmúlt három hétben jelentek meg először."
 
 #: interfacing.php:42
 msgid ""
@@ -1313,24 +1483,29 @@ msgid ""
 "service that always includes the current error type selection and view from "
 "the map."
 msgstr ""
+"A térképoldal bal alsó sarkában van egy link, amelyik az RSS-hírcsatornába "
+"való exportálásra mutat, és amelyik mindig az éppen aktuális hibatípus-"
+"kijelölést és térképnézetet tartalmazza."
 
 #: interfacing.php:46
 msgid "getting the whole dump-file"
-msgstr ""
+msgstr "A teljes memóriaképfájl lekérése"
 
 #: interfacing.php:48
 msgid "Doing something completely different with 25 millions of errors..."
-msgstr ""
+msgstr "25 millió hibával valami egészen mást művelni…"
 
 #: interfacing.php:53
 msgid ""
 "This tab-separated file contains all errors currently open for the whole "
 "planet (currently >500MB). It is being updated daily."
 msgstr ""
+"Ez a tabulátorral tagolt fájl a jelenleg az egész bolygón megnyitva lévő "
+"össze hibát tartalmazza (jelenleg >500 MB). Naponta frissül."
 
 #: interfacing.php:56
 msgid "Table layout"
-msgstr "Adattábla terv"
+msgstr "Táblázatelrendezés"
 
 #: interfacing.php:59
 #, php-format
@@ -1340,12 +1515,19 @@ msgid ""
 "roughly equally sized dump files. Consider the schema as a prefix for the "
 "error_id."
 msgstr ""
+"A [schema] egy azonosító, amely a bolygó térségeit nevezi meg. A "
+"%sbolygófelosztási térkép%s szerint a Föld téglalap alakú részekre van "
+"bontva, hogy így nagyjából azonos méretű memóriaképfájlokat kapjunk. A "
+"[schema] az [error_id] hibaazonosító előtagjának is tekinthető."
 
 #: interfacing.php:60
 msgid ""
 "A number identifying errors, starting from 1 for each schema. An error_id is "
 "worth nothing if you don&apos;t know the schema!"
 msgstr ""
+"Egy a hibát azonosító sorszám, amely minden egyes [schema] esetében 1-gyel "
+"kezdődik. Az [error_id] hibaazonosító szám semmit sem ér, ha nem ismerjük a "
+"hozzá tartozó [schema] azonosítóját."
 
 #: interfacing.php:61
 msgid ""
@@ -1353,6 +1535,9 @@ msgid ""
 "blocks of 10s (20, 30, 40...). They correspond with the name of the script "
 "file doing the checking."
 msgstr ""
+"A hibatípus numerikus megjelenítése. A hibatípusok 10-esével vannak "
+"csoportosítva (20, 30, 40 stb.), és megfelelnek az ellenőrzést végző "
+"parancsfájl (script file) nevének."
 
 #: interfacing.php:62
 msgid ""
@@ -1363,6 +1548,12 @@ msgid ""
 "boundaries]&quot;). Subtyped error types are rendered as groups that may be "
 "collapsed on the web site."
 msgstr ""
+"A hibatípusokhoz altípusok is tartozhatnak (281, 282 s a többi). Az "
+"altípusokra vonatkozó ellenőrző rutin az adott témához tartozó különböző "
+"vonatkozásokat teszteli (a példa szerint a 280 a határokat, a 281 a határok "
+"hiányzó nevét, a 282 a határok hiányzó közigazgatási szintjét). A "
+"hibatípusok altípusai csoportként jelennek meg, amelyek a weboldalon "
+"összecsukhatók."
 
 #: interfacing.php:64
 msgid ""
@@ -1370,14 +1561,17 @@ msgid ""
 "types you may want to prepend the error_name that belongs to the main number "
 "to make the name complete."
 msgstr ""
+"A hibatípus szöveges megjelenítése (rövid neve). Altípusoknál a név teljessé "
+"tételéhez célszerű elé illeszteni a fő számhoz tartozó hibanevet "
+"[error_name]."
 
 #: interfacing.php:65
 msgid "one of node/way/relation"
-msgstr "egy csomópont/vonal/kapcsolat"
+msgstr "Egy pont / vonal / kapcsolat."
 
 #: interfacing.php:66
 msgid "an OSM node_id, way_id or relation_id"
-msgstr ""
+msgstr "Egy pont, vonal vagy kapcsolat azonosítója (id) az OpenStreetMapen."
 
 #: interfacing.php:67
 msgid ""
@@ -1460,11 +1654,11 @@ msgstr ""
 
 #: interfacing.php:82
 msgid "loading the errors table"
-msgstr "errors tábla betöltése"
+msgstr "A hibatáblázat betöltése"
 
 #: interfacing.php:85
 msgid "This is the schema definition for use with MySQL databases:"
-msgstr ""
+msgstr "MySQL-adatbázisoknál ezt a sémameghatározást kell használni:"
 
 #: interfacing.php:108
 msgid ""
@@ -1494,7 +1688,7 @@ msgstr ""
 
 #: interfacing.php:139
 msgid "querying node counts"
-msgstr ""
+msgstr "Pontok számának lekérése"
 
 #: interfacing.php:141
 msgid ""
@@ -1502,9 +1696,14 @@ msgid ""
 "nodes per square degree found in the planet file. Resolution is 0.1 degrees. "
 "You may download the file here:"
 msgstr ""
+"A parancsfájlok (scriptek) melléktermékként létrehoznak egy fájlt, amely a "
+"bolygófájlban található pontok számát tartalmazza négyzetfokonként. A "
+"felbontás 0,1° fok. A fájlt itt töltheti le:"
 
 #: interfacing.php:144
 msgid ""
 "This dump file can be useful for statistics if you want to calculate an "
 "`errors per node` measure"
 msgstr ""
+"Ez a memóriaképfájl hasznos lehet statisztikakészítéshez, ha a „hiba/pont” "
+"mértékét szeretné kiszámolni"

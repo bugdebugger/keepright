@@ -1,346 +1,348 @@
-# Indonesian translation for keepright
-# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# Galician translation for keepright
+# Copyright (c) 2019 Rosetta Contributors and Canonical Ltd 2019
 # This file is distributed under the same license as the keepright package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: keepright\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2010-05-08 18:12+0200\n"
-"PO-Revision-Date: 2012-11-06 04:54+0000\n"
-"Last-Translator: Adityo Dwijananto <adz.only@gmail.com>\n"
-"Language-Team: Indonesian <id@li.org>\n"
+"PO-Revision-Date: 2019-01-30 11:06+0000\n"
+"Last-Translator: Iván Seoane <Unknown>\n"
+"Language-Team: Galician <gl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2013-12-02 05:37+0000\n"
-"X-Generator: Launchpad (build 16856)\n"
+"X-Launchpad-Export-Date: 2019-01-31 04:40+0000\n"
+"X-Generator: Launchpad (build 18862)\n"
 
 msgid "There is more than one node in this spot. Offending node IDs: $1"
-msgstr "Terdapat lebih dari satu node pada titik ini. Offending node IDs: $1"
+msgstr "Hai máis dun nó neste lugar. As ID dos nós problemáticos son: $1"
 
 msgid "This coastline-way is not part of a closed-loop"
-msgstr "Garis Pantai ini bukan merupakan bagian dari sebuah loop tertutup"
+msgstr "Esta liña de costa non é parte dunha liña pechada"
 
 msgid "This way is tagged with '$1=$2' and should be closed-loop."
 msgstr ""
-"Jalur ini diberi tag '$1=$2' dan seharusnya berupa lingkaran tertutup"
+"Este camiño está etiquetado con '$1=$2' e tería que ser unha liña pechada"
 
 msgid ""
 "The first node (id $1) of this one-way is not connected to any other way"
 msgstr ""
-"Node pertama (id $1) dari garis satu jalur ini tidak terhubung dengan jalur "
-"lainnya"
+"O primeiro nó (ca id $1) desta vía dun só único, non está conectada a "
+"ningunha outra vía"
 
 msgid ""
 "The last node (id $1) of this one-way is not connected to any other way"
 msgstr ""
-"Node terakhir (id $1) dari garis satu jalur ini tidak terhubung dengan jalur "
-"lainnya"
+"O derradeiro nó (ca id $1) desta vía dun só sentido non está conectada a "
+"ningunha outra vía"
 
 msgid ""
 "This node cannot be reached, because one-ways only lead away from here"
 msgstr ""
-"Node ini tidak dapat dicapai, karena satu-satunya cara mencapainya jauh dari "
-"sini"
+"Non se pode acceder cara este nó porque os sentidos únicos só chegan até "
+"este punto"
 
 msgid "You cannot escape from this node, because one-ways only lead to here"
 msgstr ""
-"Anda tidak dapat lepas dari titik ini, karena hanya satu jalur yang mengarah "
-"ke daerah tersebut"
+"Non se pode saír deste nó porque os sentidos únicos só chegan até este punto"
 
 msgid "This node is very close but not connected to way #$1"
-msgstr ""
-"Titik ini sangat berdekatan akan tetapi tidak tersambung dengan jalur #$1"
+msgstr "Este nó está moi preto pero non está conectado á vía #$1"
 
 #. full mesage: "This way uses deprecated tag highway = viaduct."
 msgid "This $1 uses deprecated tag $2 = $3"
-msgstr "$1 menggunakan tag lama $2 = $3"
+msgstr "Este $1 emprega a etiqueta vella $2 = $3"
 
 #. full mesage: "This way uses deprecated tag highway = viaduct. Please use bridge=* instead!"
 msgid "This $1 uses deprecated tag $2 = $3. Please use $4 instead!"
-msgstr "$1 menggunakan tag lama $2 =$3. Tolong menggunakan tag $4 saja"
+msgstr ""
+"Este $1 emprega a etiqueta vella $2 = $3. Por favor emprega $4 no canto da "
+"vella!"
 
 #. full mesage: "This way has an empty tag: name="
 msgid "This $1 has an empty tag: $2"
-msgstr "$1 menggunakan tag kosong: $2"
+msgstr "Este $1 ten unha etiqueta baleira: $2"
 
 msgid "This way has no tags"
-msgstr "Jalur ini tidak memiliki tag"
+msgstr "Esta vía non ten etiquetas"
 
 msgid "This node is not member of any way and does not have any tags"
-msgstr ""
-"Titik ini bukan merupakan anggota dari jalur manapun dan tidak mempunyai tag"
+msgstr "Este nó non é membro de ningún camiño e non ten ningunha etiqueta"
 
 msgid ""
 "This way is tagged as motorway and therefore needs a ref, nat_ref or int_ref "
 "tag"
 msgstr ""
-"Jalur ini diinformasikan sebagai jalur motor dan karena itu membutuhkan ref "
-"tag, nat_ref atau int_ref"
+"Este camiño esta etiquetado coma autoestrada ('motorway'), polo tanto "
+"precisa unha etiqueta de 'ref', 'nat_ref' ou 'int_ref'"
 
 msgid ""
 "This $1 is tagged as place of worship and therefore needs a religion tag"
 msgstr ""
-"Tempat $1 ini diberi tag sebagai tempat ibadah, oleh karena itu membutuhkan "
-"tag agama/religion"
+"Este $1 está marcado coma un lugar de culto polo tanto require unha etiqueta "
+"de relixión"
 
 msgid "This node is tagged as $1 and therefore needs a name tag"
-msgstr "Node ini diberi tag sebagai $1, oleh karena itu membutuhkan tag nama"
+msgstr ""
+"Este nó esta etiquetado coma $1 polo tanto require unha etiqueta de nome "
+"('name')"
 
 msgid ""
 "This node is tagged as $1 and therefore needs a name tag or an operator tag"
 msgstr ""
-"Titik ini diinformasikan sebagai $1 dan karena itu membutuhkan tag nama atau "
-"tag operator"
+"Este nó esta etiquetado coma $1 polo tanto require unha etiqueta de nome "
+"('name') ou unha etiqueta do operador ('operator')"
 
 msgid "This way has no nodes"
-msgstr "jalur ini tidak memiliki node"
+msgstr "Este camiño non ten nós"
 
 msgid "This way has just one single node"
-msgstr "Jalur ini hanya memiliki satu node"
+msgstr "Este camiño só ten un nó"
 
 msgid "This way is not connected to the rest of the map"
-msgstr "Jalur ini tidak terhubung ke peta keseluruhan"
+msgstr "Esta vía non esta conectada á meirande parte do mapa"
 
 msgid ""
 "This crossing of a highway and a railway needs to be tagged as "
 "railway=crossing or railway=level_crossing"
 msgstr ""
-"Perpotongan antara jalan dan jallur kereta ini perlu diberi tag sebagai "
-"railway=crossing atau railway=level_crossing"
+"Este cruzamento da estrada e vía ferroviaria precisa ser etiquetado coma "
+"'railway=crossing' ou 'railway=level_crossing'"
 
 msgid ""
 "There are ways in different layers coming together in this railway crossing"
 msgstr ""
-"Jalur ini berada pada layer yang berbeda dan muncul bersamaan dengan "
-"perlintasan kereta api"
+"Hai vías en diferentes capas chegando xuntas cara este cruzamento de vía "
+"ferroviaria"
 
 msgid ""
 "There are ways tagged as tunnel or bridge coming together in this railway "
 "crossing"
 msgstr ""
-"Ini di informasikan sebagai terowongan atau jembatan dan muncul bersamaan "
-"dengan perlintasaan kereta api"
+"Hai vías etiquetadas coma túnel ou ponte chegando xuntas a este cruzamento "
+"de vía ferroviaria"
 
 #. full mesage: "This way is fixme-tagged: fixme=yes"
 msgid "This $1 is fixme-tagged: $2"
-msgstr "$1 butuh diberikan informasi jelas (fixme-tagged): $2"
+msgstr "Este $1 está etiquetado co 'arránxame' (fixme): $2"
 
 msgid "This relation has no type tag, which is mandatory for relations"
 msgstr ""
-"Relasi/Hubungan ini tidak mempunyai tipe tag, dimana hal tersebut wajib "
-"untuk jenis relasi"
+"Esta relación non ten etiqueta de tipo, a cal é obrigatoria para as relacións"
 
 #. full message: "This highway intersects the waterway #17..."
 msgid "This $1 intersects the $2 #$3 but there is no junction node"
 msgstr ""
-"$1 berpotongan dengan $2 #$3 akan tetapi tidak mempunyai titik perpotongan"
+"Esta $1 fai intersección con $2 #$3 pero $1 non está en modo cruzamento "
+"('junction')"
 
 #. full message: "This highway intersects the waterway #17"
 msgid "This $1 intersects the $2 #$3"
-msgstr "$1 berpotongan dengan $2 #$3"
+msgstr "Esta $1 fai intersección con $2 #$3"
 
 #. full message: "This highway overlaps the waterway #17..."
 msgid "This $1 overlaps the $2 #$3"
-msgstr "$1 tumpang tindih (overlap) dengan $2 #$3"
+msgstr "Este $1 sobreponse a $2 #$3"
 
 msgid "This way contains node #$1 $2 times. This may or may not be an error"
-msgstr ""
-"Jalus ini memiliki titik #$1 $2 kali. Ini mungkin saja bisa menjadi "
-"kesalahan (error) atau tidak"
+msgstr "Este camiño contén $2 veces ó nó #$1. Isto pode ser ou non un erro"
 
 msgid ""
 "This way contains more than one node at least twice. Nodes are $1. This may "
 "or may not be an error"
 msgstr ""
-"Jalur ini mengandung lebih dari satu titik, setidaknya 1. Titik $1. Ini "
-"mungkin saja bisa menjadi kesalahan (error) atau tidak"
+"Esta vía contén máis dun nó polo menos dúas veces. Os nós son $1. Isto pode "
+"ou non ser un erro"
 
 msgid ""
 "This way has only two different nodes and contains one of them more than once"
 msgstr ""
-"Jalur ini hanya memiliki dua titik yang berbeda dan mengandung salah satu "
-"dari titik tersebut lebih dari sekali"
+"Este camiño só ten dous nós diferentes e ten un destes máis dunha vez"
 
 msgid "The key of this node's tag is 'key': $2"
-msgstr "Kata kunci dari informasi titik ini adalah 'key': $2"
+msgstr "A clave da etiqueta deste nó é a 'key': $2"
 
 msgid "The key of this way's tag is 'key': $2"
-msgstr "Kata kunci dari informasi jalur ini adalah 'key': $2"
+msgstr "A clave da etiqueta desta vía é a 'key': $2"
 
 msgid "The key of this relation's tag is 'key': $2"
-msgstr "Kata kunci dari informasi relasi/hubungan ini 'key': $2"
+msgstr "A clave da etiqueta desta relación é a 'key': $2"
 
 #. full mesage: "This way is tagged 'name=Autria' where Autria looks like Austria"
 msgid "This $1 is tagged '$2=$3' where $4 looks like $5"
-msgstr "$1 diberikan informasi '$2=$3' dimana $4 terlihat seperti $5"
+msgstr "Este $1 está etiquetado coma '$2=$3' onde $4 semella a $5"
 
 #. full message: "This node is a junction of ways on different layers: 30387892(0),#30388524(-1)"
 msgid "This node is a junction of ways on different layers: $1"
-msgstr "Titik ini merupakan persimpangan dari jalur yang berbeda layer: $1"
+msgstr "Este nó é o cruzamento das vias en capas diferentes: $1"
 
 msgid ""
 "If this mini roundabout is in a country with left-hand traffic then it "
 "should have a tag 'direction=clockwise'"
 msgstr ""
-"Jika bundaran mini ini berada di negara dengan kemudi sebelah kiri maka "
-"harus mempunyai informasi tag 'direction=clockwise'"
+"Se esta mini-rotonda está nun país onde se conduce pola esquerda, tería que "
+"ter unha etiqueta 'direction=clockwise'"
 
 msgid ""
 "If this mini roundabout is in a country with right-hand traffic then it "
 "should not have a tag 'direction=clockwise'"
 msgstr ""
-"Jika bundaran mini ini berada di negara dengan kemudi sebelah kanan maka "
-"jangan mempunyai informasi tag 'direction=clockwise'"
+"Se esta mini-rotonda está nun país onde se conduce pola dereita, non tería "
+"que ter unha etiqueta 'direction=clockwise'"
 
 msgid ""
 "This $1 is tagged with layer $2. This need not be an error, but it looks "
 "strange"
 msgstr ""
-"$1 di informasikan dengan layer $2. Hal ini bukan merupakan kesalahan "
-"(error), tapi terlihat aneh"
+"Este $1 está etiquetado ca capa $2. Non ten que ser un erro, pero loce "
+"estrano"
 
 msgid ""
 "This node is a junction of a motorway and a highway other than motorway, "
 "motorway_link, trunk, rest_area or construction. Service or unclassified is "
 "only valid if it has access=no/private or if it is a service=parking_aisle."
 msgstr ""
-"Titik ini merupakan persimpangan dari jalur motor dan jalan raya dan jalan "
-"lain selain jalan tol, sambungan jalan tol (motorway_link), trunk, tempat "
-"beristirahat atau konstruksi. Jasa atau tidak terklasifikasi ini hanya "
-"berlaku jika mempunyai informasi akses=no/private atau jika itu merupakan "
-"service=parking_aisle"
+"Este nó é a unión dun 'motorway' e doutra vía 'motorway', 'motorway_link', "
+"'trunk', 'rest_area' ou 'construction'. Unha vía de tipo 'service' ou "
+"'unclassified' só é valida se ten 'access=no/private' ou "
+"'service=parking_aisle'."
 
 msgid "This boundary has no name"
-msgstr "Garis batas ini tidak mempunyai nama"
+msgstr "Este límite non ten nome"
 
 msgid "The boundary of $1 has no admin_level"
-msgstr "Garis batas $1 tidak mempunyai informasi admin_level"
+msgstr "O limite de $1 non ten nivel administrativo ('admin_level')"
 
 msgid ""
 "The boundary of $1 has no valid numeric admin_level. Please do not use admin "
 "levels like for example 6;7. Always tag the lowest admin_level of all "
 "boundaries."
 msgstr ""
-"Garis batas $1 tidak mempunyai numerik sah terkait dengan admin_level. "
-"Jangan menggunakan admin level seperti contoh 6;7. Selalu gunakan informasi "
-"tag admin_level terkecil untuk semua garis batas"
+"O límite de $1 non ten un valor númerico válido de 'admin_level'. Por favor, "
+"non empregues 'admin_levels' coma por exemplo 6;7. Sempre etiqueta co valor "
+"do nivel administrativo ('admin_level') máis baixo de tódolos límites."
 
 msgid "The boundary of $1 is not closed-loop"
-msgstr "Garis batas $1 bukan merupakan loop yang tertutup"
+msgstr "O límite de $1 non é unha liña pechada"
 
 msgid "The boundary of $1 splits here"
-msgstr "Garis batas $1 terpotong pada bagian ini"
+msgstr "O límite de $1 divídese aquí"
 
 msgid ""
 "This boundary-way has admin_level $1 but belongs to a relation with lower "
 "admin_level (higher priority); it should have the lowest admin_level of all "
 "relations"
 msgstr ""
-"Garis batas ini mempunyai admin_level $1 tetapi masuk kedalam "
-"relasi/hubungan dengan admin_level yang lebih kecil (pioritas tinggi); harus "
-"mempunyai admin_level terkecil untuk semua relasi/hubungan"
+"Esta vía do límite ('boundary-way') ten o nivel administrativo "
+"('admin_level') $1 pero pertence a unha relación cun nivel administrativo "
+"('admin_level') máis baixo (prioridade máis alta); Esta tería que ter o "
+"nivel administrativo ('admin_level') máis baixo de tódalas relacións."
 
 msgid "This turn-restriction has no restriction type"
-msgstr "Larangan ini tidak mempunyai tipe larangan"
+msgstr "Esta restrición de xiro non ten un tipo de restrición"
 
 msgid "This turn-restriction has no known restriction type"
-msgstr "Larangan ini mempunyai tipe larangan yang tidak diketahui"
+msgstr "Esta restrición de xiro non ten un tipo de restrición coñecida"
 
 msgid "A turn-restriction needs exactly one $1 member. This one has $2"
-msgstr "Larangan ini membutuhkan tepatnya hanya $1 member. Ini memiliki $2"
+msgstr ""
+"Unha restrición de xiro precisa de xeito exacto un $1 membro. Esta ten $2"
 
 msgid "From- and To-members of turn restrictions need to be ways. $1"
-msgstr "Form- dan To- member dari larangan membutuhkan jalur $1"
+msgstr ""
+"Os membros da restrición de xiro 'dende-' e 'cara-' teñen que ser vías. $1"
 
 msgid ""
 "from- via- and to- members of a turn resctriction need to be connected"
 msgstr ""
-"From- via- dan to- merupakan anggota dari larangan dan butuh dihubungkan"
+"Os membros dunha restrición de xiro 'dende-' e 'cara-' teñen que estar "
+"conectados"
 
 msgid "via (node #$1) is not the first or the last member of from (way #$2)"
-msgstr ""
+msgstr "vía (nó #$1) non é o primeiro nin o derradeiro membro (vía #$2)"
 
 msgid "via (node #$1) is not the first or the last member of to (way #$2)"
-msgstr ""
+msgstr "vía (nó #$1) non é o primeiro ou o derradeiro membro de (vía #$2)"
 
 msgid ""
 "restriction type is $1, but angle is $2 degrees. Maybe the restriction type "
 "is not appropriate?"
 msgstr ""
+"o tipo de restrición é de $1, pero o ángulo é de $2 graos. Seica o tipo de "
+"restrición non é o axeitado?"
 
 msgid "wrong direction of to way $1"
-msgstr ""
+msgstr "dirección errónea ó camiño $1"
 
 msgid "entry already prohibited by oneway tag on $1"
-msgstr ""
+msgstr "entrada xa prohibida pola etiqueta 'oneway' en $1"
 
 msgid "missing maxspeed tag"
-msgstr "Kurang informasi maxspeed"
+msgstr "falla a etiqueta 'maxspeed'"
 
 msgid ""
 "This way is part of a roundabout but is not closed-loop. (split carriageways "
 "approaching a roundabout should not be tagged as roundabout)"
 msgstr ""
-"Jalur ini merupakan bagian dari putaran tetapi bukan merupakan loop tertutup "
-"(pembagian jalur yang mendekati putaran seharusnya tidak diberikan "
-"informasi/tag sebagai putaran)"
+"Esta vía é parte dunha rotonda pero non é parte dunha liña pechada. (Os "
+"carrís divididos que se achegan cara unha rotonda, non teñen que ser "
+"etiquetados coma rotondas)"
 
 msgid ""
 "If this roundabout is in a country with right-hand traffic then its "
 "orientation goes the wrong way around"
 msgstr ""
-"Jika putaran ini berada di negara dengan kemudi bagian kanan, maka "
-"orientasinya berada di arah yang salah"
+"Se esta rotonda atópase nun país ca circulación pola dereita, a súa "
+"orientación está do revés"
 
 msgid ""
 "If this roundabout is in a country with left-hand traffic then its "
 "orientation goes the wrong way around"
 msgstr ""
-"Jika putaran ini berada di negara dengan kemudi bagian kiri, maka "
-"orientasinya berada di arah yang salah"
+"Se esta rotonda atópase nun país ca circulación pola esquerda, a súa "
+"orientación está do revés"
 
 msgid ""
 "This way is tagged as highway=$1_link but doesn't have a connection to any "
 "other $1 or $1_link"
 msgstr ""
-"Jalur ini diberikan informasi/tag sebagai highway=$1_link tetapi tidak "
-"terhubung dengan $1 atau $1_link manapun"
+"Este camiño está etiquetado coma 'highway=$1_link' pero non ten ningunha "
+"ligazón cara outro $1 ou $1_link"
 
 msgid ""
 "This bridge does not have a tag in common with its surrounding ways that "
 "shows the purpose of this bridge. There should be one of these tags: $1"
 msgstr ""
-"Jembatan ini tidak mempunyai informasi/tag yang sama dengan jalur sekitarnya "
-"yang menjelaskan tujuan dari jembatan ini. Harus ada tipe tags: $1"
+"Esta ponte non ten unha etiqueta en común cas vías darredor del que amosen o "
+"propósito da súa existencia. Ten que ter unha destas etiquetas: $1"
 
 msgid "The URL ($1) cannot be opened (HTTP status code $2)"
-msgstr "URL ($1) tidak dapat dibuka (HTTP status code $2)"
+msgstr "A ligazón URL ($1) non se pode abrir (código do estado HTTP $2)"
 
 msgid "Possible domain squatting: $1. Suspicious text is: \"$2\""
-msgstr ""
-"Domain yang memungkinkan squatting: $1. Teks yang mencurigakan is: \"$2\""
+msgstr "Posíbel ocupación do dominio: $1. O texto sospeitoso é: \"$2\""
 
 msgid "Content of the URL ($1) did not contain these keywords: ($2)"
-msgstr "Konten dari URL ($1) tidak mengandung kata kunci/ keywords: ($2)"
+msgstr "O contido da ligazón URL ($1) non contiña estas palabras clave: ($2)"
 
 #. translations for error type names
 #. please keep this as short as possible
 msgid "multiple nodes on the same spot"
-msgstr "titik yang berganda pada satu tempat"
+msgstr "moitos nós no mesmo punto"
 
 msgid ""
 "Try to find nodes that are (almost) on the same spot. Distances less than +/-"
 "0.5 meters are considered zero"
 msgstr ""
-"Cobalah untuk menemukan titik yang hampir berada pada satu tempat. Jarak "
-"kulang dari +/-0.5 meter dimasukkan kedalam 0"
+"Tenta atopar nós que están situados (case) no mesmo punto. Distancias a "
+"menos dos +/- 0,5 metros considéranse cero."
 
 #. please keep this as short as possible
 msgid "non-closed areas"
-msgstr "area yang tidak tertutup"
+msgstr "áreas non pechadas"
 
 msgid ""
 "By convention ways tagged with special combinations of key and value pairs "
@@ -349,16 +351,14 @@ msgid ""
 "map! The standard.xml file is used to determine which key-value-combinations "
 "are drawn as areas; any instance of these has to be closed-loop."
 msgstr ""
-"Konvensi jalur di tag dengan kombinasi kunci spesial dan nilai yang dianggap "
-"sebagai area dan tergambar seperti dipeta. Oleh karena itu dibutuhkan "
-"terbentuk loop tertutup. Daerah yang tidak tertutup akan tidak terlihat "
-"dipeta! FIle strandard.xml dipergunakan untuk menentukan kombinasi key-value "
-"mana yang tergambar pada area; salah satu contoh ini harus dalam bentuk loop "
-"tertutup"
+"Por acordo, as vías etiquetadas con combinacións especiais de clave-valor "
+"son consideradas coma áreas e son debuxadas como tal no mapa.  Polo tanto é "
+"necesario que elas formen liñas pechadas. As áreas non pechadas son "
+"invisíbeis no mapa"
 
 #. please keep this as short as possible
 msgid "dead-ended one-ways"
-msgstr "Satu jalur buntu"
+msgstr "vía sen saída dun só sentido"
 
 msgid ""
 "Streets tagged as one-way must not be dead-ended (where should all the cars "
@@ -366,29 +366,30 @@ msgid ""
 "end) cannot be reached (escaped from). Please note that motorways and "
 "motorway_links are considered one-way implicitly, so this check applies."
 msgstr ""
-"Jalan diinformasikan sebagai satu jalur harus bukan merupakan jalan buntu "
-"(dimana nanti mobil akan tertumpuk di ujung jalan?). Titik dimana satu jalur "
-"dimulai (atau diakhiri) tidak dapat terjangkau (terlepas). Harap diingat "
-"bahwa jalan tol dan jalan penghubung jalan tol secara implisit terdiri dari "
-"satu jalur, sehingga pemeriksaan ini berlaku"
+"As rúas etiquetadas coma dun só sentido non poden ser rúas sen saída (onde "
+"se amorearían os coches no remate da rúa?). Nos nós onde comecen só rúas dun "
+"só sentido (ou onde rematen) non poderían acadarse (ou saír deles). Ten en "
+"conta que as autoestradas ('motorways') es as súas ligazóns "
+"('motorway_links') considéranse de xeito implícito dun só sentido, así que "
+"tamén se lles aplica esta comprobación."
 
 #. please keep this as short as possible
 msgid "almost-junctions"
-msgstr "Hampir persimpangan"
+msgstr "case cruzamentos"
 
 msgid ""
 "Streets that have (at least) one unconnected end are examined here. If such "
 "an end-node is very close to any other way an error is reported. Unconnected "
 "end-nodes should probably be connected to adjacent ways."
 msgstr ""
-"Jalan yang mempunyai (setidaknya) satu bagian yang tidak terhubung "
-"dijelaskan disini. Jika titik akhir sangat dekat dengan jalur lain hal ini "
-"muncul sebagai kesalahan (error). Titik yang tidak tersambung diharapkan "
-"dapat tersambung dengan jalur yang berdekatan"
+"As rúas que teñen (polo menos) un extremo sen conectar examínanse aquí. Se "
+"existe tal nó e está moi preto de calquera outra vía infórmase de que hai un "
+"erro. Os nós de remate de vía sen conectar disque terían que conectarse ás "
+"vías adxacentes."
 
 #. please keep this as short as possible
 msgid "deprecated tags"
-msgstr "Tag lama"
+msgstr "etiquetas obsoletas ou vellas"
 
 msgid ""
 "As shown in http://wiki.openstreetmap.org/index.php/Deprecated_features some "
@@ -397,72 +398,73 @@ msgid ""
 "free to tag anything the way you like. This is just a hint for new tagging "
 "conventions that have evolved in the meantime."
 msgstr ""
-"Seperti yang terlihat di "
-"http://wiki.openstreetmap.org/index.php/Deprecated_features beberapa "
-"informasi digantikan oleh informasi/tag baru yang memiliki arti serupa. Hal "
-"ini dipertimbangkan sebagai pemberitahuan, bukan sebagai kesalahan. Syarat "
-"'deprecated' adalah usang/lama; anda dipersilahkan untuk memberikan segala "
-"informasi sesuai kemauan anda. Ini adalah sebuah tips untuk pemberian "
-"informasi baru yang memiliki arti serupa"
+"Tal e coma se amosa na wiki "
+"http://wiki.openstreetmap.org/index.php/Deprecated_features, algunhas "
+"etiquetas substitúense por outras segundo evolucionan as regras de "
+"etiquetaxe. Repara nisto coma un aviso, non coma un erro. O termo "
+"'deprecated' é que xa non ten uso (obsoleto e vello); es libre de etiquetar "
+"do xeito que desexes. Isto é só un consello para os novos xeitos de "
+"etiquetaxe que evolucionaron namentres."
 
 #. please keep this as short as possible
 msgid "missing tags"
-msgstr "kurang informasi/tag"
+msgstr "fallan etiquetas"
 
 msgid ""
 "Ways, nodes and relations should in most cases have at least one tag "
 "(besides created_by)"
 msgstr ""
-"Jalur, titik dan hubungan/relasi dalam banyak kasus harus terdapat "
-"setidaknya satu informasi (selain created_by)"
+"As vías, nós e relacións terían que ter na maioría dos casos polo menos unha "
+"etiqueta (á parte da de 'created_by')"
 
 #. please keep this as short as possible
 msgid "motorways without ref"
-msgstr "Tol tanpa refrensi"
+msgstr "autoestradas sen referencias"
 
 msgid ""
 "The ref-tag documents the reference (e.g. 'A 10') for motorways. These are "
 "mandatory as they are very important information"
 msgstr ""
-"Dokumen refrensi ref-tag (contoh 'A 10) untuk jalan tol. Hal ini wajib "
-"karena merupakan informasi penting."
+"A etiqueta 'ref' emprégase para as referencias das autoestradas, o seu "
+"código de numeración (por exemplo 'AG-55') e é obrigatoria porque leva "
+"información moi importante."
 
 #. please keep this as short as possible
 msgid "places of worship without religion"
-msgstr "Tempat ibadah tanpa keterangan agama"
+msgstr "lugares de culto sen ningunha relixión"
 
 msgid ""
 "Churches, mosques and synagogues etc. need an extra religion tag giving info "
 "about the religion"
 msgstr ""
-"Gereja, mesjid, pure, dll. membutuhkan tambahan informasi mengenai agama"
+"As igrexas, mesquitas, sinagogas, etc. precisan dunha etiqueta máis de "
+"relixión para dár información adicional acerca da relixión"
 
 #. please keep this as short as possible
 msgid "point of interest without name"
-msgstr "Titik penting tanpa nama"
+msgstr "punto de interese (PDI) sen nome"
 
 msgid ""
 "The name tag should be specified for every point of interest as its content "
 "gets rendered in the map next to the POI symbol"
 msgstr ""
-"Nama informasi harus secara spesifik setiap titik penting sebagai konten "
-"yang akan diterjemahkan dipeta disebelah simbol titik penting (Point of "
-"Interest)"
+"O nome da etiqueta tería que especificarse para tódolos puntos de interese "
+"(PDI), xa que o seu contido amósase no mapa ó carón do símbolo do PDI"
 
 #. please keep this as short as possible
 msgid "ways without nodes"
-msgstr "Jalur tanpa titik"
+msgstr "vías sen nós"
 
 msgid ""
 "Ways that don't consist of at least two nodes don't make much sense as they "
 "won't get rendered."
 msgstr ""
-"Jalur yang tidak terdiri setidaknya dua titik tidak berarti apapun ketika "
-"digambarkan"
+"As vías que non estean formadas por polo menos dous nós non teñen moito "
+"sentido, e por iso non se amosarán."
 
 #. please keep this as short as possible
 msgid "floating islands"
-msgstr "Pulau yang mengambang"
+msgstr "illas sobrepostas"
 
 msgid ""
 "Any highways drawn on the map should be accessible by car starting anywhere "
@@ -470,14 +472,14 @@ msgid ""
 "this check, so almost any island in the sea should be reachable starting "
 "from the mainland."
 msgstr ""
-"Semua jalan raya yang tergambar pada peta harus dapat diakses oleh mobil "
-"darimana saja. Feri dan jalan raya (termasuk penyangga jalan raya) termasuk "
-"kedalam pemeriksaan ini, sehingga hampir setiap pulau di laut harus dapat "
-"dijangkau jika dimulai dari pulau utama"
+"Calquera estrada debuxada no mapa ten que ser accesíbel co coche comezando "
+"dende calquera lugar do mundo. Os ferris e estradas (incluso plataformas do "
+"tren) inclúense nesta verificación, así que case calquera illa do mar se ten "
+"que poder acadar comezando dende a terra continental."
 
 #. please keep this as short as possible
 msgid "railway crossings without tag"
-msgstr "Jalur persimpangan kereta tanpa informasi/tag"
+msgstr "cruzamento do ferrocarril sen etiqueta"
 
 msgid ""
 "(Level)-Crossings of railways and highways should have a common node as "
@@ -485,46 +487,47 @@ msgid ""
 "where larger vehicles can cross or with 'railway=crossing' if it is a "
 "crossing just for pedestrians"
 msgstr ""
-"(Level)-Crossing of railways dan highways harus mendapatkan titik umum "
-"seperti persimpangan dan di informasikan dengan 'railway=level_crossing' "
-"jika persimpangannya dapat dilewati oleh kendaraan besar"
+"Os cruzamentos (a nivel) ferroviarios e estradas teñen que ter un nó común "
+"de unión etiquetado coma 'railway=level_crossing' se é un cruzamento onde "
+"poden cruzar grandes vehículos ou coma 'railway=crossing' se é un cruzamento "
+"só para peóns."
 
 #. please keep this as short as possible
 msgid "wrongly used railway crossing tag"
-msgstr "Salah penggunaan informasi persimpangan jalur kereta"
+msgstr "etiqueta de cruzamento ferroviario non correcta"
 
 msgid ""
 "Ways that take part in level-crossings of railways and highways have to be "
 "on the same layer and should in the normal case be not tagged as bridge or "
 "tunnel"
 msgstr ""
-"Jalur yang mengambil bagian di level-crossing dari jalur kereta dan jalan "
-"raya harus berada di layer yang sama dan haurs berada di kasus yang sama, "
-"tidak dapat diinformasikan sebagai jempatan atau terowongan"
+"As vías que forman parte dos pasos a nivel ferroviarios e estradas teñen que "
+"estar no mesmo nivel e normalmente non deben ser etiquetados coma pontes ou "
+"túneis."
 
 #. please keep this as short as possible
 msgid "fixme-tagged items"
-msgstr "Fixme-tagged items"
+msgstr "elementos etiquetados coma \"arránxame\""
 
 msgid ""
 "Nodes, ways or relations that are tagged with FIXME should be reviewed..."
 msgstr ""
-"Titik, jalur atau relasi/hubungan yang diinformasikan dengan FIXME harus di "
-"tinjau ulang"
+"Nós, vías ou relacións etiquetados co \"arránxame\" ('fixme') terían que "
+"revisarse..."
 
 #. please keep this as short as possible
 msgid "relations without type"
-msgstr "Relasi/hubungan tampa tipe"
+msgstr "relacións sen tipo"
 
 msgid ""
 "Find any relation that has no type tag, wich is mandatory for relations."
 msgstr ""
-"Cari segala relasi/hubungan yang tidak mempunyai tipe informasi, dimana hal "
-"tersebut wajib untuk relasi/hubungan"
+"Atopa calquera relación que non teña a etiqueta de tipo, que é obrigatoria "
+"para as relacións."
 
 #. please keep this as short as possible
 msgid "intersections without junctions"
-msgstr "persimpangan tanpa titik persimpangan"
+msgstr "interseccións sen cruzamentos"
 
 msgid ""
 "Streets that graphically intersect need a common node that represents the "
@@ -532,85 +535,84 @@ msgid ""
 "bridges or tunnels). Intersections of streets with other objects like "
 "waterways or riverbanks should be avoided"
 msgstr ""
-"Jalanan yang terlihat bersimpangan membutuhkan titik yang menggambarkan "
-"persimpangan. Salah satu pengecualian adalah persimpangan pada layer yang "
-"berbeda (contoh jembatan atau terowongan). Persimpangan jalan dengan objek "
-"lain seperti jalur drainase atau sungai harus dihindari"
+"As rúas que se cruzan gráficamente precisan un nó común para representar o "
+"cruzamento. A única excepción son as interseccións en diferentes capas (por "
+"exemplo, pontes ou túneis). As interseccións das rúas con outros obxectos "
+"coma canles fluviais ou ríos terían que evitarse."
 
 #. please keep this as short as possible
 msgid "highway-highway"
-msgstr "jalan raya- jalan raya"
+msgstr "estrada-estrada"
 
 #. please keep this as short as possible
 msgid "highway-waterway"
-msgstr "jalan raya-  jalur air"
+msgstr "estrada-canle fluvial"
 
 #. please keep this as short as possible
 msgid "highway-riverbank"
-msgstr "jalan raya- sungai"
+msgstr "estrada-beira do río"
 
 #. please keep this as short as possible
 msgid "waterway-waterway"
-msgstr "jalur air- jalur air"
+msgstr "canle fluvial-canle fluvial"
 
 #. please keep this as short as possible
 msgid "cyclew/footp-cyclew/footp"
-msgstr "Sepeda/kaki-sepeda/kaki"
+msgstr "senda ciclista/senda peonil-senda ciclista/senda peonil"
 
 #. please keep this as short as possible
 msgid "highway-cyclew/footp"
-msgstr "jalan-sepeda/kaki"
+msgstr "estrada-senda ciclista/senda peonil"
 
 #. please keep this as short as possible
 msgid "cyclew/footp-waterway"
-msgstr "sepeda/kaki-sungai"
+msgstr "senda ciclista/senda peonil-canle fluvial"
 
 #. please keep this as short as possible
 msgid "cyclew/footp-riverbank"
-msgstr "sepeda/kaki-bantaran"
+msgstr "senda ciclista/senda peonil-río"
 
 #. please keep this as short as possible
 msgid "overlapping ways"
-msgstr "jalur yang bertumpang tindih"
+msgstr "vías sobrepostas"
 
 msgid ""
 "Segments of ways that lie on top of each other (the same nodes connected by "
 "different ways in the same order) are a problem for routing software. They "
 "happen accidently and are hard to find."
 msgstr ""
-"segmen dari jalur yang berada diatas satu sama lain (titik yang sama yang "
-"terkoneksi dengan jalur yang berbeda namun dalam susunan yang sama) "
-"merupakan problem untuk perangkat lunak berbasis rute. Hal ini terjadi "
-"secara sengaja dan susah untuk ditemukan"
+"Os segmentos das vías que se sobrepón (os mesmos nós conectados por vías "
+"diferentes na mesmo orde) son un problema para o software de enrotamento. "
+"Xéranse de xeito accidental e son difíciles de atopar."
 
 #. please keep this as short as possible
 msgid "loopings"
-msgstr "Putaran (loopings)"
+msgstr "rizos"
 
 msgid ""
 "Any way that contains any single node more than twice is considered an "
 "error. Any way may contain just one node twice. If more than one node is "
 "found twice it is considered an error."
 msgstr ""
-"Segala jalur yang mengandung satu titik lebih dari dua kali ditetapkan "
-"sebagai kesalahan (error). Jalur yang terdiri dari satu titik hanya boleh "
-"terjadi dua kali. Jika lebih dari satu titik ini ditemukan dua kali maka "
-"akan ditetapkan sebagai kesalahan (error)"
+"Calquera vía que contén un determinado nó máis de dous veces considérase un "
+"erro. Unha vía pode conter só un único nó dúas veces. Se se atopa máis dun "
+"nó contido dúas veces na vía, considérase un erro."
 
 #. please keep this as short as possible
 msgid "misspelled tags"
-msgstr "Informasi (tag) salah eja"
+msgstr "etiquetas mal soletreadas"
 
 msgid ""
 "Tags that are used very seldom and almost look like very common tags (only "
 "one character difference) are reported as a warning."
 msgstr ""
-"Informasi/tag yang jarang digunakan dan hampir seperti informasi/tag pada "
-"umumnya (hanya berbeda kata) muncul sebagai peringatan (warning)"
+"As etiquetas que se empregan moi pouco e escríbense de xeito moi semellante "
+"a outras etiquetas máis comúns (cun só caracter de diferenza) son advertidas "
+"coma avisos."
 
 #. please keep this as short as possible
 msgid "layer conflicts"
-msgstr "Layer konflik"
+msgstr "conflitos das capas"
 
 msgid ""
 "Connected ways should be on the same layer. Crossings on intermediate nodes "
@@ -620,25 +622,25 @@ msgid ""
 "note that bridges are set to layer +1, and tunnels to -1, anything else to "
 "layer 0 implicitly if no layer tag is present."
 msgstr ""
-"jalur yang terhubung harus dalam layer yang sama. Persimpangan pada titik "
-"dari jalur yang berbeda layer jelas merupakan kesalahan. Persimpangan pada "
-"titik akhir dari jalur yang berbeda layer juga merupakan cara lama, akan "
-"tetapi sering dipraktekan. Sehingga anda mungkin akan menghiraukan "
-"pengecekan ini dan mematikan mereka secara terpisah. Harap diingat bahwa "
-"jembatan di atur pada layer+1 dan terowongan pada -1. Apapun akan beralih "
-"menjadi layer 0 jika tidak ada informasi presetnya."
+"As vías conectadas teñen que estar na mesma capa. Os cruzamentos nos nós "
+"intermedios de vías en diferentes capas non son correctos. Os cruzamentos "
+"nos nós derradeiros de vías en diferentes capas tamén están sen uso, pero é "
+"unha práctica común. Polo tanto, podes desbotar esta parte da verificación e "
+"facela por separado. Ten en conta que as pontes se estabelecen na capa +1, e "
+"os túneis na -1; calquera outra cousa que non teña a etiqueta de capa "
+"('layer') ficará na capa 0 de xeito implícito."
 
 #. please keep this as short as possible
 msgid "mixed layers intersections"
-msgstr "campuran lapisan persimpangan"
+msgstr "interseccións de capas mesturadas"
 
 #. please keep this as short as possible
 msgid "strange layers"
-msgstr "layer aneh"
+msgstr "capas estranas"
 
 #. please keep this as short as possible
 msgid "motorways connected directly"
-msgstr "jalan tol tersambung secara langsung"
+msgstr "autoestradas conectadas de xeito directo"
 
 msgid ""
 "Motorways should only be connected to other motorways or motorway_links. "
@@ -647,16 +649,16 @@ msgid ""
 "positives on motorways ending in cities but it can be a valuable tool for "
 "looking up unwanted connections of motorways and other roads."
 msgstr ""
-"Jalan tol seharusnya hanya disambungkan ke jalan tol atau tautan_jalantol. "
-"Mereka harus tidak secara langsung terkoneksi dengan highway=primer atau "
-"highway=residential roads. Harap diingat: Pengecekan ini memungkinkan untuk "
-"menghasilkan peringatan yang salah akan jalur akhir dari jalan tol di kota "
-"akan tetapi ini bisa saja menjadi alay yang berguna untuk melihat koneksi "
-"yang tidak diinginkan dari jalan tol dengan jalan lainnya"
+"As autoestradas só terían que conectarse a outras autoestradas ou ligazóns "
+"para autoestradas. En especial non deben conectarse de xeito directo a "
+"estradas 'highway=primary' ou 'highway=residential'. Nota: esta verificación "
+"pode xerar falsos positivos nas autoestradas que rematan nas cidades, pero "
+"pode ser unha valiosa ferramenta para procurar conexiones non desexadas "
+"entre outras estradas e autoestradas."
 
 #. please keep this as short as possible
 msgid "boundaries"
-msgstr "Garis batas"
+msgstr "límites"
 
 msgid ""
 "Administrative Boundaries can be expressed either by tagging ways or by "
@@ -664,34 +666,34 @@ msgid ""
 "they must not self-intersect or split and they must have a name and an "
 "admin_level."
 msgstr ""
-"Garis batas administrasi dapat diekspresikan dengan memberikan informasi/tag "
-"pada jalur atau menambahkannya pada relasi/hubungan. Mereka harus terbentuk "
-"loop tertutup dari jalur yang berurutan, mereka harus tidak bersimpangan "
-"ataupun terbagi dan mereka harus mempunyai nama dan admin_level"
+"Os límites administrativos poden expresarse mediante vías etiquetadas ou "
+"mediante o seu engadido a unha relación. Teñen que ser secuencias de vías "
+"fomando liñas pechadas, non teñen que intersectarse con elas mesmas e teñen "
+"que ter un 'admin_level' (nivel administrativo)."
 
 #. please keep this as short as possible
 msgid "missing name"
-msgstr "nama hilang"
+msgstr "falla o nome"
 
 #. please keep this as short as possible
 msgid "missing admin_level"
-msgstr "admin_level hilang"
+msgstr "falla o admin_level"
 
 #. please keep this as short as possible
 msgid "not closed loop"
-msgstr "loop tidak tertutup"
+msgstr "liña non pechada"
 
 #. please keep this as short as possible
 msgid "splitting boundary"
-msgstr "garis batas yang dipisah"
+msgstr "límite rachado en anacos"
 
 #. please keep this as short as possible
 msgid "admin_level too high"
-msgstr "admin_level terlalu tinggi"
+msgstr "admin_level moi alto"
 
 #. please keep this as short as possible
 msgid "restrictions"
-msgstr "Larangan"
+msgstr "restricións"
 
 msgid ""
 "This check is about turn restrictions defined by relations. A turn "
@@ -699,27 +701,27 @@ msgid ""
 "another way as 'to' member and optionally one or more ways or nodes as via "
 "members that need to be connected to 'from' and 'to'"
 msgstr ""
-"Pengecekan ini terkait dengan larangan yang ada pada relasi/hubungan. "
-"Larangan pada relasi/hubungan membutuhkan tipe atribut yang valid, jalur "
-"sebagai \"dari\" dari member, jalur lainnya sebagai  member \"untuk\" dan "
-"opsional membutuhkan satu atau lebih jalur atau titik seperti melalui "
-"anggota yang harus terhubung ke \"dari\" dan \"untuk\""
+"Esta verificación é sobre as restricións de xiro definidas por relacións. "
+"Unha relación de restrición de xiro precisa un atributo de tipo válido, unha "
+"vía coma membro \"dende\" ('from'), outra vía coma membro \"cara\" ('to'),  "
+"e de xeito opcional, unha ou máis vías ou nós a través de membros que "
+"precisan estar conectados a \"dende\" e \"cara\""
 
 #. please keep this as short as possible
 msgid "missing type"
-msgstr "hilang tipe"
+msgstr "falla o tipo"
 
 #. please keep this as short as possible
 msgid "missing from way"
-msgstr "Hilang \"dari\" jalur"
+msgstr "falla a vía \"dende\""
 
 #. please keep this as short as possible
 msgid "missing to way"
-msgstr "hilang \"untuk\" jalur"
+msgstr "falla a vía \"cara\""
 
 #. please keep this as short as possible
 msgid "missing maxspeed"
-msgstr "hilang kecepatan maksimum"
+msgstr "falla a velocidade máxima"
 
 msgid ""
 "maxspeed tags are not mandatory but they are very helpful for successful "
@@ -727,48 +729,50 @@ msgid ""
 "tag. Please only add maxspeed tags if the allowed maxspeed differs from the "
 "default speed for the given highway!"
 msgstr ""
-"informasi/tag kecepatan maksimum tidak diperlukan tetapi sangat membantu "
-"untuk pengambilan rute yang baik. Pengecekan ini harus membantu pengguna "
-"mencari jalan raya yang kurang infromasi/tag mengenai kecepatan. Harap "
-"dimasukkan informasi kecepatan saja jika kecepatan yang diijinkan berbeda "
-"dari kecepatan yang seharusnya diberikan di jalan raya"
+"As etiquetas de velocidade máxima ('maxspeed') non son obrigatorias, pero "
+"son moi útis para obter bos resultados de enrotamento. Esta comprobación ten "
+"que axudar ós usuarios a atopar estradas que non teñan a etiqueta de "
+"'maxspeed'. Por favor, engade soamente a etiqueta de 'maxspeed' se a "
+"velocidade máxima permitida discorda da velocidade por defecto para o tipo "
+"de estrada dada!"
 
 #. please keep this as short as possible
 msgid "roundabouts"
-msgstr "Putaran"
+msgstr "rotondas"
 
 msgid ""
 "roundabout are always one-way streets directed counter-clockwise in right-"
 "hand driving countries or clockwise in left-hand driving countries."
 msgstr ""
-"Putaran selalu satu jalur yang mengarah berlawanan jarum jam di negara "
-"dengan kemudi di sebelah kanan dan searah jarum jam di negara dengan kemudi "
-"di sebelah kiri"
+"as rotondas son sempre rúas dun só sentido antihorario nos países nos que se "
+"conduce pola dereita, ou de sentido horario nos países nos que se conduce "
+"pola esquerda"
 
 #. please keep this as short as possible
 msgid "wrong direction"
-msgstr "Salah arah"
+msgstr "dirección non correcta"
 
 #. please keep this as short as possible
 msgid "faintly connected"
-msgstr "Agak terhubung"
+msgstr "conectados de xeito feble"
 
 #. please keep this as short as possible
 msgid "*_link-connections"
-msgstr "*_link-connection"
+msgstr "conexións *_link"
 
 msgid ""
 "Any highway tagged as (motorway|trunk|primary|secondary)_link should have at "
 "least one connection to a (motorway|trunk|primary|secondary) highway or a "
 "_link highway of the same type"
 msgstr ""
-"Jalan raya yang diinformasikan seperti (tol|trunk|primer|sekunder)_link "
-"harus mempunyai setidaknya satu koneksi ke (tol|trunk|primer|sekunder) jalan "
-"raya atau sebuah _link jalan raya dengan tipe yang sama"
+"Calquera vía etiquetada coma ('motorway'|'trunk'|'primary'|'secondary')_link "
+"ten que ter polo menos unha ligazón cunha estrada "
+"('motorway'|'trunk'|'primary'|'secondary') ou cunha estrada _link do mesmo "
+"tipo, de xeito xeral, agás excepcións moi puntuais."
 
 #. please keep this as short as possible
 msgid "bridge-tags"
-msgstr "jembatan-informasi/tag"
+msgstr "etiquetas-ponte"
 
 msgid ""
 "Someone draws a bridge and forgets to tag it as highway... A bridge should "
@@ -776,15 +780,15 @@ msgid ""
 "Currently these are: highway, railway, cycleway, waterway, footway, piste, "
 "aerialway, pipeline, building, via_ferrata"
 msgstr ""
-"seseorang menggambar jembatan dan lupa memberi informasi/tag sebagai jalan "
-"raya. Sebuah jembatan harus selalu mempunyai satu informasi 'major' yang "
-"mengarah kepada jalur terdekat. Seperti misalnya: jalan raya, rel kereta "
-"api, jalur sepeda, jalur air, jalur pejalan kaki, landasan, jalur pipa, "
-"bangunan, via_ferrata"
+"Alguén debuxa unha ponte e esquécese de etiquetala coma autoestrada... Unha "
+"ponte sempre ten que ter unha das etiquetas principais que teñen os seus "
+"veciños anexos. Actualmente estes son: estrada, vía ferroviaria, carril "
+"bici, canle fluvial, beirarrúa, pista, pista do aeroporto, tubaxe, edificio, "
+"via_ferrata"
 
 #. please keep this as short as possible
 msgid "language unknown"
-msgstr "Bahasa tidak dikenal"
+msgstr "lingua descoñecida"
 
 msgid ""
 "To help applications choose the best matching language they should know the "
@@ -792,223 +796,227 @@ msgid ""
 "name:XX tag with the same content as found in the name tag where XX "
 "specifies the language used for the name tag."
 msgstr ""
-"untuk membantu aplikasi menentukan bahasa mana yang tepat, mereka harus "
-"mengetahui penggunaan bahasa pada informasi/tag. Maka dari itu diperluka "
-"untuk menyediakan informasi/tag name:XX dengan konten yang sama seperti yang "
-"ditemui pada informasi nama dimana XX untuk bahasa spesifik yang digunakan "
-"pada informasi/tag"
+"Para axudar ás aplicacións a escoller a linguaxe máis axeitada, terían que "
+"saber a lingua empregada para a etiqueta do nome. Polo tanto, é necesario "
+"indicar unha etiqueta 'name:XX' co mesmo contido que o da etiqueta 'name' "
+"onde 'XX' especifica a lingua empregada para a etiqueta de nome."
 
 #. full message: "It would be nice if this node had an additional tag 'name:XX=Austria' where XX shows the language of its name 'Austria'."
 msgid ""
 "It would be nice if this $1 had an additional tag ''name:XX=$2'' where XX "
 "shows the language of its name ''$2''."
 msgstr ""
-"Akan lebih bagus jiga $1 mempunyai tambahan informasi/tag \"name:XX=$2\" "
-"dimana XX menunjukkan bahasa \"$2\""
+"Estaría ben que este $1 tivera unha etiqueta adicional 'name:XX=$2' onde "
+"'XX' é a lingua do nome \"$2\"."
 
 #. this is about points of interest drawn inside a building of the same name
 #. please keep this as short as possible
 msgid "doubled places"
-msgstr "Penamaan ganda"
+msgstr "lugares duplicados"
 
 msgid ""
 "a node inside of an area that is tagged with same name and representing the "
 "same physical entity leads to wrong statistics and doubled labels on the map"
 msgstr ""
-"Sebuah titik didalam area yang diinformasikan dengan nama sama dan "
-"merepresentasikan kesatuan yang sama mengarah kepada statistik yang salah "
-"dan menyebabkan pemberian label yang berganda pada peta"
+"un nó dentro dunha área que está etiquetada co mesmo nome e que representa a "
+"mesma entidade física leva a estatísticas erróneas e etiquetaxes duplicadas "
+"no mapa"
 
 msgid ""
 "This node has tags in common with the surrounding way #$1 and seems to be "
 "redundand"
 msgstr ""
-"Titik ini mempunyai informasi/tag yang sama dengan sekitar jalur #$1 dan "
-"sepertinya mubazir"
+"Este nó ten etiquetas en común ca vía circunstante #$1 e semella ser "
+"redundante"
 
 msgid ""
 "This node has tags in common with the surrounding way #$1 (including the "
 "name '$2') and seems to be redundand"
 msgstr ""
-"Titik ini mempunyai informasi/tag yang sama dengan sekitar jalur #$1 "
-"(termasuk dengan nama '$2') dan sepertinya mubazir"
+"Este nó ten etiquetas en común ca vía circunstante #$1 (incluído o nome "
+"'$2') e semella ser redundante"
 
 #. please keep this as short as possible
 msgid "non-physical use of sport-tag"
-msgstr "non-fisik yang menggunakan informasi-olahraga"
+msgstr "emprego non físico da etiqueta deportiva"
 
 msgid ""
 "&apos;sports&apos; is a non-physical tag that needs to be bound to some "
 "physical structure like for example a leisure-item or an amenity. Ways "
 "tagged with &apos;sports&apos; solely will be invisible on the map"
 msgstr ""
-"&apos;sports&apos; adalah informasi/tag non-fisik yang membutuhkan ikatan "
-"dengan struktur fisik seperti contohnya alat-santai atau sebuah amenitas. "
-"Jalur yang diinformasikan/tag dengan &apos;sports&apos; akan tidak tampak "
-"pada peta"
+"&apos;sports&apos; (deportes) é unha etiqueta non física que debe estar "
+"ligada a algunha estrutura física coma, por exemplo, un elemento de lecer ou "
+"unha instalación. As vías etiquetadas con &apos;sports&apos; soamente serán "
+"invisíbeis no mapa"
 
 #. full message: "This way is tagged sport=tennis but has no physical tag like e.g. leisure, building, amenity or highway"
 msgid ""
 "This way is tagged $1 but has no physical tag like e.g. leisure, building, "
 "amenity or highway"
 msgstr ""
-"Jalur ini diinformasikan $1 tetapi tidak mempunyai informasi/tag fisik "
-"seperti misalnya bangunan, amenitas, atau jalan raya"
+"Esta vía etiquétase coma $1 pero non ten unha etiqueta física coma por "
+"exemplo, lecer, construción, instalación ou estrada."
 
 #. please keep this as short as possible
 msgid "missing tracktype"
-msgstr "Hilang tracktype"
+msgstr "falla o tipo de pista"
 
 msgid ""
 "highway=track ways should be added with more detail about the tracktype "
 "(grade1..grade5). The tracktype is included in rendering rules and makes "
 "maps more expressive"
 msgstr ""
-"jalur highway=track harus ditambahkan dengan beberapa detil mengenai tipe "
-"trek (grade1..grade5). Tipe trek ini termasuk kedalam aturan penggambaran "
-"dan membuat peta lebih ekspresif"
+"as vías 'highway=track' téñense que engadir con máis detalles sobre o tipo "
+"de pista que son ('grade1', 'grade2', ..., 'grade5'). O tipo de pista "
+"inclúese nas regras de cartografado e fai que os mapas sexan máis expresivos."
 
 msgid "This track doesn't have a tracktype"
-msgstr "Trek ini tidak mempunyai tipe trek (tracktype)"
+msgstr "esta pista non ten un tipo 'tracktype'"
 
 #. please keep this as short as possible
 msgid "geometry glitches"
-msgstr "Gangguan geometri"
+msgstr "erros de xeometría"
 
 msgid ""
 "looks for impossible sharp angles on highways and junctions. These may be "
 "caused by missing turn restrictions on junctions or glitches along the "
 "linestring of ways"
 msgstr ""
-"Terlihat mustahil jika terdapat sudut lancip pada jalan raya dan "
-"persimpangan. Hal ini kemungkinan dikarenakan kurangnya lekukan pada "
-"persimpangan atau terjadi gangguan sepanjang titik-titik pada jalur"
+"procura ángulos agudos imposíbeis en estradas e cruzamentos. Estes poden ser "
+"causados pola falla de restricións de xiro nas unións ou erros ó longo da "
+"liña da vía"
 
 #. please keep this as short as possible
 msgid "missing turn restriction"
-msgstr "hilang larangan berputar"
+msgstr "falla a restrición de xiro"
 
 #. please keep this as short as possible
 msgid "impossible angles"
-msgstr "sudut yang mustahil"
+msgstr "ángulos imposíbeis"
 
 msgid "this way bends in a very sharp angle here"
-msgstr "jalur ini menekuk dengan sudut yang sangat lancip"
+msgstr "esta vía dóbrase nun ángulo moi pechado (agudo) aquí"
 
 msgid ""
 "ways $1 and $2 join in a very sharp angle here and there is no oneway tag or "
 "turn restriction that prevents turning from way $2 to $1"
 msgstr ""
-"Jalur $1 dan jalur $2 tergabung kedalam sudut yang sangat lancip dan tidak "
-"ada informasi/tag satu jalur atau larangan berputar yang menghalangi "
-"pemutaran dari jalur $2 ke $1"
+"as vías $1 e $2 únense nun ángulo moi pechado (agudo) aquí e non hai unha "
+"etiqueta dun só sentido ('oneway') ou unha restrición de xiro que impida "
+"xirar de $2 cara $1"
 
 msgid ""
 "ways $1 and $2 join in a very sharp angle here and there is no oneway tag or "
 "turn restriction that prevents turning from way $1 to $2"
 msgstr ""
-"Jalur $1 dan jalur $2 tergabung kedalam sudut yang sangat lancip dan tidak "
-"ada informasi/tag satu jalur atau larangan berputar yang menghalangi "
-"pemutaran dari jalur $1 ke $2"
+"as vías $1 e $2 únense nun ángulo moi pechado (agudo) aquí e non hai unha "
+"etiqueta dun só sentido ('oneway') ou unha restrición de xiro que impida "
+"xirar de $1 cara $2"
 
 msgid ""
 "ways $1 and $2 join in a very sharp angle here and there is no oneway tag or "
 "turn restriction that prevents turning"
 msgstr ""
-"Jalur $1 dan $2 tergabung kedalam sudut yang sangat lancip dan tidak ada "
-"informasi/tag satu jalur atau larangan berputar yang menghalangi pemutaran"
+"as vías $1 e $2 únense nun ángulo moi pechado (agudo) aquí e non hai unha "
+"etiqueta dun só sentido ('oneway') ou unha restrición que impida xirar de $2 "
+"cara $1"
 
 #. please keep this as short as possible
 msgid "website"
-msgstr "website"
+msgstr "sitio web"
 
 #. please keep this as short as possible
 msgid "http error"
-msgstr "http salah (error)"
+msgstr "erro http"
 
 #. please keep this as short as possible
 msgid "domain hijacking"
-msgstr "domain dibajak"
+msgstr "roubo de dominio"
 
 #. please keep this as short as possible
 msgid "non-match"
-msgstr "tidak sesuai"
+msgstr "non coincide"
 
 msgid ""
 "calls websites and tries to match website content with key tags from the osm "
 "element"
 msgstr ""
-"buka website dan coba untuk mencocokan dengan konten website dengan "
-"informasi/tag kunci dari elemen osm"
+"chama ós sitios web e tenta facer coincidir o contido do sitio web cas "
+"etiquetas clave do elemento osm"
 
 #. full message: "The URL (http://www.belgian-beer-cafe.com.au/heritage) cannot be opened (HTTP status code 404)"
 msgid ""
 "The URL (<a target=\"_blank\" href=\"$1\">$1</a>) cannot be opened (HTTP "
 "status code $2)"
 msgstr ""
-"URL (<a target=\"_blank\" href=\"$1\">$1</a>) tidak bisa dibuka  (HTTP "
-"status code $2)"
+"A URL (<a target=\"_blank\" href=\"$1\">$1</a>) non se pode abrir (código de "
+"estado HTTP $2)"
 
 msgid ""
 "Possible domain squatting: <a target=\"_blank\" href=\"$1\">$1</a>. "
 "Suspicious text is: \"$2\""
 msgstr ""
-"Kemungkinan domain squatting: <a target=\"_blank\" href=\"$1\">$1</a>. Teks "
-"yang mencurigakan adalah \"$2\""
+"Posíbel dominio ocupado: <a target=\"_blank\" href=\"$1\">$1</a>. O texto "
+"sospeitoso é: \"$2\""
 
 #. full message: "Content of the URL (http://www.yha.com.au) did not contain these keywords: (*Bondi Beachouse YHA*Bondi)"
 msgid ""
 "Content of the URL (<a target=\"_blank\" href=\"$1\">$1</a>) did not contain "
 "these keywords: ($2)"
 msgstr ""
-"konten dari URL  (<a target=\"_blank\" href=\"$1\">$1</a>) tidak mengandung "
-"kata kunci ini: ($2)"
+"O contido da URL (<a target=\"_blank\" href=\"$1\">$1</a>) non contiña estas "
+"palabras clave: ($2)"
 
 #. translations for the web pages
 #: index.php:9
 msgid "data consistency checks for OSM"
-msgstr "Konsistensi pemeriksaan data untuk OSM"
+msgstr "comprobacións de consistencia de datos para o OSM"
 
 #: index.php:11
 msgid "keep-right logo"
-msgstr "Logo keep-right"
+msgstr "icona de manterse á dereita ('keep-right')"
 
 #: index.php:13
 #, php-format
 msgid "data consistency checks for %sOSM%s"
-msgstr "Konsistensi pemeriksaaan data untuk %sOSM%s"
+msgstr "comprobacións de consistencia de datos para o %sOSM%s"
 
 #: index.php:20
 msgid ""
 "These pages show checks that are run on a local excerpt database filled with "
 "OSM data."
 msgstr ""
-"Halaman ini memperlihatkan pemeriksaan yang sedang berjalan pada database "
-"kutipan lokal yang diisi dengan data OSM"
+"Estas páxinas amosan comprobacións que son executadas nunha base de datos "
+"local de datos do OSM."
 
 #: index.php:23
 #, php-format
 msgid "Data Checks for Europe%s (Starting point Vienna, Austria)"
-msgstr "Pengecekan data untuk Europe%s (Dimulai dari Vienna, Austria)"
+msgstr ""
+"Comprobacións de datos para Europa%s (punto de inicio en Viena, Austria)"
 
 #: index.php:27
 msgid "Data Checks for Australia%s (Starting point Sydney)"
-msgstr "Pengecekan data untuk Australia%s (dimulai dari Sydney)"
+msgstr "Comprobacións de datos para Australia%s (punto de inicio en Sydney)"
 
 #: index.php:30
 #, php-format
 msgid "Data Checks for Africa%s (Starting point Cairo, Egypt)"
-msgstr "Pengecekan data untuk Afrika%s (Dimulai dari Kairo, Mesir)"
+msgstr ""
+"Comprobacións de datos para África%s (punto de inicio no Cairo, Exipto)"
 
 #: index.php:33
 #, php-format
 msgid "Data Checks for Canada%s (Starting point Québec)"
-msgstr "Pengecekan data untuk Kanada%s (Dimulai dari Québec)"
+msgstr "Comprobacións de datos para Canadá%s (punto de inicio en Québec)"
 
 #: index.php:36
 #, php-format
 msgid "Data Checks for USA%s (Starting point Philadelphia, PA)"
-msgstr "Pengecekan data untuk Amerika%s (Dimulai dari Philadelphia, PA)"
+msgstr ""
+"Comprobacións de datos para EE.UU.%s (punto de inicio en Filadelfia, "
+"PennsylvaniaAustria)"
 
 #: index.php:39
 #, php-format
@@ -1016,23 +1024,24 @@ msgid ""
 "Data Checks for Central America%s (Starting point Santo Domingo, Republica "
 "Dominicana)"
 msgstr ""
-"Pengecekan data untuk Amerika Tengah%s (Dimulai dari Santo Domingo, Republik "
-"Dominika)"
+"Comprobacións de datos para América Central%s (punto de inicio en Santo "
+"Domingo, República Dominicana)"
 
 #: index.php:42
 #, php-format
 msgid "Data Checks for South America%s (Starting point São Paulo, Brazil)"
 msgstr ""
-"Pengecekan data untuk Amerika Selatan%s (dimulai dari São Paulo, Brazil)"
+"Comprobacións de datos para América do Sur%s (punto de inicio en São Paulo, "
+"Brasil)"
 
 #: index.php:45
 #, php-format
 msgid "Data Checks for Asia%s (Starting point Tokio, Japan)"
-msgstr "Pengecekan data untuk Asia%s (dimulai dari Tokyo, Jepang)"
+msgstr "Comprobacións de datos para Asia%s (punto de inicio en Tokio, Xapón)"
 
 #: index.php:47
 msgid "Europe Data Checks as ugly list"
-msgstr "Pemeriksaan data eropa yang salah"
+msgstr "Comprobacións de datos para Europa nunha listaxe fea"
 
 #: index.php:49
 #, php-format
@@ -1040,12 +1049,12 @@ msgid ""
 "Developers have a look at the %sSourceForge%s site providing svn access to "
 "the sources."
 msgstr ""
-"Pengembang harus melihat situs %sSourceForge%s yang menyediakan akses svn ke "
-"sumber"
+"Os desenvolvedores poden ollar na páxina do %sSourceForge%s para o acceso "
+"'svn' ó código fonte."
 
 #: index.php:52
 msgid "logfile"
-msgstr "logfile"
+msgstr "ficheiro de rexistro"
 
 #: index.php:56
 #, php-format
@@ -1053,8 +1062,8 @@ msgid ""
 "If you want to export errors from KeepRight you will want to have a look at "
 "the %sinterfacing guide%s"
 msgstr ""
-"Jika anda ingin mengekspor kesalahan (error) dari KeepRight anda harus "
-"melihat pada %sinterfacing guide%s"
+"Se desexas exportar erros dende o KeepRight podes ollar na %sguía da "
+"interface%s"
 
 #, php-format
 msgid ""
@@ -1063,11 +1072,10 @@ msgid ""
 "(try any combination of Ctrl, Shift, Alt plus &apos;R&apos; as well as "
 "&apos;F5&apos;) if the site doesn&apos;t work for you."
 msgstr ""
-"Hari ini saya memperbaiki OpenLayers-damaged-bubbles-issues yang "
-"menyebalkan. Sekarang gelembung muncul sudah benar dan saya mengubahnya ke "
-"OL2.12. Kosongkan browser&apos;s cache anda (coba kombinasi Ctrl, Shift, Alt "
-"plus &apos;R&apos; as well as &apos;F5&apos;) jika situsnya doesn&apos;t "
-"dengan benar"
+"Hoxe eu arranxei os irritantes 'OpenLayers-damaged-bubbles-issues'. As "
+"xanelas parecem ben agora e eu fixen unha mudanza cara OL2.12. Limpa a túa "
+"o&apos;s 'cache' do navegador (tenta calquera combinación de teclas Ctrl, "
+"Shift, Alt+R; así coma F5) se o sitio non funcionar para ti."
 
 #, php-format
 msgid ""
@@ -1079,13 +1087,13 @@ msgid ""
 "change will take full effect during this week as all parts of the planet are "
 "going to be reprocessed"
 msgstr ""
-"Kepada pengguna kumpulan berkas kesalahan KeepRight: Format berkas akan "
-"mengalami perubahan: Saya akan membuang &quot;description&quot;-column. "
-"Dikarenakan sudah lama, anda bisa membuatnya kembail dari &quot;msgid&quot; "
-"plus &quot;txt1&quot;txt5&quot; <br>Kedua: Terdapat kolom baru pada berkas "
-"termasuk nama pengguna dari pengedit yang terakhir dari objek yang terdapat "
-"kesalahan (error). <br> Perubahan ini akan berdampak penuh pada minggu ini "
-"dan semua bagian dari dunia akan di proses ulang"
+"Para tódolos que empregan os ficheiros de dump do KeepRight: O formato do "
+"ficheiro vai mudar: Vamos eliminar a &quot;columna de descrición&quot;. Ela "
+"é redundante, podes refacela a partir do &quot;msgid&quot; plus "
+"&quot;txt1&quot;-&quot;txt5&quot; <br>Segundo: Hai unha nova columna no "
+"ficheiro, incluíndo o nome de usuario da última edición do obxecto que "
+"contén o erro.<br>Esta mudanza estará funcionando de xeito total durante "
+"esta semana, tódalas partes do planeta están a ser reprocesadas"
 
 #, php-format
 msgid ""
@@ -1096,14 +1104,13 @@ msgid ""
 "reset and we are starting from scratch.<br>Anyway, thank you, Peter, for "
 "providing that service for more than three years!"
 msgstr ""
-"Australia kembali secara online!<br> Partner KeepRight Australia sekarang "
-"sudah tutup, pengecekan data salah (errro) untuk Australia dijalankan "
-"melalui situs utama. Saya meminta maaf karena tidak dapat menyelamatkan "
-"semua komentar dan perintah-diabaikan pada kesalahan (error). Pengendalian "
-"database saat ini tidak dapat diakses sehingga semua komentar dan perintah "
-"di ulang kembali dan kita memulai kembali dari awal.<br> Namun demikian, "
-"terima kasih, Peter, untuk menyediakan jasa tersebut selama lebih dari tiga "
-"tahun"
+"Australia está en liña novamente!<br> O sitio compañeiro anexo do KeepRight "
+"en Australia está pechado agora, as comprobacións de erros para Australia "
+"serán executadas no sitio principal. Sentímolo moito por non poder manter "
+"tódolos comentarios e erros de estados ignorados. A base de dados remota non "
+"está áccesíbel máis, por iso tódolos comentarios e estados foron "
+"restabelecidos e estamos a comezar de cero.<br>De calquera xeito, grazas, "
+"Pedro, pola prestación dese servizo por máis de tres anos!"
 
 #, php-format
 msgid ""
@@ -1113,9 +1120,9 @@ msgid ""
 "href='http://wiki.openstreetmap.org/wiki/Fehlerbereinigung_mit_Hilfe_von_keep"
 "right.at'>wiki</a>."
 msgstr ""
-"Saat ini ada dokumen baru yang menjelaskan resep untuk memperbaiki kesalahan "
-"(error) yang dibuat oleh KeepRight yang ditulis oleh Popei82. Terima "
-"kasih!<br>Cari dokumen di OSM <a target='_blank' "
+"Hai un novo e bo documento que describe os xeitos corrixir os erros atopados "
+"polo KeepRight. El foi escrito polo usuario Popei82. Moitas grazas!<br>Atopa "
+"o documento na <a target='_blank' "
 "href='http://wiki.openstreetmap.org/wiki/Fehlerbereinigung_mit_Hilfe_von_keep"
 "right.at'>wiki</a>."
 
@@ -1127,11 +1134,11 @@ msgid ""
 "restriction (explicit or implicit by means of oneway tags) that prohibits "
 "turing around the sharp angle"
 msgstr ""
-"Ada pengecekan baru yang disebut &apos;geometry glitches&apos;: Ini terlihat "
-"seperti duri pada jalur dan terlihat seperti kurangnya larangan memutar: "
-"Jalan raya tergabung pada sudut yang lancip dan harus mempunyai larangan "
-"memutar (baik secara eksplisit atau implisit pada informasi satu jalur) yang "
-"melarang untuk memutar pada sudut yang lancip"
+"Hai un novo comprobador chamado &apos;geometry glitches&apos;: Vixía os "
+"xiros nas vías e fai suposicións sobre a falla de restricións de xiro: "
+"Estradas ligadas nun ángulo moi pechado teñen que ter algún tipo de "
+"restrición de xiro (explícita ou implícita por medio das etiquetas "
+"'oneway'), que prohíbe xirar nun ángulo moi agudo"
 
 #, php-format
 msgid ""
@@ -1140,19 +1147,19 @@ msgid ""
 "the way have some tags in common. Such situations lead to doubled labels on "
 "the map and wrong statistics (counting amenities doesn't work)"
 msgstr ""
-"Ada pengecekan baru yang disebut &apos;doubled places&apos; yang terlihat "
-"untuk titik yang terletak didalam jalur loop tertutup (biasanya bangunan) "
-"dimaan titik dan jalur mempunyai informasi/tag yang sama. Situasi ini "
-"mengarah pada label ganda di peta dan statistik yang salah (menghitung "
-"amenitas tidak berfungsi)"
+"Hai un novo comprobador chamado &apos;doubled places&apos; que vixía os nós "
+"colocados dentro dunha liña pechada (xeralmente un edificio), onde o nó e a "
+"vía teñen algunhas etiquetas en común. Ámbalas dúas situacións levan a "
+"avisos duplicados no mapa e estatísticas erradas (contando as instalacións "
+"que non funcionan)"
 
 #, php-format
 msgid ""
 "KeepRight now has its own domain name! You may now access KeepRight using "
 "the short URL <b><a href='http://keepright.at/'>http://keepright.at/</a></b>"
 msgstr ""
-"Sekarang KeepRight mempunyai nama domain sendiri! Anda dapat mengakses "
-"KeepRight melalui URL  <b><a "
+"O KeepRight agora ten o seu propio dominio! Agora podes acceder ó KeepRight "
+"empregando a URL <b><a "
 "href='http://keepright.at/'>http://keepright.at/</a></b>"
 
 #, php-format
@@ -1173,32 +1180,30 @@ msgid ""
 "different and should not be used on ways. Thank you, Johan, for making me "
 "think about the problem again!"
 msgstr ""
-"Anda akan menyadari bahwa sebuah improvisasi dalam dua pengecekan dan salah "
-"satunya telah sepenuhnya baru datang pada hari berikutnya:<br> <em>sedikit "
-"terhubung dengan bundaran</em> adalah sub pengecekan baru untuk bundaran "
-"yang akan berfungsi pada bundaran yang tidak terhubung dengan jalan lain "
-"yang berjumlah kurang dari tiga. Ini bukan merupakan kesalahan (erro) akan "
-"tetapi merupakan pertanyaan apa yang terhubung dengan bundaran yang dibangun "
-"untuk<br> <em>Bahasa tidak diketahui</em> merupakan peringatan baru yang "
-"mencoba untuk mengimprovisasi lokalisasi dengan berkomentar mengenai "
-"informasi/tag nama dimana kode bahasa tidak bisa dilupakan dari informasi "
-"lain. Terimakasih Ed untuk idenya!<br> <em>Jalan tol tersambung langsung "
-"</em>-pengecekan bisa saja salah pada tempat istirahat (merupakan jalan "
-"pelayanan yang tidak mempunyai larangan). Saya mengeliminasi itu menggunakan "
-"metode heuristik: jalan pelayanan tersebut betul jika mengarah ke tempat "
-"parkir, pengisian bahan bakar, toilet atau restoran. Akan tetapi: "
-"highway=services adalah sesuatu yang sangat berbeda dan sebaiknya tidak "
-"digunakan pada jalur. Terimakasih Johan untuk membuat saya memikirkan "
-"masalah tersebut lagi!"
+"Vas notar algunhas mellorías en dúas comprobacións, e unha completamente "
+"nova chegando nos seguintes días:<br> <em>rotondas ligadas de xeito feble</ "
+"em> é unha nova sub-escolla para a comprobacións de rotondas que irá "
+"comprobar as rotondas con menos de tres conexións con outras estradas. Iso "
+"non ten que ser un erro, máis polo menos una rotonda ligada de xeito feble é "
+"o mínimo cuestionábel.<br> <em>lingua descoñecida</ em> é unha comprobación "
+"nova que tenta mellorar a localización avisando sobre as etiquetas de nome "
+"onde a lingua non pode ser diferenciada doutras etiquetas. Grazas, Ed, por "
+"esta idea! <br><em>Autoestradas conectadas de xeito direto</ em> esta "
+"comprobación tiña moitos falsos positivos nas áreas de descanso (son "
+"estradas de servizo que, de xeito intencionado, non teñen unha restrición de "
+"acesso). Eliminámolos empregando un método heurístico: as vías de servizo "
+"están ben, se levan a unha área de aparcadoiro, unha gasolineira, uns "
+"lavabos ou un restaurante. De calquera xeito: 'highway=services' é algo "
+"completamente diferente e non ten que ser empregado en vías. Grazas, Johan, "
+"por me facer pensar sobre o problema de novo!"
 
 #: index.php:56
 msgid ""
 "There are a few more languages in the select box now. You can help "
 "translating KeepRight on the %slaunchpad site%s. Thanks to all who helped!"
 msgstr ""
-"Saat ini sangat sedikit pilihan bahasa. Anda dapat membantu menterjemahkan "
-"KeepRight pada %slaunchpad site%s. Terima kasih untuk semua pihak yang "
-"membantu"
+"Agora hai unhas poucas linguas máis na escolma. Podes axudar a traducir o "
+"KeepRight na %spáxina web do launchpad%s. Grazas a todos os que axudaron!"
 
 #: index.php:56
 #, php-format
@@ -1210,13 +1215,12 @@ msgid ""
 "service=parking_aisle.<br>I hope you agree that this inconvenience is "
 "necessary. Thank you, Nathan, for telling me about this!"
 msgstr ""
-"Untuk menghindari kesalahan (error) pada rute seperti %sthisone%s saya "
-"mengubah pengecekan 'highways connected directly'. Sekarang akan "
-"mempermasalahkan mengenai segala macam koneksi ke jalan tol dengan "
-"highway=service atau highway=unclassified jika kurang informasi/tag mengenai "
-"access=no atau access=private atau bukan service=parking_aisle.<br>Saya "
-"harap anda setuju dengan ketidaknyamanan ini jika diperlukan. Terima kasih, "
-"Nathan untuk pemberitahuannya!"
+"Para evitar erros de enrotamento iguais %sa este%s mudamos a verificación "
+"das 'autoestradas conectadas de xeito directo'. Agora avisa de calquera "
+"ligazón dunha autoestrada cun 'highway=service' ou 'highway=unclassified' se "
+"non fora informado de que ten a etiqueta 'access=no' ou 'access=private' ou "
+"se este non fora un 'service=parking_aisle'.<br>Grazas, Nathan, por falarme "
+"sobre isto!"
 
 #. this will be the news item announcing i18n-capabilities for KeepRight.
 #. this section should appear in all three languages regardless what language
@@ -1226,8 +1230,9 @@ msgid ""
 "KeepRight becomes multilingual! - KeepRight wird mehrsprachig! - O KeepRight "
 "se tornou multilíngue!"
 msgstr ""
-"KeepRight menjadi multibahasa! -KeepRight becomes multilingual! - KeepRight "
-"wird mehrsprachig!"
+"O KeepRight faise multilinguaxe! -  ¡KeepRight se convierte en varios "
+"idiomas! - KeepRight becomes multilingual! - KeepRight wird mehrsprachig! - "
+"O KeepRight se tornou multilíngue!"
 
 #. this will be the news item announcing i18n-capabilities for KeepRight.
 #. this section should appear in all three languages regardless what language
@@ -1245,20 +1250,10 @@ msgid ""
 "vindas! O arquivo com o modelo para gettext está  $1bem aqui$2. "
 "Agradecimentos especiais para o usuário Rodrigo, por esta grande ideia!"
 msgstr ""
-"Sebagai permulaan KeepRight memungkinkan untuk digunakan dengan bahasa "
-"Inggris, Jerman, dan Brazil Portugis. Terjemahan baru akan diterima dengan "
-"baik! Berkas template gettext di $1 dan $2. Terima kasih secara khusus "
-"diberikan kepada Rodrigo untuk ide bagus ini!<br><br>As a start KeepRight "
-"may be used in english, german and brazilian portugese. New translations are "
-"welcome! The gettext template file is $1right here$2. Special thanks go to "
-"Rodrigo for this great idea!!<br><br>Zunächst gibt es KeepRight auf deutsch, "
-"englisch und brasilianischem Portugiesisch. Weitere Sprachen sind "
-"willkommen! Das gettext-Template gibt es $1hier$2. Vielen Dank an Rodrigo "
-"für diese großartige Idee!"
 
 #: index.php:59
 msgid "Getting rid of the evil db-parameter"
-msgstr "Menyingkirkan db-parameter"
+msgstr "Librándose do endiañado parámetro-db"
 
 #: index.php:60
 msgid ""
@@ -1268,12 +1263,11 @@ msgid ""
 "current position.<br>This is over now! The db-parameter is gone. So have fun "
 "panning around the whole world and fixing errors easier than ever!"
 msgstr ""
-"Anda mungkin akan menyadari bahwa anda couldn&apos;t bergerak keseluruh "
-"dunia dengan KeepRight seperti yang anda sukai. Terdapat garis batas tak "
-"terlihat yang anda harus pahami mengenai db-parameter di URLs yang sesuai "
-"dengan posisi saat ini.<br>Sekarang hal ini sudah tidak ada! Db-parameter "
-"sudah tidak ada. Sehingga, selamat bersenang-senang bergerak keseluruh dunia "
-"dan membetulkan kesalahan (error) lebih mudah dari sebelumnya!"
+"Seica te deches conta de que non podías moverte polo mundo no KeepRight coma "
+"che gostaría. Tiñamos límites invisíbeis e sempre te tiñas que preocupar do "
+"parámetro-db nas URLs para que fora o axeitado á posición actual.<br>Isto "
+"rematouse! Xa non hai máis parámetro-db. Así que desfruta movéndote polo "
+"mundo e solucionando erros más doado que nunca!"
 
 #: index.php:63
 msgid ""
@@ -1282,11 +1276,10 @@ msgid ""
 "about ways that don&apos;t have a single connection with any other way(!). "
 "Sometimes it takes months until you see the most obvious things..."
 msgstr ""
-"Dalam pembaharuan berikutnya anda akan melihat penambahan jumlah kesalahan "
-"jenis floating island. Hal ini dikarenakan saat ini pengecekan rutin "
-"didn&apos;t komplain mengenai jalur yang don&apost;t mempunyai sebuah "
-"koneksi dengan jalur lain(!). Sewaktu-waktu membutuhkan berbulan-bulan "
-"sampai anda melihat keseluruhannya dengan jelas"
+"Durante as seguintes actualizacións veredes un número máis grande de erros "
+"das illas flotantes. Isto é porque até agora a verificación non se queixaba "
+"de vías que non tiñan nin unha conexión con outras vías (!). Ás veces "
+"precísanse meses para ver as cousas máis lóxicas..."
 
 #: index.php:66
 #, php-format
@@ -1295,18 +1288,18 @@ msgid ""
 "the error types you selected when you left the site last time (how could "
 "you?). Just open %s without any parameters!"
 msgstr ""
-"Ini FOSSGIS-present untuk anda: KeepRight akan mengingat posisi dan jenis "
-"kesalahan (error) yang ada pilih ketika anda meninggalkan situs sebelumnya "
-"(Bagaimana bisa?). Tinggal buka %s tanpa menggunakan parameter apapun!"
+"Este é o meu agasallo-FOSSGIS para ti: O KeepRight lembrará a posición e os "
+"tipos de erros escollidos cando visitache a páxina por última vez (de que "
+"xeito o podes facer?) Sinxelamente abre %s sen parámetros!"
 
 #: index.php:70
 #, php-format
 msgid "For archeologists: %sOld log entries%s have moved."
-msgstr "Untuk arkeologis: catatan %sOld entries%s telah dipindahkan"
+msgstr "Para os arqueólogos: as %sentradas antigas%s foron movidas."
 
 #: index.php:73
 msgid "a few words on the new comment feature"
-msgstr "beberapa kata pada fitur komentar baru"
+msgstr "unhas poucas palabras acerca da nova utilidade dos comentarios"
 
 #: index.php:74
 msgid ""
@@ -1314,10 +1307,10 @@ msgid ""
 "false-positive. Don't confuse the comment box with an editing feature. This "
 "is not Potlatch! You cannot add missing tags via KeepRight!"
 msgstr ""
-"Tolong berikan komentar yang membantu untuk mengimprovisasi pengecekan "
-"rutin. Jika anda menemui false-positive. Jangan membingungkan boks komentar "
-"dengan fitur editing. Ini bukan Potlatch! Anda tidak dapat menambahkan "
-"informasi/tag yang hilang melalui KeepRight!"
+"Podes entrar nun comentario para axudarme a mellorar as verificacións se "
+"atopas un falso positivo. Por favor non mesturar isto cunha opción de "
+"edición. Isto non é o Potlatch! Non se poden engadir etiquetas dende o "
+"KeepRight!"
 
 #: index.php:77
 msgid ""
@@ -1325,78 +1318,77 @@ msgid ""
 "running when you hit the JOSM-link. Furthermore you have to enable the "
 "&apos;remote control&apos;-plugin in JOSMs options."
 msgstr ""
-"Harap diingat agar dapat menggunakan tautan JOSM, JOSM harus sudah jalan "
-"sebelumnya ketika anda menekan tombol JOSM-link. Lebih lanjut, anda harus "
-"mengaktifkan %apos;remote control&apos;-plugin di dalam opsi JOSM."
+"Por favor, para que funcione o JOSM, este ten que estar aberto cando premes "
+"na ligazón. Ademais, tes que activar o \"control remoto\" na lapela de "
+"opcións do JOSM."
 
 #: index.php:79
 msgid "Currently the following checking procedures are implemented"
-msgstr "Saat ini prosedur pengecekan sudah di implementasikan"
+msgstr ""
+"Actualmente se atopan implementados os seguintes procedementos de "
+"comprobación"
 
 #: index.php:102
 msgid ""
 "If you find an error in my errors lists I would definitely like to hear "
 "about it!"
-msgstr ""
-"Jika anda menemukan kesalahan (error) dalam daftar kesalahan saya sangat "
-"senang untuk mendengarnya!"
+msgstr "Se atopas un erro na miña listaxe de erros gostaríame sabelo."
 
 #: index.php:104
 msgid "Impressum"
-msgstr "Impressum"
+msgstr "Colofón"
 
 #: index.php:105
 msgid ""
 "This work is done without commercial background, just for my personal "
 "pleasure. I would be very happy if it was helpful for the OSM Project."
 msgstr ""
-"Pekerjaan ini dilakukan tanpa latar belakang komersial, hanya untuk "
-"kesenangan pribadi saja. Saya sangat senang jika ini sangat membantu untuk "
-"proyek OSM"
+"Este traballo lévase a cabo sen respaldo comercial, só por pracer. Poríame "
+"moi ledo si fora útil para o proxecto do OSM."
 
 #: index.php:106
 msgid ""
 "If you like to contact me, my mailbox at the austrian server of gmx is "
 "labelled KeepRight."
 msgstr ""
-"Jika anda senang untuk menghubungi saya, kotak surat saya untuk server "
-"austrian diberi label KeepRight"
+"Se desexas contactar comigo, o meu enderezo no servidor austríaco (.at) de "
+"gmx chámase KeepRight. Lembra que eu non falo galego nen castelán."
 
 #: index.php:106
 msgid ""
 "Please understand that I will not always be able to immediately respond to "
 "your mail on weekdays."
 msgstr ""
-"Harap dimengerti bahwa saya tidak selalu dapat langsung merespon surrel anda "
-"pada hari kerja"
+"Por favor, entenda que non sempre poderei respostar de xeito inmediato ó teu "
+"correo os días laborábeis."
 
 #: report_map.php:155
 msgid "errors"
-msgstr "kesalahan"
+msgstr "erros"
 
 #: report_map.php:155
 msgid "warnings"
-msgstr "Peringatan"
+msgstr "avisos"
 
 #: report_map.php:182
 msgid "all"
-msgstr "Seluruhnya"
+msgstr "todo"
 
 #: report_map.php:183
 msgid "none"
-msgstr "tidak ada"
+msgstr "ningún"
 
 #: report_map.php:185
 msgid "show ignored errors"
-msgstr "Perlihatkan kesalahan yang diabaikan"
+msgstr "amosar erros ignorados"
 
 #: report_map.php:187
 msgid "show temp. ignored errors"
-msgstr "Perlihatkan kesalahan sementara yang diabaikan"
+msgstr "amosar erros corrixidos"
 
 #: report_map.php:189
 msgid "Edit in Potlatch"
-msgstr "Edit di Potlatch"
+msgstr "Editar no Potlatch"
 
 #: report_map.php:194
 #, php-format
@@ -1404,31 +1396,31 @@ msgid ""
 "You will see up to %d error markers starting in the center of the map. "
 "Please allow a few seconds for the error markers to appear after panning."
 msgstr ""
-"Anda akan melihat %d tanda kesalahan (error) dimulai dari bagian tengah "
-"peta. Harap tunggu beberapa detik untuk memunculkan tanda kesalahan setelah "
-"penggeseran"
+"Podes ollar a máxima %d marcaxe de erro, iniciando no centro do mapa. Por "
+"favor, agarda uns segundos até que as marcaxes aparezan depois de mover o "
+"mapa."
 
 #: report_map.php:196
 #, php-format
 msgid "Site updated at %s"
-msgstr "Situs diperbaharui %s"
+msgstr "Sitio actualizado en %s"
 
 #: points.php:114
 msgid "node"
-msgstr "Node"
+msgstr "nó"
 
 #: points.php:114
 msgid "way"
-msgstr "Jalur"
+msgstr "vía"
 
 #: points.php:114
 msgid "relation"
-msgstr "Relasi/hubungan"
+msgstr "relación"
 
 #. full message: "edit in JOSM / Potlatch"
 #: myText.js:237
 msgid "edit in"
-msgstr "Edit di"
+msgstr "editar no"
 
 #: myText.js:237
 msgid "JOSM"
@@ -1439,8 +1431,8 @@ msgid ""
 "JOSM must be running and JOSM's remote control plugin must be enabled for "
 "this to work!"
 msgstr ""
-"JOSM harus sudah diaktifkan dan colokan (plugin) remote control JOSM sudah "
-"harus diaktifkan untuk pekerjaan ini"
+"O JOSM ten que estar aberto e o complemento de control remoto do JOSM ten "
+"que estar habilitado para que isto funcione!"
 
 #: myText.js:239
 msgid "Potlatch"
@@ -1448,98 +1440,101 @@ msgstr "Potlatch"
 
 #: myText.js:239
 msgid "iD"
-msgstr ""
+msgstr "iD"
 
 #: myText.js:244
 msgid "keep this error open"
-msgstr "Biarkan kesalahan (error) ini terbuka"
+msgstr "manter este erro aberto"
 
 #: myText.js:246
 msgid "ignore temporarily (error corrected)"
-msgstr "Abaikan untuk sementara (kesalahan diperbaiki)"
+msgstr "ignorar de xeito temporal (erro corrixido)"
 
 #: myText.js:248
 msgid "ignore (false-positive)"
-msgstr "Abaikan (kesalahan diperbolehkan (false-positive))"
+msgstr "ignorar (falso positivo)"
 
 #: myText.js:252
 msgid "save"
-msgstr "simpan"
+msgstr "gardar"
 
 #: myText.js:253
 msgid "cancel"
-msgstr "Batal"
+msgstr "desbotar"
 
 #: myText.js:254
 msgid "please click on the icon to fixate the bubble"
-msgstr "Tolong klik pada ikon untuk fiksasi gelembung"
+msgstr "prema na icona para fixar a xanela"
 
 #: myText.js:255
 msgid "link to here: error #"
-msgstr "tautkan ke sini: kesalahan (error) #"
+msgstr "ligazón até aquí: erro nº"
 
 #. full message: "last edit of this node: 2009-04-01 5:22"
 #: myText.js:255
 msgid "last edit of this"
-msgstr "Pengeditan terakhir"
+msgstr "última edición deste"
 
 #: interfacing.php:4
 msgid "interfacing KeepRight"
-msgstr "antarmuka KeepRight"
+msgstr "Interface do KeepRight"
 
 #: interfacing.php:11
 msgid "Interfacing with KeepRight"
-msgstr "antarmuka dengan KeepRight"
+msgstr "Interface co KeepRight"
 
 #: interfacing.php:13
 msgid "You may use KeepRight&apos;s results in a number of ways:"
-msgstr "Anda dapat menggunakan hasil KeepRight&apos;s dalam beberapa cara:"
+msgstr "Pódense empregar os resultados do KeepRight de varios xeitos:"
 
 #: interfacing.php:17
 #, php-format
 msgid "by means of the %smap web page%s"
-msgstr "melalui %smap web page%s"
+msgstr "polo %smapa na páxina web%s"
 
 #: interfacing.php:18
 #, php-format
 msgid "exporting %sGPX waypoints%s"
-msgstr "Eksport %sWaypoint GPX%s"
+msgstr "estasen a exportar os %spuntos GPX%s"
 
 #: interfacing.php:19
 #, php-format
 msgid "exporting new errors as %sRSS feed%s"
-msgstr "Mengeksport kesalahan (error) baru menjadi %sRSS feed%s"
+msgstr "estasen a exportar os novos erros coma %sfío RSS%s"
 
 #: interfacing.php:20
 #, php-format
 msgid "getting the whole errors %sdump file%s"
-msgstr "Mendapatkan kesalahan secara keseluruhan %sdump files%s"
+msgstr "estasen a recibir tódolos erros nun %sficheiro de dump%s"
 
 #: interfacing.php:24
 msgid "exporting GPX waypoints"
-msgstr "Mengekspor waypoint GPX"
+msgstr "estasen a exportar os puntos GPX"
 
 #: interfacing.php:25 interfacing.php:35 interfacing.php:47
 msgid "Purpose"
-msgstr "Kegunaan"
+msgstr "Obxectivo"
 
 #: interfacing.php:26
 msgid ""
 "Exporting a section of the map into a GPX-styled list of waypoints for use "
 "with GPS units"
 msgstr ""
-"Mengekspor sesi di peta ke dalam daftar model-GPX waypoint untuk digunakan "
-"dengan unit GPS"
+"Exportar un anaco do mapa nunha listaxe de puntos de estilo GPX para poder "
+"empregar con aparellos GPS"
 
 #: interfacing.php:28 interfacing.php:38 interfacing.php:50
 msgid "URL format"
-msgstr "format URL"
+msgstr "Formato da URL"
 
 #: interfacing.php:30
 msgid ""
 "You can specify a list of error types you want to have in the file as well "
 "as a bounding box on the map. This export will return up to 10000 waypoints. "
 msgstr ""
+"Podes especificar unha listaxe de tipos de erros que desexes ter no "
+"ficheiro, así coma un cadro de límite debuxado no mapa. Esta exportación "
+"devolverá até 10000 puntos de referenza. "
 
 #: interfacing.php:31
 msgid ""
@@ -1547,17 +1542,17 @@ msgid ""
 "service that always includes the current error type selection and view from "
 "the map."
 msgstr ""
-"Terdapat tautan pada bagian kiri dari halaman peta yang mengarahkan ke "
-"layanan GPX yang selalu menyertakan jenis kesalahan (error) yang saat ini "
-"dipilih dan tampilan dari peta"
+"Existe unha ligazón na esquina inferior esquerda da páxina do mapa sinalando "
+"ó servizo GPX que sempre inclúe a escolla do tipo de erro actual e a vista "
+"do mapa."
 
 #: interfacing.php:34
 msgid "exporting new errors as RSS feed"
-msgstr "Mengekspor kesalahan baru pada RSS feed"
+msgstr "estasen a exportar novos erros coma fío RSS"
 
 #: interfacing.php:36
 msgid "Watching a section of the map for newly found errors"
-msgstr "Melihat bagian dari peta untuk menemukan kesalahan (error) baru"
+msgstr "Vixiar un anaco do mapa para erros recentemente atopados"
 
 #: interfacing.php:41
 msgid ""
@@ -1565,9 +1560,9 @@ msgid ""
 "different. The RSS feed will include error entries that were first found "
 "within the last three weeks."
 msgstr ""
-"Format URL sama seperti ekspor GPX, hanya saja parameternya yang berbeda. "
-"RSS feed akan termasuk entri kesalahan yang pertamakali ditemukan pada tiga "
-"minggu sebelumnya."
+"O formato da URL é o mesmo que para as exportacións GPX, só muda o parámetro "
+"do formato. O RSS incluirá os erros que foron atopados nas últimas tres "
+"semanas."
 
 #: interfacing.php:42
 msgid ""
@@ -1575,27 +1570,29 @@ msgid ""
 "service that always includes the current error type selection and view from "
 "the map."
 msgstr ""
-"Terdapat tautan pada bagian bawah sebelah kiri dari halaman peta yang "
-"mengarah ke layanan RSS yang selalu menyertakan kesalahan (error) yang "
-"dipilih saat ini dan tampilan dari peta."
+"Hai unha ligazón na esquina inferior esquerda do mapa, que che leva ó "
+"servizo RSS onde se inclúe o tipo de erro e a vista actual do mapa."
 
 #: interfacing.php:46
 msgid "getting the whole dump-file"
-msgstr "Mendapatkan seluruh berkas dump-file"
+msgstr "Recibir o ficheiro de 'dump' con tódolos erros"
 
 #: interfacing.php:48
 msgid "Doing something completely different with 25 millions of errors..."
-msgstr ""
+msgstr "Facer algo completamente diferente, con 25 millóns de erros..."
 
 #: interfacing.php:53
 msgid ""
 "This tab-separated file contains all errors currently open for the whole "
 "planet (currently >500MB). It is being updated daily."
 msgstr ""
+"Este ficheiro separado por tabulacións contén tódolos erros abertos "
+"atualmente para todo o planeta (actualmente >500MB). Está a ser actualizado "
+"de xeito diario."
 
 #: interfacing.php:56
 msgid "Table layout"
-msgstr "Layout tabel"
+msgstr "Distribución da táboa"
 
 #: interfacing.php:59
 #, php-format
@@ -1605,18 +1602,18 @@ msgid ""
 "roughly equally sized dump files. Consider the schema as a prefix for the "
 "error_id."
 msgstr ""
-"Skema merupakan identifikasi penamaan daerah di planit ini. Sesuai dari "
-"%splanet splitting map%s planet terbagi kedalam bagian persegi untuk "
-"mendapatkan berkas dump yang kira-kira berukuran sama. Mempertimbangkan "
-"skema sebagai prefix untuk error_id"
+"O esquema ('schema') é un identificador dunha rexión do planeta. De acordo "
+"co %smapa de división do planeta%s, o planeta está dividido en anacos "
+"rectangulares, para que os ficheiros fiquen máis ou menos do mesmo tamaño. "
+"Coida o esquema coma un prefixo para o 'error_id'."
 
 #: interfacing.php:60
 msgid ""
 "A number identifying errors, starting from 1 for each schema. An error_id is "
 "worth nothing if you don&apos;t know the schema!"
 msgstr ""
-"Angka untuk mengidentifikasi kesalahan (error) dimulai dari 1 untuk setiap "
-"skema. Error_id tidak berguna jika anda don&apos;t mengetahui skema"
+"Un numero que identifica os erros, comezando a 1 por cada esquema "
+"('schema'). Un 'error_id' non vale ren se non se coñece o esquema!"
 
 #: interfacing.php:61
 msgid ""
@@ -1624,9 +1621,9 @@ msgid ""
 "blocks of 10s (20, 30, 40...). They correspond with the name of the script "
 "file doing the checking."
 msgstr ""
-"numerik merepresentasikan tipe dari kesalahan (error). Tipe kesalahan "
-"ditetapkan dalam blok kelipatan 10 (20, 30, 40...). Mereka sesuai dengan "
-"nama dari berkas skrip yang sedang diperiksa."
+"representación numérica do tipo de erro. Os tipos de erros son designados en "
+"moreas de 10 (20, 30, 40, ... ). Estes corresponden ó nome do ficheiro de "
+"script que faga a verificación."
 
 #: interfacing.php:62
 msgid ""
@@ -1637,12 +1634,12 @@ msgid ""
 "boundaries]&quot;). Subtyped error types are rendered as groups that may be "
 "collapsed on the web site."
 msgstr ""
-"Tipe kesalahan (error) mungkin saja terdiri dari beberapa sub tipe (281,282 "
-"etc.). Pengecekan rute kesalahan subtipe untuk aspek yang berbeda terkait "
-"dengan satu topik (dalam contoh 280 berarti &quot;boundaries&quot;, 281 "
-"berarti &quot;missing name[ for boundaries]&quot; and 282 berarti "
-"&quot;missing admin level[ for boundaries]&quot;). Tipe kesalahan (error) "
-"subtipe yang digambarkan sebagai grup yang mungkin saja hancur dalam website."
+"Os tipos de erros poden ser sub-tipos (281, 282, etc.). As sucesións de "
+"erros de sub-tipos comproban diferentes aspectos relacionados cun eido "
+"específico (no exemplo, 280 significa &quot;límites&quot;, 281 significa "
+"&quot;falla o nome [para límites]&quot; e 282 significa &quot;nivel "
+"administrativo [para límites]&quot;). Os erros de sub-tipos son "
+"interpretados coma grupos que poden ser deshabilitados na páxina web."
 
 #: interfacing.php:64
 msgid ""
@@ -1650,17 +1647,17 @@ msgid ""
 "types you may want to prepend the error_name that belongs to the main number "
 "to make the name complete."
 msgstr ""
-"Representasi tekstual (nama singkat) dari tipe kesalahan (error). Pada "
-"subtipe tipe kesalahan (error) yang mungkin anda ingin persiapkan error_name "
-"yang termasuk kedalam angka utama untuk membuat nama tersebut lengkap."
+"representación textual (nome curto) do tipo de erro. Nos tipos de erros "
+"subtipados, seica desexes engadir o 'error_name' que pertence ó número "
+"principal para facer o nome completo."
 
 #: interfacing.php:65
 msgid "one of node/way/relation"
-msgstr "satu node/jalur/relasi"
+msgstr "un de nó/vía/relación"
 
 #: interfacing.php:66
 msgid "an OSM node_id, way_id or relation_id"
-msgstr "node_id OSM, way_id atau relation_id"
+msgstr "un 'node_id', 'way_id' ou 'relation_id' do OSM"
 
 #: interfacing.php:67
 msgid ""
@@ -1673,15 +1670,6 @@ msgid ""
 "never come back just because KeepRight is wrong and this exception cannot be "
 "included in the ruleset."
 msgstr ""
-"salah satu yang baru, terbuka kembali, dilupakan sementara, dilupakan. Anda "
-"won&apos;t melihat segala &apos;cleared&apos; kesalahan (error) karena dump "
-"yang mengandung kesalahan yang aktif saja.  Kesalahan yang dilupakan "
-"sementara merupakan isu yang diperbaiki oleh pengguna yang berharap untuk "
-"memperbaikinya. Kesalahan yang dilupakan sementara akan kembali di dalam "
-"&apos;new&apos; dengan pembaharuan berikutnya jika kesalahan isn&apos;t "
-"diperbaiki. Kesalahan yang dilupakan merupakan isu yang bisa saja kesalahan "
-"positif dan harus tidak datang kembali karena KeepRight salah dan "
-"pengecualian ini tidak dapat dimasukkan kedalam peraturan"
 
 #: interfacing.php:68
 msgid ""
@@ -1690,17 +1678,19 @@ msgid ""
 "runtime-errors in the scripts. So you may just consider <em>new</em> and "
 "<em>reopened</em> the same."
 msgstr ""
-"Kesalahan (error) yang telah diperbaiki dan muncul kembali pada suatu waktu "
-"dimasukkan kedalam posisi <em>reopened</em>. Harap diingat bahwa ini dapat "
-"terjadi dikarenakan runtime-error pada script"
+"Os erros que xá foron corrixidos e voltaron nalgún intre máis tarde son "
+"colocados nun estado chamado <em>reaberto ('reopened')</em>. Por favor, "
+"coide que iso pode acontecer debido a erros en tempo de execución dos "
+"scripts. Así, podes considerar <em>novo ('new')</em> e <em>reaberto "
+"('reopened')</em> coma sendo o mesmo."
 
 #: interfacing.php:69
 msgid ""
 "The verbose error message that comes out of the checking routine in English "
 "language. For translating the messages use the next columns"
 msgstr ""
-"Pesan kesalahan yang panjang yang muncul dari pengecekan rutin di bahasa "
-"Inggris. Untuk menerjemahkan pesannya gunakan kolom berikutnya"
+"A mensaxe de erro detallado en inglés que sae das verificacións. Empregar a "
+"seguinte columna para traducir as mensaxes"
 
 #: interfacing.php:70
 msgid ""
@@ -1713,34 +1703,33 @@ msgstr ""
 
 #: interfacing.php:70
 msgid "find the GNU gettext template file here:"
-msgstr "Temukan berkas contoh GNU gettext disini"
+msgstr "atopa o padrón do GNU gettext aquí:"
 
 #: interfacing.php:71
 msgid ""
 "These bits of text are the contents that have to be inserted in the error "
 "message after translation. txt1 will replace $1, etc."
 msgstr ""
-"Potongan teks ini adalah isi yang harus dimasukkan kedalam pesan kesalaahan "
-"(error) setelah menerejemahkan. txt1 akan digantu oleh $1, dst"
+"Estes anacos de textos son os que teñen que estar inseridos na mensaxe de "
+"erro despois da tradución. txt1 vai substituír $1, etc."
 
 #: interfacing.php:72
 msgid "Timestamp (MESZ) of when this error was found the first time"
-msgstr "Timestamp (MESZ) ketika kesalahan (error) ini ditemukan pertama kali"
+msgstr ""
+"Marcaxe temporal (MESZ) de cando este erro foi atopado por primeira vez"
 
 #: interfacing.php:73
 msgid ""
 "Timestamp (MESZ) of last time this error was (re-)checked by the scripts"
-msgstr ""
-"Timestamp (MESZ) ketika terakhir kali kesalahan ini sudah diperiksa ulang "
-"oleh script"
+msgstr "Marcaxe temporal (MESZ) da ultima verificación deste erro"
 
 #: interfacing.php:74
 msgid ""
 "Timestamp of the object that was used when checking, as found in the "
 "official planet file."
 msgstr ""
-"Timestamp dari objek yang digunakan ketika pemeriksaan, seperti yang "
-"ditemukan pada berkas planet yang offisial"
+"Marcaxe temporal do obxecto que se empregou na comprobación, tal e coma se "
+"atopou no ficheiro oficial do planeta ('planet')."
 
 #: interfacing.php:76
 msgid ""
@@ -1748,44 +1737,45 @@ msgid ""
 "found in the official planet file. Please note that numbers are displayed as "
 "int values. To convert back to real lon/lat you have to divide by 10^7"
 msgstr ""
-"Lokasi dari planet. Kordinat diberikan dengan proyeksi yang sama ketika "
-"ditemukan di berkas planet offisial. Hara diingat bahwa angka yang "
-"ditampilkan sebagai nilai int. Untuk mengkonversi kembali ke derajat/lintang "
-"sebenarnya anda harus membaginya dengan 10^7"
+"Localización no planeta. As coordenadas están na mesma proxección que no "
+"ficheiro oficial do planeta ('planet'). Os números son enteiros. Para "
+"convertelos de novo a lon/lat reais, dividilos por 10^7"
 
 #: interfacing.php:77
 msgid "User-comment (if any)"
-msgstr "Komentar pengguna (jika ada)"
+msgstr "Comentario de usuario (se hai)"
 
 #: interfacing.php:78
 msgid "Timestamp (MESZ) of when the comment was given (if any)"
-msgstr "Timestamp (MESZ) ketika komen diberika (jika ada)"
+msgstr "Marcaxe temporal (MESZ) de cando o comentario foi escrito (se hai)"
 
 #: interfacing.php:89
 msgid "User name of the user that last edited the given object."
-msgstr "Nama pengguna dari pengguna yang memperbaiki objek yang diberikan"
+msgstr "O nome de usuario do último usuario que editou o devandito obxecto."
 
 #: interfacing.php:82
 msgid "loading the errors table"
-msgstr "loading tabel eror"
+msgstr "estase a carregar a táboa de erros"
 
 #: interfacing.php:85
 msgid "This is the schema definition for use with MySQL databases:"
-msgstr "Ini adalah skema definisi untuk digunakan dengan database MySQL"
+msgstr ""
+"Este é a definicion do esquema ('schema') para empregar con base de datos "
+"MySQL:"
 
 #: interfacing.php:108
 msgid ""
 "Please note that <em>schema</em> is a reserved word in MySQL, so you always "
 "have to quote it like this: `schema`"
 msgstr ""
-"Harap diingat <em>Skema</em> merupakan kata yang sudah ada di MySQL, "
-"sehingga anda harus selalu menggunakan kutipan seperti ini: `schema`"
 
 #: interfacing.php:110
 msgid ""
 "There are two primary keys in this table: a natural one and an artificial "
 "one:"
-msgstr "Terdapat dua kunci utama dalam tabel ini: natural dan artifisial"
+msgstr ""
+"Hai dous tipos de claves primarias nesta táboa: unha natural e outra "
+"artificial:"
 
 #: interfacing.php:112
 msgid ""
@@ -1793,10 +1783,6 @@ msgid ""
 "lon. That means one type of error may be found on multiple spots belonging "
 "to one single object (eg. self-intersections of ways)."
 msgstr ""
-"Kunci natural utama mengandung error_type, object_type, object_id, derajat, "
-"dan lintang. Hal ini berarti satu tipe dari kesalahan (error) mungkin akan "
-"ditemukan pada beberapa tempat yang masuk kedalam satu objek (contoh jalur "
-"yang bersinggungan)"
 
 #: interfacing.php:114
 msgid ""
@@ -1804,12 +1790,10 @@ msgid ""
 "for simplicity of referencing individual error instances and it is "
 "completely redundant."
 msgstr ""
-"Kunci artifisial utama mengandung skema dan error_id. Digunakan untuk "
-"memudahkan refresi kesalahan (error) individual dan sudah terlalu lama"
 
 #: interfacing.php:139
 msgid "querying node counts"
-msgstr "Query jumlah titik (node)"
+msgstr "estase a consultar a conta dos nós"
 
 #: interfacing.php:141
 msgid ""
@@ -1817,14 +1801,9 @@ msgid ""
 "nodes per square degree found in the planet file. Resolution is 0.1 degrees. "
 "You may download the file here:"
 msgstr ""
-"sebagai limbah produk script membuat berkas yang mengandung jumlah titik per "
-"meter persegi yang ditemukan didalam berkas planet. Resolusinya sekitar 0.1 "
-"derajat. Anda mungkin dapat mengunduh berkas disini:"
 
 #: interfacing.php:144
 msgid ""
 "This dump file can be useful for statistics if you want to calculate an "
 "`errors per node` measure"
 msgstr ""
-"Berkas dump ini dapat berguna untuk statistik jika anda ingin menghitung  "
-"`errors per node`"

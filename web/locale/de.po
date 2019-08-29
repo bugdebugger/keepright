@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: keepright 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-05-08 18:12+0200\n"
-"PO-Revision-Date: 2014-04-04 19:41+0000\n"
-"Last-Translator: e9625163 <Unknown>\n"
+"PO-Revision-Date: 2014-11-10 14:21+0000\n"
+"Last-Translator: Klumbumbus <Unknown>\n"
 "Language-Team: Austrian <>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-04-04 19:48+0000\n"
-"X-Generator: Launchpad (build 16976)\n"
+"X-Launchpad-Export-Date: 2014-11-11 06:15+0000\n"
+"X-Generator: Launchpad (build 17241)\n"
 
 # translations for error messages
 msgid "There is more than one node in this spot. Offending node IDs: $1"
@@ -1422,11 +1422,11 @@ msgstr "Letztes Update am %s"
 
 #: points.php:114
 msgid "node"
-msgstr "Node"
+msgstr "Punkt"
 
 #: points.php:114
 msgid "way"
-msgstr "Way"
+msgstr "Linie"
 
 #: points.php:114
 msgid "relation"
@@ -1463,7 +1463,7 @@ msgstr "offen lassen"
 
 #: myText.js:246
 msgid "ignore temporarily (error corrected)"
-msgstr "vorübergehend ignorieren"
+msgstr "vorübergehend ignorieren (Fehler behoben)"
 
 #: myText.js:248
 msgid "ignore (false-positive)"

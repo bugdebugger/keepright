@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: keepright\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2010-05-08 18:12+0200\n"
-"PO-Revision-Date: 2013-10-04 09:39+0000\n"
+"PO-Revision-Date: 2014-09-04 11:15+0000\n"
 "Last-Translator: aitolos <Unknown>\n"
 "Language-Team: Greek <el@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-04-04 19:48+0000\n"
-"X-Generator: Launchpad (build 16976)\n"
+"X-Launchpad-Export-Date: 2014-09-05 07:20+0000\n"
+"X-Generator: Launchpad (build 17196)\n"
 
 msgid "There is more than one node in this spot. Offending node IDs: $1"
 msgstr ""
@@ -306,7 +306,7 @@ msgid ""
 msgstr ""
 
 msgid "The URL ($1) cannot be opened (HTTP status code $2)"
-msgstr ""
+msgstr "Το URL ($1) δεν μπορεί να ανοιχτεί (HTTP status code $2)"
 
 msgid "Possible domain squatting: $1. Suspicious text is: \"$2\""
 msgstr ""
@@ -1084,7 +1084,7 @@ msgstr "Για αρχαιολόγους: %sτα παλιά logs%s έχουν μ�
 
 #: index.php:73
 msgid "a few words on the new comment feature"
-msgstr ""
+msgstr "λίγα λόγια για το νέο χαρακτηρηστικό σχολίων"
 
 #: index.php:74
 msgid ""
